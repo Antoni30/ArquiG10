@@ -1,0 +1,8 @@
+C:\Users\aange\source\repos\ConversionUnidadesWCF\ConversionUnidades\bin\Debug\ConversionUnidades.exe.config
+C:\Users\aange\source\repos\ConversionUnidadesWCF\ConversionUnidades\bin\Debug\ConversionUnidades.exe
+C:\Users\aange\source\repos\ConversionUnidadesWCF\ConversionUnidades\bin\Debug\ConversionUnidades.pdb
+C:\Users\aange\source\repos\ConversionUnidadesWCF\ConversionUnidades\obj\Debug\ConversionUnidades.csproj.AssemblyReference.cache
+C:\Users\aange\source\repos\ConversionUnidadesWCF\ConversionUnidades\obj\Debug\ConversionUnidades.csproj.CoreCompileInputs.cache
+C:\Users\aange\source\repos\ConversionUnidadesWCF\ConversionUnidades\obj\Debug\ConversionUnidades.exe
+C:\Users\aange\source\repos\ConversionUnidadesWCF\ConversionUnidades\obj\Debug\ConversionUnidades.pdb
+C:\Users\aange\source\repos\ConversionUnidadesWCF\ConversionUnidades\obj\Debug\ConversionUnidades.exe.config

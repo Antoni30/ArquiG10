@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36603.0 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ConversionUnidadesWCF", "ConversionUnidadesWCF\", "{2DB3F743-9D00-2A7F-9200-B62485FD6EA6}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.7.2"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_58535"
+		Debug.AspNetCompiler.PhysicalPath = "ConversionUnidadesWCF\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_58535\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_58535"
+		Release.AspNetCompiler.PhysicalPath = "ConversionUnidadesWCF\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_58535\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "58535"
+		SlnRelativePath = "ConversionUnidadesWCF\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConversionUnidades", "ConversionUnidades\ConversionUnidades.csproj", "{F17A8138-6E05-4385-AF51-3233D680EE1A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2DB3F743-9D00-2A7F-9200-B62485FD6EA6} = {2DB3F743-9D00-2A7F-9200-B62485FD6EA6}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConversionUnidadesDesktop", "ConversionUnidadesDesktop\ConversionUnidadesDesktop.csproj", "{BFB57A76-623F-477F-B9F3-C1869116208C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2DB3F743-9D00-2A7F-9200-B62485FD6EA6} = {2DB3F743-9D00-2A7F-9200-B62485FD6EA6}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2DB3F743-9D00-2A7F-9200-B62485FD6EA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DB3F743-9D00-2A7F-9200-B62485FD6EA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DB3F743-9D00-2A7F-9200-B62485FD6EA6}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DB3F743-9D00-2A7F-9200-B62485FD6EA6}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{F17A8138-6E05-4385-AF51-3233D680EE1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F17A8138-6E05-4385-AF51-3233D680EE1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F17A8138-6E05-4385-AF51-3233D680EE1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F17A8138-6E05-4385-AF51-3233D680EE1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFB57A76-623F-477F-B9F3-C1869116208C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFB57A76-623F-477F-B9F3-C1869116208C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFB57A76-623F-477F-B9F3-C1869116208C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFB57A76-623F-477F-B9F3-C1869116208C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F216F1F6-88ED-4791-8EAC-31D75457837D}
+	EndGlobalSection
+EndGlobal
