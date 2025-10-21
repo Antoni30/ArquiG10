@@ -300,8 +300,8 @@ public class WebServiciosSoap extends javax.swing.JFrame {
 
         jPanel1.add(btnConvertir, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 330, 630, 40));
 
+        txtResultado.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         txtResultado.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        txtResultado.setText("Aqui va el resultado");
 
         javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
         jPanel3.setLayout(jPanel3Layout);
