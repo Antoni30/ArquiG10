@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.36603.0 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ConversionUnidadesWCF", "ConversionUnidadesWCF\", "{2DB3F743-9D00-2A7F-9200-B62485FD6EA6}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "01. SERVIDOR", "01. SERVIDOR\", "{2DB3F743-9D00-2A7F-9200-B62485FD6EA6}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.7.2"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_58535"
@@ -21,16 +21,16 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ConversionUnidadesWCF", "Co
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
 		VWDPort = "58535"
-		SlnRelativePath = "ConversionUnidadesWCF\"
+		SlnRelativePath = "01. SERVIDOR\"
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConversionUnidades", "ConversionUnidades\ConversionUnidades.csproj", "{F17A8138-6E05-4385-AF51-3233D680EE1A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. CLICON", "02. CLICON\ConversionUnidades.csproj", "{F17A8138-6E05-4385-AF51-3233D680EE1A}"
 	ProjectSection(ProjectDependencies) = postProject
 		{2DB3F743-9D00-2A7F-9200-B62485FD6EA6} = {2DB3F743-9D00-2A7F-9200-B62485FD6EA6}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConversionUnidadesDesktop", "ConversionUnidadesDesktop\ConversionUnidadesDesktop.csproj", "{BFB57A76-623F-477F-B9F3-C1869116208C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. CLIESC", "02. CLIESC\ConversionUnidadesDesktop.csproj", "{BFB57A76-623F-477F-B9F3-C1869116208C}"
 	ProjectSection(ProjectDependencies) = postProject
 		{2DB3F743-9D00-2A7F-9200-B62485FD6EA6} = {2DB3F743-9D00-2A7F-9200-B62485FD6EA6}
 	EndProjectSection
