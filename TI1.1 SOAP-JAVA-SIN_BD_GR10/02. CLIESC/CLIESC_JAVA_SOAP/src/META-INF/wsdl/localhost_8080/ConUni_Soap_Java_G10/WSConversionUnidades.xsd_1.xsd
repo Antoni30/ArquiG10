@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='UTF-8'?><!-- Published by JAX-WS RI (http://jax-ws.java.net). RI's version is Metro/2.3.2-b608 (trunk-7979; 2015-01-21T12:50:19+0000) JAXWS-RI/2.2.11-b150120.1832 JAXWS-API/2.2.12 JAXB-RI/2.2.12-b141219.1637 JAXB-API/2.2.13-b141020.1521 svn-revision#unknown. --><xs:schema xmlns:tns="http://ws.moster.edu.ec/" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0" targetNamespace="http://ws.moster.edu.ec/">
+
+<xs:element name="celsiusAFahrenheit" type="tns:celsiusAFahrenheit"/>
+
+<xs:element name="celsiusAFahrenheitResponse" type="tns:celsiusAFahrenheitResponse"/>
+
+<xs:element name="celsiusAKelvin" type="tns:celsiusAKelvin"/>
+
+<xs:element name="celsiusAKelvinResponse" type="tns:celsiusAKelvinResponse"/>
+
+<xs:element name="centimetrosAMetros" type="tns:centimetrosAMetros"/>
+
+<xs:element name="centimetrosAMetrosResponse" type="tns:centimetrosAMetrosResponse"/>
+
+<xs:element name="fahrenheitACelsius" type="tns:fahrenheitACelsius"/>
+
+<xs:element name="fahrenheitACelsiusResponse" type="tns:fahrenheitACelsiusResponse"/>
+
+<xs:element name="gramoAKilogramo" type="tns:gramoAKilogramo"/>
+
+<xs:element name="gramoAKilogramoResponse" type="tns:gramoAKilogramoResponse"/>
+
+<xs:element name="kilogramoALibra" type="tns:kilogramoALibra"/>
+
+<xs:element name="kilogramoALibraResponse" type="tns:kilogramoALibraResponse"/>
+
+<xs:element name="metrosACentimetros" type="tns:metrosACentimetros"/>
+
+<xs:element name="metrosACentimetrosResponse" type="tns:metrosACentimetrosResponse"/>
+
+<xs:element name="metrosAKilometros" type="tns:metrosAKilometros"/>
+
+<xs:element name="metrosAKilometrosResponse" type="tns:metrosAKilometrosResponse"/>
+
+<xs:element name="toneladaALibra" type="tns:toneladaALibra"/>
+
+<xs:element name="toneladaALibraResponse" type="tns:toneladaALibraResponse"/>
+
+<xs:complexType name="metrosACentimetros">
+<xs:sequence>
+<xs:element name="metros" type="xs:double"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="metrosACentimetrosResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:double"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="metrosAKilometros">
+<xs:sequence>
+<xs:element name="metros" type="xs:double"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="metrosAKilometrosResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:double"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="gramoAKilogramo">
+<xs:sequence>
+<xs:element name="gramos" type="xs:double"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="gramoAKilogramoResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:double"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="centimetrosAMetros">
+<xs:sequence>
+<xs:element name="centimetros" type="xs:double"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="centimetrosAMetrosResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:double"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="celsiusAKelvin">
+<xs:sequence>
+<xs:element name="celsius" type="xs:double"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="celsiusAKelvinResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:double"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="fahrenheitACelsius">
+<xs:sequence>
+<xs:element name="fahrenheit" type="xs:double"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="fahrenheitACelsiusResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:double"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="kilogramoALibra">
+<xs:sequence>
+<xs:element name="kilogramos" type="xs:double"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="kilogramoALibraResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:double"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="celsiusAFahrenheit">
+<xs:sequence>
+<xs:element name="celsius" type="xs:double"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="celsiusAFahrenheitResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:double"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="toneladaALibra">
+<xs:sequence>
+<xs:element name="toneladas" type="xs:double"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="toneladaALibraResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:double"/>
+</xs:sequence>
+</xs:complexType>
+</xs:schema>
