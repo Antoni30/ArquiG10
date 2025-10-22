@@ -1,7 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package ec.edu.monster.controller;
 
 import java.util.Set;
@@ -28,7 +25,9 @@ public class ApplicationConfig extends Application {
      * If required, comment out calling this method in getClasses().
      */
     private void addRestResourceClasses(Set<Class<?>> resources) {
+        resources.add(ec.edu.monster.config.CorsFilter.class);
         resources.add(ec.edu.monster.controller.ConvertirUnidadesController.class);
+        resources.add(ec.edu.monster.config.CorsFilter.class);
     }
     
 }
