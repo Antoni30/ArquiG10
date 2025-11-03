@@ -27,7 +27,6 @@ public class ApplicationConfig extends Application {
     private void addRestResourceClasses(Set<Class<?>> resources) {
         resources.add(ec.edu.monster.config.CorsFilter.class);
         resources.add(ec.edu.monster.controller.ConvertirUnidadesController.class);
-        resources.add(ec.edu.monster.config.CorsFilter.class);
     }
     
 }
