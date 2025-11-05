@@ -18,8 +18,8 @@
     </target>
     <target name="wsimport-client-WSConversionUnidades" depends="wsimport-init">
         <mkdir dir="${build.generated.dir}/jax-wsCache/WSConversionUnidades"/>
-        <property name="wsdl-WSConversionUnidades" location="xml-resources/web-service-references/WSConversionUnidades/wsdl/localhost_8080/ConUni_Soap_Java_G10/WSConversionUnidades.wsdl"/>
-        <wsimport sourcedestdir="${build.generated.dir}/jax-wsCache/WSConversionUnidades" destdir="${build.generated.dir}/jax-wsCache/WSConversionUnidades" wsdl="${wsdl-WSConversionUnidades}" catalog="catalog.xml" encoding="${source.encoding}" extension="true" verbose="true" fork="false" wsdlLocation="http://localhost:8080/ConUni_Soap_Java_G10/WSConversionUnidades?WSDL" xnocompile="true" xendorsed="true" package="ec.edu.monster.servicios">
+        <property name="wsdl-WSConversionUnidades" location="xml-resources/web-service-references/WSConversionUnidades/wsdl/10.40.21.0_8080/ConUni_Soap_Java_G10/WSConversionUnidades.wsdl"/>
+        <wsimport sourcedestdir="${build.generated.dir}/jax-wsCache/WSConversionUnidades" destdir="${build.generated.dir}/jax-wsCache/WSConversionUnidades" wsdl="${wsdl-WSConversionUnidades}" catalog="catalog.xml" encoding="${source.encoding}" extension="true" verbose="true" fork="false" wsdlLocation="http://10.40.21.0:8080/ConUni_Soap_Java_G10/WSConversionUnidades?WSDL" xnocompile="true" xendorsed="true" package="ec.edu.monster.servicios">
             <depends file="${wsdl-WSConversionUnidades}"/>
             <produces dir="${build.generated.dir}/jax-wsCache/WSConversionUnidades"/>
         </wsimport>

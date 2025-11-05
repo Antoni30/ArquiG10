@@ -26,18 +26,78 @@ public interface WSConversionUnidades {
 
     /**
      * 
-     * @param centimetros
+     * @param kilogramos
      * @return
      *     returns double
      */
     @WebMethod
     @WebResult(targetNamespace = "")
-    @RequestWrapper(localName = "centimetrosAMetros", targetNamespace = "http://ws.moster.edu.ec/", className = "ec.edu.monster.servicios.CentimetrosAMetros")
-    @ResponseWrapper(localName = "centimetrosAMetrosResponse", targetNamespace = "http://ws.moster.edu.ec/", className = "ec.edu.monster.servicios.CentimetrosAMetrosResponse")
-    @Action(input = "http://ws.moster.edu.ec/WSConversionUnidades/centimetrosAMetrosRequest", output = "http://ws.moster.edu.ec/WSConversionUnidades/centimetrosAMetrosResponse")
-    public double centimetrosAMetros(
-        @WebParam(name = "centimetros", targetNamespace = "")
-        double centimetros);
+    @RequestWrapper(localName = "kilogramoALibra", targetNamespace = "http://ws.moster.edu.ec/", className = "ec.edu.monster.servicios.KilogramoALibra")
+    @ResponseWrapper(localName = "kilogramoALibraResponse", targetNamespace = "http://ws.moster.edu.ec/", className = "ec.edu.monster.servicios.KilogramoALibraResponse")
+    @Action(input = "http://ws.moster.edu.ec/WSConversionUnidades/kilogramoALibraRequest", output = "http://ws.moster.edu.ec/WSConversionUnidades/kilogramoALibraResponse")
+    public double kilogramoALibra(
+        @WebParam(name = "kilogramos", targetNamespace = "")
+        double kilogramos);
+
+    /**
+     * 
+     * @param gramos
+     * @return
+     *     returns double
+     */
+    @WebMethod
+    @WebResult(targetNamespace = "")
+    @RequestWrapper(localName = "gramoAKilogramo", targetNamespace = "http://ws.moster.edu.ec/", className = "ec.edu.monster.servicios.GramoAKilogramo")
+    @ResponseWrapper(localName = "gramoAKilogramoResponse", targetNamespace = "http://ws.moster.edu.ec/", className = "ec.edu.monster.servicios.GramoAKilogramoResponse")
+    @Action(input = "http://ws.moster.edu.ec/WSConversionUnidades/gramoAKilogramoRequest", output = "http://ws.moster.edu.ec/WSConversionUnidades/gramoAKilogramoResponse")
+    public double gramoAKilogramo(
+        @WebParam(name = "gramos", targetNamespace = "")
+        double gramos);
+
+    /**
+     * 
+     * @param toneladas
+     * @return
+     *     returns double
+     */
+    @WebMethod
+    @WebResult(targetNamespace = "")
+    @RequestWrapper(localName = "toneladaALibra", targetNamespace = "http://ws.moster.edu.ec/", className = "ec.edu.monster.servicios.ToneladaALibra")
+    @ResponseWrapper(localName = "toneladaALibraResponse", targetNamespace = "http://ws.moster.edu.ec/", className = "ec.edu.monster.servicios.ToneladaALibraResponse")
+    @Action(input = "http://ws.moster.edu.ec/WSConversionUnidades/toneladaALibraRequest", output = "http://ws.moster.edu.ec/WSConversionUnidades/toneladaALibraResponse")
+    public double toneladaALibra(
+        @WebParam(name = "toneladas", targetNamespace = "")
+        double toneladas);
+
+    /**
+     * 
+     * @param celsius
+     * @return
+     *     returns double
+     */
+    @WebMethod
+    @WebResult(targetNamespace = "")
+    @RequestWrapper(localName = "celsiusAKelvin", targetNamespace = "http://ws.moster.edu.ec/", className = "ec.edu.monster.servicios.CelsiusAKelvin")
+    @ResponseWrapper(localName = "celsiusAKelvinResponse", targetNamespace = "http://ws.moster.edu.ec/", className = "ec.edu.monster.servicios.CelsiusAKelvinResponse")
+    @Action(input = "http://ws.moster.edu.ec/WSConversionUnidades/celsiusAKelvinRequest", output = "http://ws.moster.edu.ec/WSConversionUnidades/celsiusAKelvinResponse")
+    public double celsiusAKelvin(
+        @WebParam(name = "celsius", targetNamespace = "")
+        double celsius);
+
+    /**
+     * 
+     * @param celsius
+     * @return
+     *     returns double
+     */
+    @WebMethod
+    @WebResult(targetNamespace = "")
+    @RequestWrapper(localName = "celsiusAFahrenheit", targetNamespace = "http://ws.moster.edu.ec/", className = "ec.edu.monster.servicios.CelsiusAFahrenheit")
+    @ResponseWrapper(localName = "celsiusAFahrenheitResponse", targetNamespace = "http://ws.moster.edu.ec/", className = "ec.edu.monster.servicios.CelsiusAFahrenheitResponse")
+    @Action(input = "http://ws.moster.edu.ec/WSConversionUnidades/celsiusAFahrenheitRequest", output = "http://ws.moster.edu.ec/WSConversionUnidades/celsiusAFahrenheitResponse")
+    public double celsiusAFahrenheit(
+        @WebParam(name = "celsius", targetNamespace = "")
+        double celsius);
 
     /**
      * 
@@ -86,77 +146,17 @@ public interface WSConversionUnidades {
 
     /**
      * 
-     * @param celsius
+     * @param centimetros
      * @return
      *     returns double
      */
     @WebMethod
     @WebResult(targetNamespace = "")
-    @RequestWrapper(localName = "celsiusAFahrenheit", targetNamespace = "http://ws.moster.edu.ec/", className = "ec.edu.monster.servicios.CelsiusAFahrenheit")
-    @ResponseWrapper(localName = "celsiusAFahrenheitResponse", targetNamespace = "http://ws.moster.edu.ec/", className = "ec.edu.monster.servicios.CelsiusAFahrenheitResponse")
-    @Action(input = "http://ws.moster.edu.ec/WSConversionUnidades/celsiusAFahrenheitRequest", output = "http://ws.moster.edu.ec/WSConversionUnidades/celsiusAFahrenheitResponse")
-    public double celsiusAFahrenheit(
-        @WebParam(name = "celsius", targetNamespace = "")
-        double celsius);
-
-    /**
-     * 
-     * @param kilogramos
-     * @return
-     *     returns double
-     */
-    @WebMethod
-    @WebResult(targetNamespace = "")
-    @RequestWrapper(localName = "kilogramoALibra", targetNamespace = "http://ws.moster.edu.ec/", className = "ec.edu.monster.servicios.KilogramoALibra")
-    @ResponseWrapper(localName = "kilogramoALibraResponse", targetNamespace = "http://ws.moster.edu.ec/", className = "ec.edu.monster.servicios.KilogramoALibraResponse")
-    @Action(input = "http://ws.moster.edu.ec/WSConversionUnidades/kilogramoALibraRequest", output = "http://ws.moster.edu.ec/WSConversionUnidades/kilogramoALibraResponse")
-    public double kilogramoALibra(
-        @WebParam(name = "kilogramos", targetNamespace = "")
-        double kilogramos);
-
-    /**
-     * 
-     * @param celsius
-     * @return
-     *     returns double
-     */
-    @WebMethod
-    @WebResult(targetNamespace = "")
-    @RequestWrapper(localName = "celsiusAKelvin", targetNamespace = "http://ws.moster.edu.ec/", className = "ec.edu.monster.servicios.CelsiusAKelvin")
-    @ResponseWrapper(localName = "celsiusAKelvinResponse", targetNamespace = "http://ws.moster.edu.ec/", className = "ec.edu.monster.servicios.CelsiusAKelvinResponse")
-    @Action(input = "http://ws.moster.edu.ec/WSConversionUnidades/celsiusAKelvinRequest", output = "http://ws.moster.edu.ec/WSConversionUnidades/celsiusAKelvinResponse")
-    public double celsiusAKelvin(
-        @WebParam(name = "celsius", targetNamespace = "")
-        double celsius);
-
-    /**
-     * 
-     * @param gramos
-     * @return
-     *     returns double
-     */
-    @WebMethod
-    @WebResult(targetNamespace = "")
-    @RequestWrapper(localName = "gramoAKilogramo", targetNamespace = "http://ws.moster.edu.ec/", className = "ec.edu.monster.servicios.GramoAKilogramo")
-    @ResponseWrapper(localName = "gramoAKilogramoResponse", targetNamespace = "http://ws.moster.edu.ec/", className = "ec.edu.monster.servicios.GramoAKilogramoResponse")
-    @Action(input = "http://ws.moster.edu.ec/WSConversionUnidades/gramoAKilogramoRequest", output = "http://ws.moster.edu.ec/WSConversionUnidades/gramoAKilogramoResponse")
-    public double gramoAKilogramo(
-        @WebParam(name = "gramos", targetNamespace = "")
-        double gramos);
-
-    /**
-     * 
-     * @param toneladas
-     * @return
-     *     returns double
-     */
-    @WebMethod
-    @WebResult(targetNamespace = "")
-    @RequestWrapper(localName = "toneladaALibra", targetNamespace = "http://ws.moster.edu.ec/", className = "ec.edu.monster.servicios.ToneladaALibra")
-    @ResponseWrapper(localName = "toneladaALibraResponse", targetNamespace = "http://ws.moster.edu.ec/", className = "ec.edu.monster.servicios.ToneladaALibraResponse")
-    @Action(input = "http://ws.moster.edu.ec/WSConversionUnidades/toneladaALibraRequest", output = "http://ws.moster.edu.ec/WSConversionUnidades/toneladaALibraResponse")
-    public double toneladaALibra(
-        @WebParam(name = "toneladas", targetNamespace = "")
-        double toneladas);
+    @RequestWrapper(localName = "centimetrosAMetros", targetNamespace = "http://ws.moster.edu.ec/", className = "ec.edu.monster.servicios.CentimetrosAMetros")
+    @ResponseWrapper(localName = "centimetrosAMetrosResponse", targetNamespace = "http://ws.moster.edu.ec/", className = "ec.edu.monster.servicios.CentimetrosAMetrosResponse")
+    @Action(input = "http://ws.moster.edu.ec/WSConversionUnidades/centimetrosAMetrosRequest", output = "http://ws.moster.edu.ec/WSConversionUnidades/centimetrosAMetrosResponse")
+    public double centimetrosAMetros(
+        @WebParam(name = "centimetros", targetNamespace = "")
+        double centimetros);
 
 }

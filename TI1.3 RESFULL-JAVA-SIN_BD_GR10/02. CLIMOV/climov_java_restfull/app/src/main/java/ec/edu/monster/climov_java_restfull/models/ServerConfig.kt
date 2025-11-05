@@ -2,7 +2,7 @@ package ec.edu.monster.climov_java_restfull.models
 
 object ServerConfig {
     val SERVER_IPS = listOf(
-        "192.168.18.6",
+        "10.40.21.0",
         "192.168.18.7",
         "192.168.18.9",
         "192.168.18.22"

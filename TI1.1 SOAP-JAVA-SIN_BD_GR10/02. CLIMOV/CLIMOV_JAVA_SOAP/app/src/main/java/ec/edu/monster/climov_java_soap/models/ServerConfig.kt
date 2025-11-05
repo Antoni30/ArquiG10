@@ -3,7 +3,7 @@ package ec.edu.monster.climov_java_soap.models
 object ServerConfig {
     // Reemplaza con tus IPs reales (orden de failover)
     val SERVER_IPS = listOf(
-        "192.168.56.1",
+        "10.40.21.0",
         "192.168.18.6",
         "192.168.1.102",
         "192.168.1.103"
