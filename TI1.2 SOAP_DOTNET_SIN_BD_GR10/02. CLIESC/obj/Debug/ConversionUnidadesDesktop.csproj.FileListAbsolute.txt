@@ -9,3 +9,14 @@ C:\Users\aange\source\repos\ConversionUnidadesWCF\ConversionUnidadesDesktop\obj\
 C:\Users\aange\source\repos\ConversionUnidadesWCF\ConversionUnidadesDesktop\obj\Debug\ConversionUnidadesDesktop.pdb
 C:\Users\aange\source\repos\ConversionUnidadesWCF\ConversionUnidadesDesktop\obj\Debug\ConversionUnidadesDesktop.exe.config
 C:\Users\aange\source\repos\ConversionUnidadesWCF\ConversionUnidadesDesktop\obj\Debug\ConversionUnidadesDesktop.MainForm.resources
+C:\Users\aange\source\repos\ConversionUnidadesWCF\02. CLIESC\bin\Debug\ConversionUnidadesDesktop.exe.config
+C:\Users\aange\source\repos\ConversionUnidadesWCF\02. CLIESC\bin\Debug\ConversionUnidadesDesktop.exe
+C:\Users\aange\source\repos\ConversionUnidadesWCF\02. CLIESC\bin\Debug\ConversionUnidadesDesktop.pdb
+C:\Users\aange\source\repos\ConversionUnidadesWCF\02. CLIESC\obj\Debug\ConversionUnidadesDesktop.csproj.AssemblyReference.cache
+C:\Users\aange\source\repos\ConversionUnidadesWCF\02. CLIESC\obj\Debug\ConversionUnidadesDesktop.exe.config
+C:\Users\aange\source\repos\ConversionUnidadesWCF\02. CLIESC\obj\Debug\ConversionUnidadesDesktop.MainForm.resources
+C:\Users\aange\source\repos\ConversionUnidadesWCF\02. CLIESC\obj\Debug\ConversionUnidadesDesktop.Properties.Resources.resources
+C:\Users\aange\source\repos\ConversionUnidadesWCF\02. CLIESC\obj\Debug\ConversionUnidadesDesktop.csproj.GenerateResource.cache
+C:\Users\aange\source\repos\ConversionUnidadesWCF\02. CLIESC\obj\Debug\ConversionUnidadesDesktop.csproj.CoreCompileInputs.cache
+C:\Users\aange\source\repos\ConversionUnidadesWCF\02. CLIESC\obj\Debug\ConversionUnidadesDesktop.exe
+C:\Users\aange\source\repos\ConversionUnidadesWCF\02. CLIESC\obj\Debug\ConversionUnidadesDesktop.pdb

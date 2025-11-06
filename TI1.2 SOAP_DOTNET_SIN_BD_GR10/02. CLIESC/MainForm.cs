@@ -9,6 +9,7 @@ namespace ConversionUnidadesDesktop
     public partial class MainForm : Form
     {
         private readonly ConversionServiceClient _client;
+        private bool _initializing = false; // flag to avoid handling events during setup
 
         public MainForm()
         {
@@ -21,7 +22,10 @@ namespace ConversionUnidadesDesktop
 
         private void CargarCombos()
         {
+            _initializing = true;
+
             // Longitud
+            cmbLongitud.Items.Clear();
             cmbLongitud.Items.Add("-- SELECCIONE UNA OPERACIÓN --");
             cmbLongitud.Items.Add("Centímetros a Metros");
             cmbLongitud.Items.Add("Metros a Centímetros");
@@ -29,6 +33,7 @@ namespace ConversionUnidadesDesktop
             cmbLongitud.SelectedIndex = 0;
 
             // Masa
+            cmbMasa.Items.Clear();
             cmbMasa.Items.Add("-- SELECCIONE UNA OPERACIÓN --");
             cmbMasa.Items.Add("Tonelada a Libra");
             cmbMasa.Items.Add("Kilogramo a Libra");
@@ -36,11 +41,14 @@ namespace ConversionUnidadesDesktop
             cmbMasa.SelectedIndex = 0;
 
             // Temperatura
+            cmbTemperatura.Items.Clear();
             cmbTemperatura.Items.Add("-- SELECCIONE UNA OPERACIÓN --");
             cmbTemperatura.Items.Add("Celsius a Fahrenheit");
             cmbTemperatura.Items.Add("Fahrenheit a Celsius");
             cmbTemperatura.Items.Add("Celsius a Kelvin");
             cmbTemperatura.SelectedIndex = 0;
+
+            _initializing = false;
         }
 
         private void btnConvertir_Click(object sender, EventArgs e)
@@ -183,6 +191,8 @@ namespace ConversionUnidadesDesktop
 
         private void cmbConversion_SelectedIndexChanged(object sender, EventArgs e)
         {
+            if (_initializing) return; // ignore events while populating
+
             // Opcional: convertir automáticamente al cambiar selección
             btnConvertir_Click(null, null);
         }

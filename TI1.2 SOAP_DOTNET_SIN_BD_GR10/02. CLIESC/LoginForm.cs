@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Data.SqlClient;
 using System.Drawing;
+using System.IO;
 using System.Windows.Forms;
 
 namespace ConversionUnidadesDesktop
@@ -19,11 +20,22 @@ namespace ConversionUnidadesDesktop
             try
             {
                 pbLogo.BackColor = Color.DarkBlue;
-                pbLogo.Image = null;
-                //pbLogo.Image = Properties.Resources.equipo; // Asegúrate que el recurso se llama así
+                string imagePath = @"C:\Users\aange\Downloads\MONSTER.jpg";
+
+                if (File.Exists(imagePath))
+                {
+                    pbLogo.Image = Image.FromFile(imagePath); // ← Esto es obligatorio
+                }
+                else
+                {
+                    throw new FileNotFoundException("La imagen no se encontró en la ruta especificada.");
+                }
+
+                pbLogo.SizeMode = PictureBoxSizeMode.Zoom;
             }
-            catch
+            catch (Exception ex)
             {
+                MessageBox.Show("Error al cargar la imagen: " + ex.Message);
                 pbLogo.BackColor = Color.DarkBlue;
                 pbLogo.Image = null;
             }
