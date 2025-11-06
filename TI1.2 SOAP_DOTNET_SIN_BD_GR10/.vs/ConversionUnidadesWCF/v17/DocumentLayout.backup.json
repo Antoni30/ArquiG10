@@ -1,7 +1,28 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\rodri\\OneDrive\\Escritorio\\arqui\\TI1.2 SOAP_DOTNET_SIN_BD_GR10\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BFB57A76-623F-477F-B9F3-C1869116208C}|02. CLIESC\\ConversionUnidadesDesktop.csproj|c:\\users\\rodri\\onedrive\\escritorio\\arqui\\ti1.2 soap_dotnet_sin_bd_gr10\\02. cliesc\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BFB57A76-623F-477F-B9F3-C1869116208C}|02. CLIESC\\ConversionUnidadesDesktop.csproj|solutionrelative:02. cliesc\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFB57A76-623F-477F-B9F3-C1869116208C}|02. CLIESC\\ConversionUnidadesDesktop.csproj|C:\\Users\\rodri\\OneDrive\\Escritorio\\arqui\\TI1.2 SOAP_DOTNET_SIN_BD_GR10\\02. cliesc\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFB57A76-623F-477F-B9F3-C1869116208C}|02. CLIESC\\ConversionUnidadesDesktop.csproj|solutionrelative:02. cliesc\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFB57A76-623F-477F-B9F3-C1869116208C}|02. CLIESC\\ConversionUnidadesDesktop.csproj|C:\\Users\\rodri\\OneDrive\\Escritorio\\arqui\\TI1.2 SOAP_DOTNET_SIN_BD_GR10\\02. cliesc\\mainform.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{BFB57A76-623F-477F-B9F3-C1869116208C}|02. CLIESC\\ConversionUnidadesDesktop.csproj|solutionrelative:02. cliesc\\mainform.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFB57A76-623F-477F-B9F3-C1869116208C}|02. CLIESC\\ConversionUnidadesDesktop.csproj|C:\\Users\\rodri\\OneDrive\\Escritorio\\arqui\\TI1.2 SOAP_DOTNET_SIN_BD_GR10\\02. cliesc\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BFB57A76-623F-477F-B9F3-C1869116208C}|02. CLIESC\\ConversionUnidadesDesktop.csproj|solutionrelative:02. cliesc\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFB57A76-623F-477F-B9F3-C1869116208C}|02. CLIESC\\ConversionUnidadesDesktop.csproj|C:\\Users\\rodri\\OneDrive\\Escritorio\\arqui\\TI1.2 SOAP_DOTNET_SIN_BD_GR10\\02. cliesc\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{BFB57A76-623F-477F-B9F3-C1869116208C}|02. CLIESC\\ConversionUnidadesDesktop.csproj|solutionrelative:02. cliesc\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +30,68 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoginForm.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\rodri\\OneDrive\\Escritorio\\arqui\\TI1.2 SOAP_DOTNET_SIN_BD_GR10\\02. CLIESC\\LoginForm.cs",
+              "RelativeDocumentMoniker": "02. CLIESC\\LoginForm.cs",
+              "ToolTip": "C:\\Users\\rodri\\OneDrive\\Escritorio\\arqui\\TI1.2 SOAP_DOTNET_SIN_BD_GR10\\02. CLIESC\\LoginForm.cs [Dise\u00F1o]",
+              "RelativeToolTip": "02. CLIESC\\LoginForm.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T18:10:00.277Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\rodri\\OneDrive\\Escritorio\\arqui\\TI1.2 SOAP_DOTNET_SIN_BD_GR10\\02. CLIESC\\App.config",
+              "RelativeDocumentMoniker": "02. CLIESC\\App.config",
+              "ToolTip": "C:\\Users\\rodri\\OneDrive\\Escritorio\\arqui\\TI1.2 SOAP_DOTNET_SIN_BD_GR10\\02. CLIESC\\App.config",
+              "RelativeToolTip": "02. CLIESC\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-11-05T18:09:55.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\rodri\\OneDrive\\Escritorio\\arqui\\TI1.2 SOAP_DOTNET_SIN_BD_GR10\\02. CLIESC\\MainForm.Designer.cs",
+              "RelativeDocumentMoniker": "02. CLIESC\\MainForm.Designer.cs",
+              "ToolTip": "C:\\Users\\rodri\\OneDrive\\Escritorio\\arqui\\TI1.2 SOAP_DOTNET_SIN_BD_GR10\\02. CLIESC\\MainForm.Designer.cs",
+              "RelativeToolTip": "02. CLIESC\\MainForm.Designer.cs",
+              "ViewState": "AgIAAJYAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T18:09:47.242Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainForm.resx",
+              "DocumentMoniker": "C:\\Users\\rodri\\OneDrive\\Escritorio\\arqui\\TI1.2 SOAP_DOTNET_SIN_BD_GR10\\02. CLIESC\\MainForm.resx",
+              "RelativeDocumentMoniker": "02. CLIESC\\MainForm.resx",
+              "ToolTip": "C:\\Users\\rodri\\OneDrive\\Escritorio\\arqui\\TI1.2 SOAP_DOTNET_SIN_BD_GR10\\02. CLIESC\\MainForm.resx",
+              "RelativeToolTip": "02. CLIESC\\MainForm.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-11-05T18:09:45.76Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainForm.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\rodri\\OneDrive\\Escritorio\\arqui\\TI1.2 SOAP_DOTNET_SIN_BD_GR10\\02. CLIESC\\MainForm.cs",
+              "RelativeDocumentMoniker": "02. CLIESC\\MainForm.cs",
+              "ToolTip": "C:\\Users\\rodri\\OneDrive\\Escritorio\\arqui\\TI1.2 SOAP_DOTNET_SIN_BD_GR10\\02. CLIESC\\MainForm.cs [Dise\u00F1o]",
+              "RelativeToolTip": "02. CLIESC\\MainForm.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T18:09:07.775Z",
+              "EditorCaption": " [Dise\u00F1o]"
             }
           ]
         }
