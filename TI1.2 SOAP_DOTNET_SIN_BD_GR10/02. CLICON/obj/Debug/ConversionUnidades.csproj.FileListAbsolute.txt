@@ -6,3 +6,11 @@ C:\Users\aange\source\repos\ConversionUnidadesWCF\ConversionUnidades\obj\Debug\C
 C:\Users\aange\source\repos\ConversionUnidadesWCF\ConversionUnidades\obj\Debug\ConversionUnidades.exe
 C:\Users\aange\source\repos\ConversionUnidadesWCF\ConversionUnidades\obj\Debug\ConversionUnidades.pdb
 C:\Users\aange\source\repos\ConversionUnidadesWCF\ConversionUnidades\obj\Debug\ConversionUnidades.exe.config
+C:\Users\rodri\OneDrive\Escritorio\arqui\TI1.2 SOAP_DOTNET_SIN_BD_GR10\02. CLICON\bin\Debug\ConversionUnidades.exe.config
+C:\Users\rodri\OneDrive\Escritorio\arqui\TI1.2 SOAP_DOTNET_SIN_BD_GR10\02. CLICON\bin\Debug\ConversionUnidades.exe
+C:\Users\rodri\OneDrive\Escritorio\arqui\TI1.2 SOAP_DOTNET_SIN_BD_GR10\02. CLICON\bin\Debug\ConversionUnidades.pdb
+C:\Users\rodri\OneDrive\Escritorio\arqui\TI1.2 SOAP_DOTNET_SIN_BD_GR10\02. CLICON\obj\Debug\ConversionUnidades.csproj.AssemblyReference.cache
+C:\Users\rodri\OneDrive\Escritorio\arqui\TI1.2 SOAP_DOTNET_SIN_BD_GR10\02. CLICON\obj\Debug\ConversionUnidades.exe.config
+C:\Users\rodri\OneDrive\Escritorio\arqui\TI1.2 SOAP_DOTNET_SIN_BD_GR10\02. CLICON\obj\Debug\ConversionUnidades.csproj.CoreCompileInputs.cache
+C:\Users\rodri\OneDrive\Escritorio\arqui\TI1.2 SOAP_DOTNET_SIN_BD_GR10\02. CLICON\obj\Debug\ConversionUnidades.exe
+C:\Users\rodri\OneDrive\Escritorio\arqui\TI1.2 SOAP_DOTNET_SIN_BD_GR10\02. CLICON\obj\Debug\ConversionUnidades.pdb
