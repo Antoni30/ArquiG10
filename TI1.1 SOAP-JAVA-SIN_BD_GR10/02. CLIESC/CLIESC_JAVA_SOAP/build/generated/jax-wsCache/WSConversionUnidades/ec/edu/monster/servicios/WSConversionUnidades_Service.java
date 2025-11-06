@@ -17,7 +17,7 @@ import javax.xml.ws.WebServiceFeature;
  * Generated source version: 2.2
  * 
  */
-@WebServiceClient(name = "WSConversionUnidades", targetNamespace = "http://ws.moster.edu.ec/", wsdlLocation = "http://localhost:8080/ConUni_Soap_Java_G10/WSConversionUnidades?WSDL")
+@WebServiceClient(name = "WSConversionUnidades", targetNamespace = "http://ws.moster.edu.ec/", wsdlLocation = "http://10.40.21.0:8080/ConUni_Soap_Java_G10/WSConversionUnidades?WSDL")
 public class WSConversionUnidades_Service
     extends Service
 {
@@ -30,7 +30,7 @@ public class WSConversionUnidades_Service
         URL url = null;
         WebServiceException e = null;
         try {
-            url = new URL("http://localhost:8080/ConUni_Soap_Java_G10/WSConversionUnidades?WSDL");
+            url = new URL("http://10.40.21.0:8080/ConUni_Soap_Java_G10/WSConversionUnidades?WSDL");
         } catch (MalformedURLException ex) {
             e = new WebServiceException(ex);
         }

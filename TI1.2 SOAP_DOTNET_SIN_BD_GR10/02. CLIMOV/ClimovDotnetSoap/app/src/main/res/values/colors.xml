@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ldu_blue">#004080</color>
+    <color name="ldu_red">#A80000</color>
+    <color name="background_dark">#212121</color>
+    <color name="surface_light">#FFFFFF</color>
+    <color name="text_dark">#212529</color>
+    <color name="text_gray">#495057</color>
+    <color name="text_light_gray">#6C757D</color>
+    <color name="button_primary">#000000</color>
+    <color name="button_primary_hover">#343A40</color>
+    <color name="button_logout">#DC3545</color>
+    <color name="button_disabled">#ADB5BD</color>
+    <color name="input_border">#CED4DA</color>
+    <color name="error_bg">#F8D7DA</color>
+    <color name="error_text">#721C24</color>
+    <color name="success_bg">#D4EDDA</color>
+    <color name="success_text">#155724</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

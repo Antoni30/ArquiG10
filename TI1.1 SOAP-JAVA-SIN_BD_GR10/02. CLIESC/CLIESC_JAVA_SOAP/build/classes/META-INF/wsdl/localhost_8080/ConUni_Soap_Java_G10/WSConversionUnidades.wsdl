@@ -4,8 +4,30 @@
 <xsd:import namespace="http://ws.moster.edu.ec/" schemaLocation="http://localhost:8080/ConUni_Soap_Java_G10/WSConversionUnidades?xsd=1"/>
 </xsd:schema>
 </types>
+<<<<<<< HEAD
 <message name="kilogramoALibra">
 <part name="parameters" element="tns:kilogramoALibra"/>
+=======
+<<<<<<<< HEAD:TI1.1 SOAP-JAVA-SIN_BD_GR10/02. CLIESC/CLIESC_JAVA_SOAP/src/META-INF/wsdl/localhost_8080/ConUni_Soap_Java_G10/WSConversionUnidades.wsdl
+<message name="kilogramoALibra">
+<part name="parameters" element="tns:kilogramoALibra"/>
+========
+<message name="celsiusAFahrenheit">
+<part name="parameters" element="tns:celsiusAFahrenheit"/>
+</message>
+<message name="celsiusAFahrenheitResponse">
+<part name="parameters" element="tns:celsiusAFahrenheitResponse"/>
+</message>
+<message name="metrosAKilometros">
+<part name="parameters" element="tns:metrosAKilometros"/>
+</message>
+<message name="metrosAKilometrosResponse">
+<part name="parameters" element="tns:metrosAKilometrosResponse"/>
+</message>
+<message name="centimetrosAMetros">
+<part name="parameters" element="tns:centimetrosAMetros"/>
+>>>>>>>> 8af02b9576afa66d246f98ae3d42fad1715f8d1c:TI1.1 SOAP-JAVA-SIN_BD_GR10/02. CLIESC/CLIESC_JAVA_SOAP/build/classes/META-INF/wsdl/localhost_8080/ConUni_Soap_Java_G10/WSConversionUnidades.wsdl
+>>>>>>> 8af02b9576afa66d246f98ae3d42fad1715f8d1c
 </message>
 <message name="kilogramoALibraResponse">
 <part name="parameters" element="tns:kilogramoALibraResponse"/>
@@ -40,18 +62,25 @@
 <message name="fahrenheitACelsiusResponse">
 <part name="parameters" element="tns:fahrenheitACelsiusResponse"/>
 </message>
+<<<<<<< HEAD
 <message name="metrosAKilometros">
 <part name="parameters" element="tns:metrosAKilometros"/>
 </message>
 <message name="metrosAKilometrosResponse">
 <part name="parameters" element="tns:metrosAKilometrosResponse"/>
 </message>
+=======
+>>>>>>> 8af02b9576afa66d246f98ae3d42fad1715f8d1c
 <message name="metrosACentimetros">
 <part name="parameters" element="tns:metrosACentimetros"/>
 </message>
 <message name="metrosACentimetrosResponse">
 <part name="parameters" element="tns:metrosACentimetrosResponse"/>
 </message>
+<<<<<<< HEAD
+=======
+<<<<<<<< HEAD:TI1.1 SOAP-JAVA-SIN_BD_GR10/02. CLIESC/CLIESC_JAVA_SOAP/src/META-INF/wsdl/localhost_8080/ConUni_Soap_Java_G10/WSConversionUnidades.wsdl
+>>>>>>> 8af02b9576afa66d246f98ae3d42fad1715f8d1c
 <message name="centimetrosAMetros">
 <part name="parameters" element="tns:centimetrosAMetros"/>
 </message>
@@ -78,26 +107,98 @@
 <operation name="celsiusAFahrenheit">
 <input wsam:Action="http://ws.moster.edu.ec/WSConversionUnidades/celsiusAFahrenheitRequest" message="tns:celsiusAFahrenheit"/>
 <output wsam:Action="http://ws.moster.edu.ec/WSConversionUnidades/celsiusAFahrenheitResponse" message="tns:celsiusAFahrenheitResponse"/>
+<<<<<<< HEAD
 </operation>
 <operation name="fahrenheitACelsius">
 <input wsam:Action="http://ws.moster.edu.ec/WSConversionUnidades/fahrenheitACelsiusRequest" message="tns:fahrenheitACelsius"/>
 <output wsam:Action="http://ws.moster.edu.ec/WSConversionUnidades/fahrenheitACelsiusResponse" message="tns:fahrenheitACelsiusResponse"/>
+=======
+========
+<message name="celsiusAKelvin">
+<part name="parameters" element="tns:celsiusAKelvin"/>
+</message>
+<message name="celsiusAKelvinResponse">
+<part name="parameters" element="tns:celsiusAKelvinResponse"/>
+</message>
+<message name="kilogramoALibra">
+<part name="parameters" element="tns:kilogramoALibra"/>
+</message>
+<message name="kilogramoALibraResponse">
+<part name="parameters" element="tns:kilogramoALibraResponse"/>
+</message>
+<message name="gramoAKilogramo">
+<part name="parameters" element="tns:gramoAKilogramo"/>
+</message>
+<message name="gramoAKilogramoResponse">
+<part name="parameters" element="tns:gramoAKilogramoResponse"/>
+</message>
+<message name="toneladaALibra">
+<part name="parameters" element="tns:toneladaALibra"/>
+</message>
+<message name="toneladaALibraResponse">
+<part name="parameters" element="tns:toneladaALibraResponse"/>
+</message>
+<portType name="WSConversionUnidades">
+<operation name="celsiusAFahrenheit">
+<input wsam:Action="http://ws.moster.edu.ec/WSConversionUnidades/celsiusAFahrenheitRequest" message="tns:celsiusAFahrenheit"/>
+<output wsam:Action="http://ws.moster.edu.ec/WSConversionUnidades/celsiusAFahrenheitResponse" message="tns:celsiusAFahrenheitResponse"/>
+>>>>>>> 8af02b9576afa66d246f98ae3d42fad1715f8d1c
 </operation>
 <operation name="metrosAKilometros">
 <input wsam:Action="http://ws.moster.edu.ec/WSConversionUnidades/metrosAKilometrosRequest" message="tns:metrosAKilometros"/>
 <output wsam:Action="http://ws.moster.edu.ec/WSConversionUnidades/metrosAKilometrosResponse" message="tns:metrosAKilometrosResponse"/>
 </operation>
+<<<<<<< HEAD
+=======
+<operation name="centimetrosAMetros">
+<input wsam:Action="http://ws.moster.edu.ec/WSConversionUnidades/centimetrosAMetrosRequest" message="tns:centimetrosAMetros"/>
+<output wsam:Action="http://ws.moster.edu.ec/WSConversionUnidades/centimetrosAMetrosResponse" message="tns:centimetrosAMetrosResponse"/>
+>>>>>>>> 8af02b9576afa66d246f98ae3d42fad1715f8d1c:TI1.1 SOAP-JAVA-SIN_BD_GR10/02. CLIESC/CLIESC_JAVA_SOAP/build/classes/META-INF/wsdl/localhost_8080/ConUni_Soap_Java_G10/WSConversionUnidades.wsdl
+</operation>
+<operation name="fahrenheitACelsius">
+<input wsam:Action="http://ws.moster.edu.ec/WSConversionUnidades/fahrenheitACelsiusRequest" message="tns:fahrenheitACelsius"/>
+<output wsam:Action="http://ws.moster.edu.ec/WSConversionUnidades/fahrenheitACelsiusResponse" message="tns:fahrenheitACelsiusResponse"/>
+</operation>
+>>>>>>> 8af02b9576afa66d246f98ae3d42fad1715f8d1c
 <operation name="metrosACentimetros">
 <input wsam:Action="http://ws.moster.edu.ec/WSConversionUnidades/metrosACentimetrosRequest" message="tns:metrosACentimetros"/>
 <output wsam:Action="http://ws.moster.edu.ec/WSConversionUnidades/metrosACentimetrosResponse" message="tns:metrosACentimetrosResponse"/>
 </operation>
+<<<<<<< HEAD
 <operation name="centimetrosAMetros">
 <input wsam:Action="http://ws.moster.edu.ec/WSConversionUnidades/centimetrosAMetrosRequest" message="tns:centimetrosAMetros"/>
 <output wsam:Action="http://ws.moster.edu.ec/WSConversionUnidades/centimetrosAMetrosResponse" message="tns:centimetrosAMetrosResponse"/>
+=======
+<<<<<<<< HEAD:TI1.1 SOAP-JAVA-SIN_BD_GR10/02. CLIESC/CLIESC_JAVA_SOAP/src/META-INF/wsdl/localhost_8080/ConUni_Soap_Java_G10/WSConversionUnidades.wsdl
+<operation name="centimetrosAMetros">
+<input wsam:Action="http://ws.moster.edu.ec/WSConversionUnidades/centimetrosAMetrosRequest" message="tns:centimetrosAMetros"/>
+<output wsam:Action="http://ws.moster.edu.ec/WSConversionUnidades/centimetrosAMetrosResponse" message="tns:centimetrosAMetrosResponse"/>
+========
+<operation name="celsiusAKelvin">
+<input wsam:Action="http://ws.moster.edu.ec/WSConversionUnidades/celsiusAKelvinRequest" message="tns:celsiusAKelvin"/>
+<output wsam:Action="http://ws.moster.edu.ec/WSConversionUnidades/celsiusAKelvinResponse" message="tns:celsiusAKelvinResponse"/>
+</operation>
+<operation name="kilogramoALibra">
+<input wsam:Action="http://ws.moster.edu.ec/WSConversionUnidades/kilogramoALibraRequest" message="tns:kilogramoALibra"/>
+<output wsam:Action="http://ws.moster.edu.ec/WSConversionUnidades/kilogramoALibraResponse" message="tns:kilogramoALibraResponse"/>
+</operation>
+<operation name="gramoAKilogramo">
+<input wsam:Action="http://ws.moster.edu.ec/WSConversionUnidades/gramoAKilogramoRequest" message="tns:gramoAKilogramo"/>
+<output wsam:Action="http://ws.moster.edu.ec/WSConversionUnidades/gramoAKilogramoResponse" message="tns:gramoAKilogramoResponse"/>
+</operation>
+<operation name="toneladaALibra">
+<input wsam:Action="http://ws.moster.edu.ec/WSConversionUnidades/toneladaALibraRequest" message="tns:toneladaALibra"/>
+<output wsam:Action="http://ws.moster.edu.ec/WSConversionUnidades/toneladaALibraResponse" message="tns:toneladaALibraResponse"/>
+>>>>>>>> 8af02b9576afa66d246f98ae3d42fad1715f8d1c:TI1.1 SOAP-JAVA-SIN_BD_GR10/02. CLIESC/CLIESC_JAVA_SOAP/build/classes/META-INF/wsdl/localhost_8080/ConUni_Soap_Java_G10/WSConversionUnidades.wsdl
+>>>>>>> 8af02b9576afa66d246f98ae3d42fad1715f8d1c
 </operation>
 </portType>
 <binding name="WSConversionUnidadesPortBinding" type="tns:WSConversionUnidades">
 <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="document"/>
+<<<<<<< HEAD
+=======
+<<<<<<<< HEAD:TI1.1 SOAP-JAVA-SIN_BD_GR10/02. CLIESC/CLIESC_JAVA_SOAP/src/META-INF/wsdl/localhost_8080/ConUni_Soap_Java_G10/WSConversionUnidades.wsdl
+>>>>>>> 8af02b9576afa66d246f98ae3d42fad1715f8d1c
 <operation name="kilogramoALibra">
 <soap:operation soapAction=""/>
 <input>
@@ -135,6 +236,7 @@
 </output>
 </operation>
 <operation name="celsiusAFahrenheit">
+<<<<<<< HEAD
 <soap:operation soapAction=""/>
 <input>
 <soap:body use="literal"/>
@@ -144,6 +246,10 @@
 </output>
 </operation>
 <operation name="fahrenheitACelsius">
+=======
+========
+<operation name="celsiusAFahrenheit">
+>>>>>>> 8af02b9576afa66d246f98ae3d42fad1715f8d1c
 <soap:operation soapAction=""/>
 <input>
 <soap:body use="literal"/>
@@ -161,6 +267,28 @@
 <soap:body use="literal"/>
 </output>
 </operation>
+<<<<<<< HEAD
+=======
+<operation name="centimetrosAMetros">
+>>>>>>>> 8af02b9576afa66d246f98ae3d42fad1715f8d1c:TI1.1 SOAP-JAVA-SIN_BD_GR10/02. CLIESC/CLIESC_JAVA_SOAP/build/classes/META-INF/wsdl/localhost_8080/ConUni_Soap_Java_G10/WSConversionUnidades.wsdl
+<soap:operation soapAction=""/>
+<input>
+<soap:body use="literal"/>
+</input>
+<output>
+<soap:body use="literal"/>
+</output>
+</operation>
+<operation name="fahrenheitACelsius">
+<soap:operation soapAction=""/>
+<input>
+<soap:body use="literal"/>
+</input>
+<output>
+<soap:body use="literal"/>
+</output>
+</operation>
+>>>>>>> 8af02b9576afa66d246f98ae3d42fad1715f8d1c
 <operation name="metrosACentimetros">
 <soap:operation soapAction=""/>
 <input>
@@ -170,7 +298,42 @@
 <soap:body use="literal"/>
 </output>
 </operation>
+<<<<<<< HEAD
 <operation name="centimetrosAMetros">
+=======
+<<<<<<<< HEAD:TI1.1 SOAP-JAVA-SIN_BD_GR10/02. CLIESC/CLIESC_JAVA_SOAP/src/META-INF/wsdl/localhost_8080/ConUni_Soap_Java_G10/WSConversionUnidades.wsdl
+<operation name="centimetrosAMetros">
+========
+<operation name="celsiusAKelvin">
+<soap:operation soapAction=""/>
+<input>
+<soap:body use="literal"/>
+</input>
+<output>
+<soap:body use="literal"/>
+</output>
+</operation>
+<operation name="kilogramoALibra">
+<soap:operation soapAction=""/>
+<input>
+<soap:body use="literal"/>
+</input>
+<output>
+<soap:body use="literal"/>
+</output>
+</operation>
+<operation name="gramoAKilogramo">
+<soap:operation soapAction=""/>
+<input>
+<soap:body use="literal"/>
+</input>
+<output>
+<soap:body use="literal"/>
+</output>
+</operation>
+<operation name="toneladaALibra">
+>>>>>>>> 8af02b9576afa66d246f98ae3d42fad1715f8d1c:TI1.1 SOAP-JAVA-SIN_BD_GR10/02. CLIESC/CLIESC_JAVA_SOAP/build/classes/META-INF/wsdl/localhost_8080/ConUni_Soap_Java_G10/WSConversionUnidades.wsdl
+>>>>>>> 8af02b9576afa66d246f98ae3d42fad1715f8d1c
 <soap:operation soapAction=""/>
 <input>
 <soap:body use="literal"/>

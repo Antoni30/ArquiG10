@@ -48,7 +48,9 @@ class ConversionActivity : AppCompatActivity() {
 
         session = SessionManager(this)
         if (!session.isLoggedIn()) {
-            startActivity(Intent(this, LoginActivity::class.java)); finish(); return
+            startActivity(Intent(this, LoginActivity::class.java))
+            finish()
+            return
         }
 
         valueInput = findViewById(R.id.valueInput)
@@ -66,7 +68,8 @@ class ConversionActivity : AppCompatActivity() {
         convertButton.setOnClickListener { doConvert() }
         logoutButton.setOnClickListener {
             session.setLoggedIn(false)
-            startActivity(Intent(this, LoginActivity::class.java)); finish()
+            startActivity(Intent(this, LoginActivity::class.java))
+            finish()
         }
     }
 
@@ -89,8 +92,11 @@ class ConversionActivity : AppCompatActivity() {
         resultText.visibility = View.GONE
         val input = valueInput.text.toString().trim()
         val value = input.toDoubleOrNull()
-        if (value == null) {
-            showMsg(getString(R.string.invalid_input), false); return
+
+        // 🔴 Validación: no permitir números negativos
+        if (value == null || value < 0) {
+            showMsg("Error no permite negativos", false)
+            return
         }
 
         val ops = when (currentTab) {
@@ -100,7 +106,8 @@ class ConversionActivity : AppCompatActivity() {
         }
         val idx = operationSpinner.selectedItemPosition
         if (idx !in ops.indices) {
-            showMsg(getString(R.string.invalid_input), false); return
+            showMsg(getString(R.string.invalid_input), false)
+            return
         }
 
         val methodName = ops[idx].second
@@ -123,6 +130,7 @@ class ConversionActivity : AppCompatActivity() {
                         showMsg("Resultado: $ret", true)
                     }
                 }
+
                 override fun onError(error: String) {
                     convertButton.isEnabled = true
                     convertButton.text = getString(R.string.convert_button)
@@ -132,6 +140,7 @@ class ConversionActivity : AppCompatActivity() {
         }
     }
 
+    // ✅ Función global para mostrar mensajes
     private fun showMsg(msg: String, success: Boolean) {
         resultText.text = msg
         resultText.visibility = View.VISIBLE

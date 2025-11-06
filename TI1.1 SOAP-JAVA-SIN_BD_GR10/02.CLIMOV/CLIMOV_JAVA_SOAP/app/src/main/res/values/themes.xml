@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.CLIMOV" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/ldu_blue</item>
+        <item name="colorSecondary">@color/ldu_red</item>
+        <item name="android:statusBarColor">@color/background_dark</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>

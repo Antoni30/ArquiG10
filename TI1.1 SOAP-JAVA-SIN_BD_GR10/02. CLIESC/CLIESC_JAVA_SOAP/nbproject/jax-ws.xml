@@ -22,7 +22,7 @@
         </wsimport-option>
         <wsimport-option>
           <wsimport-option-name>wsdlLocation</wsimport-option-name>
-          <wsimport-option-value>http://localhost:8080/ConUni_Soap_Java_G10/WSConversionUnidades?WSDL</wsimport-option-value>
+          <wsimport-option-value>http://10.40.21.0:8080/ConUni_Soap_Java_G10/WSConversionUnidades?WSDL</wsimport-option-value>
         </wsimport-option>
         <wsimport-option>
           <wsimport-option-name>xnocompile</wsimport-option-name>

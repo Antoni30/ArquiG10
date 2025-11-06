@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_dark"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Botón de Logout -->
+        <Button
+            android:id="@+id/logoutButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/logout_button"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/button_logout"
+            android:padding="8dp"
+            android:layout_gravity="end" />
+
+        <!-- Tarjeta Principal -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            app:cardBackgroundColor="@color/surface_light"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="12dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="24dp">
+
+                <!-- Título -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/conversion_title"
+                    android:textColor="@color/text_dark"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="20dp" />
+
+                <!-- Pestañas (Tabs) -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:layout_marginBottom="20dp"
+                    android:background="@color/white">
+
+                    <Button
+                        android:id="@+id/tabLength"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/tab_background_inactive"
+                        android:text="📏 Longitud"
+                        android:textColor="@color/text_gray"
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        android:padding="12dp"
+                        android:layout_marginEnd="6dp" />
+
+                    <Button
+                        android:id="@+id/tabMass"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/tab_background_inactive"
+                        android:text="⚖️ Masa"
+                        android:textColor="@color/text_gray"
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        android:padding="12dp"
+                        android:layout_marginEnd="6dp" />
+
+                    <Button
+                        android:id="@+id/tabTemp"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/tab_background_inactive"
+                        android:text="🌡️ Temperatura"
+                        android:textColor="@color/text_gray"
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        android:padding="12dp" />
+
+                </LinearLayout>
+
+                <!-- Campo Valor -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/value_label"
+                    android:textColor="@color/text_gray"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="6dp" />
+
+                <EditText
+                    android:id="@+id/valueInput"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_input"
+                    android:hint="@string/value_hint"
+                    android:inputType="numberDecimal|numberSigned"
+                    android:textColor="@color/text_dark"
+                    android:textColorHint="@color/text_light_gray"
+                    android:padding="12dp"
+                    android:layout_marginBottom="16dp" />
+
+                <!-- Label y Spinner -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/select_label"
+                    android:textColor="@color/text_gray"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="6dp" />
+
+                <Spinner
+                    android:id="@+id/operationSpinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:background="@drawable/bg_input"
+                    android:padding="12dp"
+                    android:layout_marginBottom="20dp" />
+
+                <!-- Botón Convertir -->
+                <Button
+                    android:id="@+id/convertButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#000000"
+                    android:text="Convertir"
+                    android:textColor="@color/white"
+                    android:stateListAnimator="@null" />
+
+                <!-- Texto de Resultado -->
+                <TextView
+                    android:id="@+id/resultText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:padding="12dp"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:visibility="gone" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</ScrollView>
