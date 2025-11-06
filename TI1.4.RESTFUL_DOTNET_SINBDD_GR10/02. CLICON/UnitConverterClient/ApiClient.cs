@@ -14,7 +14,7 @@ namespace UnitConverterClient
         {
             _httpClient = httpClient;
             // Usar el puerto correcto: 7258
-            _httpClient.BaseAddress = new Uri("https://localhost:7258/api/");
+            _httpClient.BaseAddress = new Uri("http://10.40.32.159:5000/api/");
         }
 
         public async Task<T> PostAsync<T>(string endpoint, double value)

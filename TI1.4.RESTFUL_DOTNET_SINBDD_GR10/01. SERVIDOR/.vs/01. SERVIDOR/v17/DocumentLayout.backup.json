@@ -1,12 +1,343 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\rodri\\OneDrive\\Escritorio\\arqui\\TI1.4.RESTFUL_DOTNET_SINBDD_GR10\\01. SERVIDOR\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\aange\\source\\repos\\TI1.4 RESTFUL_DOTNET_SINBDD_GR10\\01. SERVIDOR\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{51A7E69D-2084-4C13-AA79-90A9C5E2D1AB}|..\\02. CLIESC\\UnitConverterDesktop\\UnitConverterDesktop.csproj|c:\\users\\aange\\source\\repos\\ti1.4 restful_dotnet_sinbdd_gr10\\02. cliesc\\unitconverterdesktop\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51A7E69D-2084-4C13-AA79-90A9C5E2D1AB}|..\\02. CLIESC\\UnitConverterDesktop\\UnitConverterDesktop.csproj|c:\\users\\aange\\source\\repos\\ti1.4 restful_dotnet_sinbdd_gr10\\02. cliesc\\unitconverterdesktop\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51A7E69D-2084-4C13-AA79-90A9C5E2D1AB}|..\\02. CLIESC\\UnitConverterDesktop\\UnitConverterDesktop.csproj|c:\\users\\aange\\source\\repos\\ti1.4 restful_dotnet_sinbdd_gr10\\02. cliesc\\unitconverterdesktop\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51A7E69D-2084-4C13-AA79-90A9C5E2D1AB}|..\\02. CLIESC\\UnitConverterDesktop\\UnitConverterDesktop.csproj|c:\\users\\aange\\source\\repos\\ti1.4 restful_dotnet_sinbdd_gr10\\02. cliesc\\unitconverterdesktop\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48666BCA-D2F8-4E6C-80D2-2512F429068C}|..\\02. CLICON\\UnitConverterClient\\UnitConverterClient.csproj|c:\\users\\aange\\source\\repos\\ti1.4 restful_dotnet_sinbdd_gr10\\02. clicon\\unitconverterclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48666BCA-D2F8-4E6C-80D2-2512F429068C}|..\\02. CLICON\\UnitConverterClient\\UnitConverterClient.csproj|c:\\users\\aange\\source\\repos\\ti1.4 restful_dotnet_sinbdd_gr10\\02. clicon\\unitconverterclient\\apiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48666BCA-D2F8-4E6C-80D2-2512F429068C}|..\\02. CLICON\\UnitConverterClient\\UnitConverterClient.csproj|c:\\users\\aange\\source\\repos\\ti1.4 restful_dotnet_sinbdd_gr10\\02. clicon\\unitconverterclient\\conversionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1402FE2-A3C4-4AAA-B8F7-49017A08B0ED}|UnitConverterAPI\\UnitConverterAPI.csproj|c:\\users\\aange\\source\\repos\\ti1.4 restful_dotnet_sinbdd_gr10\\01. servidor\\unitconverterapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C1402FE2-A3C4-4AAA-B8F7-49017A08B0ED}|UnitConverterAPI\\UnitConverterAPI.csproj|solutionrelative:unitconverterapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1402FE2-A3C4-4AAA-B8F7-49017A08B0ED}|UnitConverterAPI\\UnitConverterAPI.csproj|c:\\users\\aange\\source\\repos\\ti1.4 restful_dotnet_sinbdd_gr10\\01. servidor\\unitconverterapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1402FE2-A3C4-4AAA-B8F7-49017A08B0ED}|UnitConverterAPI\\UnitConverterAPI.csproj|solutionrelative:unitconverterapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1402FE2-A3C4-4AAA-B8F7-49017A08B0ED}|UnitConverterAPI\\UnitConverterAPI.csproj|c:\\users\\aange\\source\\repos\\ti1.4 restful_dotnet_sinbdd_gr10\\01. servidor\\unitconverterapi\\services\\iconversionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1402FE2-A3C4-4AAA-B8F7-49017A08B0ED}|UnitConverterAPI\\UnitConverterAPI.csproj|solutionrelative:unitconverterapi\\services\\iconversionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1402FE2-A3C4-4AAA-B8F7-49017A08B0ED}|UnitConverterAPI\\UnitConverterAPI.csproj|c:\\users\\aange\\source\\repos\\ti1.4 restful_dotnet_sinbdd_gr10\\01. servidor\\unitconverterapi\\services\\conversionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1402FE2-A3C4-4AAA-B8F7-49017A08B0ED}|UnitConverterAPI\\UnitConverterAPI.csproj|solutionrelative:unitconverterapi\\services\\conversionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1402FE2-A3C4-4AAA-B8F7-49017A08B0ED}|UnitConverterAPI\\UnitConverterAPI.csproj|c:\\users\\aange\\source\\repos\\ti1.4 restful_dotnet_sinbdd_gr10\\01. servidor\\unitconverterapi\\models\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1402FE2-A3C4-4AAA-B8F7-49017A08B0ED}|UnitConverterAPI\\UnitConverterAPI.csproj|solutionrelative:unitconverterapi\\models\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1402FE2-A3C4-4AAA-B8F7-49017A08B0ED}|UnitConverterAPI\\UnitConverterAPI.csproj|c:\\users\\aange\\source\\repos\\ti1.4 restful_dotnet_sinbdd_gr10\\01. servidor\\unitconverterapi\\controllers\\conversioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1402FE2-A3C4-4AAA-B8F7-49017A08B0ED}|UnitConverterAPI\\UnitConverterAPI.csproj|solutionrelative:unitconverterapi\\controllers\\conversioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51A7E69D-2084-4C13-AA79-90A9C5E2D1AB}|..\\02. CLIESC\\UnitConverterDesktop\\UnitConverterDesktop.csproj|c:\\users\\aange\\source\\repos\\ti1.4 restful_dotnet_sinbdd_gr10\\02. cliesc\\unitconverterdesktop\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51A7E69D-2084-4C13-AA79-90A9C5E2D1AB}|..\\02. CLIESC\\UnitConverterDesktop\\UnitConverterDesktop.csproj|c:\\users\\aange\\source\\repos\\ti1.4 restful_dotnet_sinbdd_gr10\\02. cliesc\\unitconverterdesktop\\loginform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aange\\source\\repos\\TI1.4 RESTFUL_DOTNET_SINBDD_GR10\\02. CLIESC\\UnitConverterDesktop\\ConverterWindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aange\\source\\repos\\TI1.4 RESTFUL_DOTNET_SINBDD_GR10\\02. CLIESC\\UnitConverterDesktop\\ConverterWindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aange\\source\\repos\\TI1.4 RESTFUL_DOTNET_SINBDD_GR10\\02. CLIESC\\UnitConverterDesktop\\App.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aange\\source\\repos\\TI1.4 RESTFUL_DOTNET_SINBDD_GR10\\02. CLIESC\\UnitConverterDesktop\\MainWindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aange\\source\\repos\\TI1.4 RESTFUL_DOTNET_SINBDD_GR10\\02. CLIESC\\UnitConverterDesktop\\MainWindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\aange\\source\\repos\\TI1.4 RESTFUL_DOTNET_SINBDD_GR10\\02. CLICON\\UnitConverterClient\\Program.cs",
+              "RelativeDocumentMoniker": "..\\02. CLICON\\UnitConverterClient\\Program.cs",
+              "ToolTip": "C:\\Users\\aange\\source\\repos\\TI1.4 RESTFUL_DOTNET_SINBDD_GR10\\02. CLICON\\UnitConverterClient\\Program.cs",
+              "RelativeToolTip": "..\\02. CLICON\\UnitConverterClient\\Program.cs",
+              "ViewState": "AgIAACABAAAAAAAAAAAmwDsBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T22:21:37.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\aange\\source\\repos\\TI1.4 RESTFUL_DOTNET_SINBDD_GR10\\02. CLIESC\\UnitConverterDesktop\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "..\\02. CLIESC\\UnitConverterDesktop\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\aange\\source\\repos\\TI1.4 RESTFUL_DOTNET_SINBDD_GR10\\02. CLIESC\\UnitConverterDesktop\\Form1.Designer.cs",
+              "RelativeToolTip": "..\\02. CLIESC\\UnitConverterDesktop\\Form1.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAMQAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T04:53:14.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\aange\\source\\repos\\TI1.4 RESTFUL_DOTNET_SINBDD_GR10\\02. CLIESC\\UnitConverterDesktop\\Form1.cs",
+              "RelativeDocumentMoniker": "..\\02. CLIESC\\UnitConverterDesktop\\Form1.cs",
+              "ToolTip": "C:\\Users\\aange\\source\\repos\\TI1.4 RESTFUL_DOTNET_SINBDD_GR10\\02. CLIESC\\UnitConverterDesktop\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\02. CLIESC\\UnitConverterDesktop\\Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T04:52:40.011Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\aange\\source\\repos\\TI1.4 RESTFUL_DOTNET_SINBDD_GR10\\02. CLIESC\\UnitConverterDesktop\\Form1.cs",
+              "RelativeDocumentMoniker": "..\\02. CLIESC\\UnitConverterDesktop\\Form1.cs",
+              "ToolTip": "C:\\Users\\aange\\source\\repos\\TI1.4 RESTFUL_DOTNET_SINBDD_GR10\\02. CLIESC\\UnitConverterDesktop\\Form1.cs",
+              "RelativeToolTip": "..\\02. CLIESC\\UnitConverterDesktop\\Form1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T04:54:07.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LoginForm.cs",
+              "DocumentMoniker": "C:\\Users\\aange\\source\\repos\\TI1.4 RESTFUL_DOTNET_SINBDD_GR10\\02. CLIESC\\UnitConverterDesktop\\LoginForm.cs",
+              "RelativeDocumentMoniker": "..\\02. CLIESC\\UnitConverterDesktop\\LoginForm.cs",
+              "ToolTip": "C:\\Users\\aange\\source\\repos\\TI1.4 RESTFUL_DOTNET_SINBDD_GR10\\02. CLIESC\\UnitConverterDesktop\\LoginForm.cs",
+              "RelativeToolTip": "..\\02. CLIESC\\UnitConverterDesktop\\LoginForm.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAuwCEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T05:09:38.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ConversionService.cs",
+              "DocumentMoniker": "C:\\Users\\aange\\source\\repos\\TI1.4 RESTFUL_DOTNET_SINBDD_GR10\\02. CLICON\\UnitConverterClient\\ConversionService.cs",
+              "RelativeDocumentMoniker": "..\\02. CLICON\\UnitConverterClient\\ConversionService.cs",
+              "ToolTip": "C:\\Users\\aange\\source\\repos\\TI1.4 RESTFUL_DOTNET_SINBDD_GR10\\02. CLICON\\UnitConverterClient\\ConversionService.cs",
+              "RelativeToolTip": "..\\02. CLICON\\UnitConverterClient\\ConversionService.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAcwDsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T22:24:53.946Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ApiClient.cs",
+              "DocumentMoniker": "C:\\Users\\aange\\source\\repos\\TI1.4 RESTFUL_DOTNET_SINBDD_GR10\\02. CLICON\\UnitConverterClient\\ApiClient.cs",
+              "RelativeDocumentMoniker": "..\\02. CLICON\\UnitConverterClient\\ApiClient.cs",
+              "ToolTip": "C:\\Users\\aange\\source\\repos\\TI1.4 RESTFUL_DOTNET_SINBDD_GR10\\02. CLICON\\UnitConverterClient\\ApiClient.cs",
+              "RelativeToolTip": "..\\02. CLICON\\UnitConverterClient\\ApiClient.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAqwE0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T22:23:58.196Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AgIAAAUVAAAAAAAAAAASwBEVAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-11-06T19:25:47.252Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\aange\\source\\repos\\TI1.4 RESTFUL_DOTNET_SINBDD_GR10\\01. SERVIDOR\\UnitConverterAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "UnitConverterAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\aange\\source\\repos\\TI1.4 RESTFUL_DOTNET_SINBDD_GR10\\01. SERVIDOR\\UnitConverterAPI\\appsettings.json",
+              "RelativeToolTip": "UnitConverterAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-06T19:13:49.409Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IConversionService.cs",
+              "DocumentMoniker": "C:\\Users\\aange\\source\\repos\\TI1.4 RESTFUL_DOTNET_SINBDD_GR10\\01. SERVIDOR\\UnitConverterAPI\\Services\\IConversionService.cs",
+              "RelativeDocumentMoniker": "UnitConverterAPI\\Services\\IConversionService.cs",
+              "ToolTip": "C:\\Users\\aange\\source\\repos\\TI1.4 RESTFUL_DOTNET_SINBDD_GR10\\01. SERVIDOR\\UnitConverterAPI\\Services\\IConversionService.cs",
+              "RelativeToolTip": "UnitConverterAPI\\Services\\IConversionService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T22:08:31.685Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ConversionService.cs",
+              "DocumentMoniker": "C:\\Users\\aange\\source\\repos\\TI1.4 RESTFUL_DOTNET_SINBDD_GR10\\01. SERVIDOR\\UnitConverterAPI\\Services\\ConversionService.cs",
+              "RelativeDocumentMoniker": "UnitConverterAPI\\Services\\ConversionService.cs",
+              "ToolTip": "C:\\Users\\aange\\source\\repos\\TI1.4 RESTFUL_DOTNET_SINBDD_GR10\\01. SERVIDOR\\UnitConverterAPI\\Services\\ConversionService.cs",
+              "RelativeToolTip": "UnitConverterAPI\\Services\\ConversionService.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAwDEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T22:09:09.527Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\aange\\source\\repos\\TI1.4 RESTFUL_DOTNET_SINBDD_GR10\\01. SERVIDOR\\UnitConverterAPI\\Program.cs",
+              "RelativeDocumentMoniker": "UnitConverterAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\aange\\source\\repos\\TI1.4 RESTFUL_DOTNET_SINBDD_GR10\\01. SERVIDOR\\UnitConverterAPI\\Program.cs",
+              "RelativeToolTip": "UnitConverterAPI\\Program.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAqwEkAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T22:09:23.634Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ApiResponse.cs",
+              "DocumentMoniker": "C:\\Users\\aange\\source\\repos\\TI1.4 RESTFUL_DOTNET_SINBDD_GR10\\01. SERVIDOR\\UnitConverterAPI\\Models\\ApiResponse.cs",
+              "RelativeDocumentMoniker": "UnitConverterAPI\\Models\\ApiResponse.cs",
+              "ToolTip": "C:\\Users\\aange\\source\\repos\\TI1.4 RESTFUL_DOTNET_SINBDD_GR10\\01. SERVIDOR\\UnitConverterAPI\\Models\\ApiResponse.cs",
+              "RelativeToolTip": "UnitConverterAPI\\Models\\ApiResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T22:12:33.79Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ConversionController.cs",
+              "DocumentMoniker": "C:\\Users\\aange\\source\\repos\\TI1.4 RESTFUL_DOTNET_SINBDD_GR10\\01. SERVIDOR\\UnitConverterAPI\\Controllers\\ConversionController.cs",
+              "RelativeDocumentMoniker": "UnitConverterAPI\\Controllers\\ConversionController.cs",
+              "ToolTip": "C:\\Users\\aange\\source\\repos\\TI1.4 RESTFUL_DOTNET_SINBDD_GR10\\01. SERVIDOR\\UnitConverterAPI\\Controllers\\ConversionController.cs",
+              "RelativeToolTip": "UnitConverterAPI\\Controllers\\ConversionController.cs",
+              "ViewState": "AgIAAMgAAAAAAAAAAAAAAAwBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T22:10:44.654Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ConverterWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\aange\\source\\repos\\TI1.4 RESTFUL_DOTNET_SINBDD_GR10\\02. CLIESC\\UnitConverterDesktop\\ConverterWindow.xaml.cs",
+              "RelativeDocumentMoniker": "..\\02. CLIESC\\UnitConverterDesktop\\ConverterWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\aange\\source\\repos\\TI1.4 RESTFUL_DOTNET_SINBDD_GR10\\02. CLIESC\\UnitConverterDesktop\\ConverterWindow.xaml.cs",
+              "RelativeToolTip": "..\\02. CLIESC\\UnitConverterDesktop\\ConverterWindow.xaml.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T23:46:58.529Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "LoginForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\aange\\source\\repos\\TI1.4 RESTFUL_DOTNET_SINBDD_GR10\\02. CLIESC\\UnitConverterDesktop\\LoginForm.Designer.cs",
+              "RelativeDocumentMoniker": "..\\02. CLIESC\\UnitConverterDesktop\\LoginForm.Designer.cs",
+              "ToolTip": "C:\\Users\\aange\\source\\repos\\TI1.4 RESTFUL_DOTNET_SINBDD_GR10\\02. CLIESC\\UnitConverterDesktop\\LoginForm.Designer.cs",
+              "RelativeToolTip": "..\\02. CLIESC\\UnitConverterDesktop\\LoginForm.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T05:09:34.473Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ConverterWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\aange\\source\\repos\\TI1.4 RESTFUL_DOTNET_SINBDD_GR10\\02. CLIESC\\UnitConverterDesktop\\ConverterWindow.xaml",
+              "RelativeDocumentMoniker": "..\\02. CLIESC\\UnitConverterDesktop\\ConverterWindow.xaml",
+              "ToolTip": "C:\\Users\\aange\\source\\repos\\TI1.4 RESTFUL_DOTNET_SINBDD_GR10\\02. CLIESC\\UnitConverterDesktop\\ConverterWindow.xaml",
+              "RelativeToolTip": "..\\02. CLIESC\\UnitConverterDesktop\\ConverterWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-05T23:46:36.995Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\aange\\source\\repos\\TI1.4 RESTFUL_DOTNET_SINBDD_GR10\\02. CLIESC\\UnitConverterDesktop\\App.xaml.cs",
+              "RelativeDocumentMoniker": "..\\02. CLIESC\\UnitConverterDesktop\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\aange\\source\\repos\\TI1.4 RESTFUL_DOTNET_SINBDD_GR10\\02. CLIESC\\UnitConverterDesktop\\App.xaml.cs",
+              "RelativeToolTip": "..\\02. CLIESC\\UnitConverterDesktop\\App.xaml.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T23:39:56.457Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\aange\\source\\repos\\TI1.4 RESTFUL_DOTNET_SINBDD_GR10\\02. CLIESC\\UnitConverterDesktop\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "..\\02. CLIESC\\UnitConverterDesktop\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\aange\\source\\repos\\TI1.4 RESTFUL_DOTNET_SINBDD_GR10\\02. CLIESC\\UnitConverterDesktop\\MainWindow.xaml",
+              "RelativeToolTip": "..\\02. CLIESC\\UnitConverterDesktop\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-05T23:06:15.505Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\aange\\source\\repos\\TI1.4 RESTFUL_DOTNET_SINBDD_GR10\\02. CLIESC\\UnitConverterDesktop\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "..\\02. CLIESC\\UnitConverterDesktop\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\aange\\source\\repos\\TI1.4 RESTFUL_DOTNET_SINBDD_GR10\\02. CLIESC\\UnitConverterDesktop\\MainWindow.xaml.cs",
+              "RelativeToolTip": "..\\02. CLIESC\\UnitConverterDesktop\\MainWindow.xaml.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T23:06:14.934Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "LoginForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\aange\\source\\repos\\TI1.4 RESTFUL_DOTNET_SINBDD_GR10\\02. CLIESC\\UnitConverterDesktop\\LoginForm.cs",
+              "RelativeDocumentMoniker": "..\\02. CLIESC\\UnitConverterDesktop\\LoginForm.cs",
+              "ToolTip": "C:\\Users\\aange\\source\\repos\\TI1.4 RESTFUL_DOTNET_SINBDD_GR10\\02. CLIESC\\UnitConverterDesktop\\LoginForm.cs [Design]",
+              "RelativeToolTip": "..\\02. CLIESC\\UnitConverterDesktop\\LoginForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T05:11:24.928Z"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

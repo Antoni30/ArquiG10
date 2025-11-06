@@ -1,0 +1,153 @@
+﻿using System;
+using System.Net.Http;
+using System.Text;
+using System.Text.Json;
+using System.Threading.Tasks;
+using System.Net;
+using System.Net.Sockets;
+using System.Collections.Generic;
+using System.Linq;
+
+namespace UnitConverterClient
+{
+    public class ApiClient
+    {
+        private readonly HttpClient _httpClient;
+        private string _baseAddress;
+
+        public ApiClient(HttpClient httpClient)
+        {
+            _httpClient = httpClient;
+            _baseAddress = DiscoverServerAddress().Result;
+            _httpClient.BaseAddress = new Uri(_baseAddress);
+            Console.WriteLine($"✅ Conectado al servidor: {_baseAddress}");
+        }
+
+        private async Task<string> DiscoverServerAddress()
+        {
+            // Lista de posibles direcciones del servidor
+            var possibleAddresses = new List<string>
+            {
+                "https://localhost:7258",
+                "https://localhost:7000",
+                "http://localhost:5000"
+            };
+
+            // Agregar direcciones de red local
+            var localIPs = GetLocalIPAddresses();
+            foreach (var ip in localIPs)
+            {
+                possibleAddresses.Add($"http://{ip}:5000");
+                possibleAddresses.Add($"https://{ip}:7000");
+            }
+
+            // Intentar conectar a cada dirección
+            foreach (var address in possibleAddresses)
+            {
+                if (await TestConnection(address))
+                {
+                    return address;
+                }
+            }
+
+            throw new Exception("No se pudo encontrar el servidor. Verifica que esté ejecutándose.");
+        }
+
+        private List<string> GetLocalIPAddresses()
+        {
+            var hostName = Dns.GetHostName();
+            return Dns.GetHostAddresses(hostName)
+                .Where(ip => ip.AddressFamily == AddressFamily.InterNetwork)
+                .Select(ip => ip.ToString())
+                .ToList();
+        }
+
+        private async Task<bool> TestConnection(string baseUrl)
+        {
+            try
+            {
+                using var testClient = new HttpClient
+                {
+                    Timeout = TimeSpan.FromSeconds(2),
+                    BaseAddress = new Uri(baseUrl + "/api/")
+                };
+
+                var response = await testClient.GetAsync("Conversion/health");
+                return response.IsSuccessStatusCode;
+            }
+            catch
+            {
+                return false;
+            }
+        }
+
+        public async Task<T> PostAsync<T>(string endpoint, double value)
+        {
+            try
+            {
+                var json = JsonSerializer.Serialize(value);
+                var content = new StringContent(json, Encoding.UTF8, "application/json");
+
+                var response = await _httpClient.PostAsync(endpoint, content);
+
+                if (response.IsSuccessStatusCode)
+                {
+                    var responseContent = await response.Content.ReadAsStringAsync();
+                    var apiResponse = JsonSerializer.Deserialize<ApiResponse<T>>(
+                        responseContent,
+                        new JsonSerializerOptions { PropertyNameCaseInsensitive = true }
+                    );
+
+                    if (apiResponse?.Success == true)
+                    {
+                        return apiResponse.Data;
+                    }
+                    else
+                    {
+                        throw new Exception($"Error del servidor: {apiResponse?.Message}");
+                    }
+                }
+                else
+                {
+                    throw new Exception($"Error HTTP: {response.StatusCode}");
+                }
+            }
+            catch (HttpRequestException ex)
+            {
+                throw new Exception($"Error de conexión con {_baseAddress}: {ex.Message}");
+            }
+        }
+
+        public async Task<bool> HealthCheckAsync()
+        {
+            try
+            {
+                var response = await _httpClient.GetAsync("Conversion/health");
+                return response.IsSuccessStatusCode;
+            }
+            catch
+            {
+                return false;
+            }
+        }
+
+        // Método para cambiar manualmente la dirección del servidor
+        public void SetServerAddress(string baseUrl)
+        {
+            _baseAddress = baseUrl;
+            _httpClient.BaseAddress = new Uri(_baseAddress);
+            Console.WriteLine($"✅ Servidor cambiado a: {_baseAddress}");
+        }
+    }
+
+    public class ApiResponse<T>
+    {
+        public bool Success { get; set; }
+        public string Message { get; set; } = string.Empty;
+        public T Data { get; set; }
+        public DateTime Timestamp
+        {
+            get:: 0.0.0.0:5000Set; }
+        }
+    }
+}

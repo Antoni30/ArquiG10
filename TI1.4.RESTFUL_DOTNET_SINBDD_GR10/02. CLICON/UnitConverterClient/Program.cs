@@ -1,31 +1,22 @@
 ﻿using System;
 using System.Net.Http;
-using System.Text;
-using System.Text.Json;
 using System.Threading.Tasks;
 
 namespace UnitConverterClient
 {
     class Program
     {
-        private static HttpClient _httpClient;
-        private static readonly string _baseUrl = "https://localhost:7258/api/Conversion/";
-
-        // Clase ApiResponse local para evitar ambigüedades
-        public class ApiResponse<T>
-        {
-            public bool Success { get; set; }
-            public string Message { get; set; } = string.Empty;
-            public T Data { get; set; }
-            public DateTime Timestamp { get; set; }
-        }
+        private static ConversionService _conversionService;
 
         static async Task Main(string[] args)
         {
             // Configurar HttpClient para ignorar certificados SSL (solo desarrollo)
             var handler = new HttpClientHandler();
             handler.ServerCertificateCustomValidationCallback = (message, cert, chain, errors) => true;
-            _httpClient = new HttpClient(handler);
+
+            var httpClient = new HttpClient(handler);
+            var apiClient = new ApiClient(httpClient);
+            _conversionService = new ConversionService(apiClient);
 
             // Mostrar pantalla de login
             if (!await MostrarLogin())
@@ -39,12 +30,12 @@ namespace UnitConverterClient
             Console.WriteLine("=== CONVERSOR DE UNIDADES ===\n");
 
             // Verificar conexión con el servidor
-            bool isConnected = await HealthCheckAsync();
+            bool isConnected = await apiClient.HealthCheckAsync();
             if (!isConnected)
             {
                 Console.WriteLine("❌ No se puede conectar al servidor. Asegúrate de que:");
                 Console.WriteLine("   1. El servidor UnitConverterAPI esté ejecutándose");
-                Console.WriteLine("   2. La URL https://localhost:7258 esté accesible");
+                Console.WriteLine("   2. La URL http://10.40.32.159:5000 esté accesible");
                 Console.WriteLine("\nPresiona cualquier tecla para salir...");
                 Console.ReadKey();
                 return;
@@ -196,55 +187,12 @@ namespace UnitConverterClient
             Console.Write("\nSelecciona una opción: ");
         }
 
-        static async Task<bool> HealthCheckAsync()
-        {
-            try
-            {
-                var response = await _httpClient.GetAsync(_baseUrl.Replace("Conversion/", "Conversion/health"));
-                return response.IsSuccessStatusCode;
-            }
-            catch
-            {
-                return false;
-            }
-        }
-
-        static async Task<T> PostAsync<T>(string endpoint, double value)
-        {
-            var json = JsonSerializer.Serialize(value);
-            var content = new StringContent(json, Encoding.UTF8, "application/json");
-
-            var response = await _httpClient.PostAsync(_baseUrl + endpoint, content);
-
-            if (response.IsSuccessStatusCode)
-            {
-                var responseContent = await response.Content.ReadAsStringAsync();
-                var apiResponse = JsonSerializer.Deserialize<ApiResponse<T>>(
-                    responseContent,
-                    new JsonSerializerOptions { PropertyNameCaseInsensitive = true }
-                );
-
-                if (apiResponse?.Success == true)
-                {
-                    return apiResponse.Data;
-                }
-                else
-                {
-                    throw new Exception($"Error del servidor: {apiResponse?.Message}");
-                }
-            }
-            else
-            {
-                throw new Exception($"Error HTTP: {response.StatusCode}");
-            }
-        }
-
         static async Task ConvertirCentimetrosAMetros()
         {
             Console.Write("Ingresa los centímetros: ");
             if (double.TryParse(Console.ReadLine(), out double cm))
             {
-                var resultado = await PostAsync<double>("centimetros-a-metros", cm);
+                var resultado = await _conversionService.CentimetrosAMetros(cm);
                 Console.WriteLine($"✅ {cm} cm = {resultado} m");
             }
             else
@@ -258,7 +206,7 @@ namespace UnitConverterClient
             Console.Write("Ingresa los metros: ");
             if (double.TryParse(Console.ReadLine(), out double m))
             {
-                var resultado = await PostAsync<double>("metros-a-centimetros", m);
+                var resultado = await _conversionService.MetrosACentimetros(m);
                 Console.WriteLine($"✅ {m} m = {resultado} cm");
             }
             else
@@ -272,7 +220,7 @@ namespace UnitConverterClient
             Console.Write("Ingresa los metros: ");
             if (double.TryParse(Console.ReadLine(), out double m))
             {
-                var resultado = await PostAsync<double>("metros-a-kilometros", m);
+                var resultado = await _conversionService.MetrosAKilometros(m);
                 Console.WriteLine($"✅ {m} m = {resultado} km");
             }
             else
@@ -286,7 +234,7 @@ namespace UnitConverterClient
             Console.Write("Ingresa las toneladas: ");
             if (double.TryParse(Console.ReadLine(), out double ton))
             {
-                var resultado = await PostAsync<double>("tonelada-a-libra", ton);
+                var resultado = await _conversionService.ToneladaALibra(ton);
                 Console.WriteLine($"✅ {ton} ton = {resultado} lb");
             }
             else
@@ -300,7 +248,7 @@ namespace UnitConverterClient
             Console.Write("Ingresa los kilogramos: ");
             if (double.TryParse(Console.ReadLine(), out double kg))
             {
-                var resultado = await PostAsync<double>("kilogramo-a-libra", kg);
+                var resultado = await _conversionService.KilogramoALibra(kg);
                 Console.WriteLine($"✅ {kg} kg = {resultado} lb");
             }
             else
@@ -314,7 +262,7 @@ namespace UnitConverterClient
             Console.Write("Ingresa los gramos: ");
             if (double.TryParse(Console.ReadLine(), out double g))
             {
-                var resultado = await PostAsync<double>("gramo-a-kilogramo", g);
+                var resultado = await _conversionService.GramoAKilogramo(g);
                 Console.WriteLine($"✅ {g} g = {resultado} kg");
             }
             else
@@ -328,7 +276,7 @@ namespace UnitConverterClient
             Console.Write("Ingresa los grados Celsius: ");
             if (double.TryParse(Console.ReadLine(), out double c))
             {
-                var resultado = await PostAsync<double>("celsius-a-fahrenheit", c);
+                var resultado = await _conversionService.CelsiusAFahrenheit(c);
                 Console.WriteLine($"✅ {c}°C = {resultado}°F");
             }
             else
@@ -342,7 +290,7 @@ namespace UnitConverterClient
             Console.Write("Ingresa los grados Fahrenheit: ");
             if (double.TryParse(Console.ReadLine(), out double f))
             {
-                var resultado = await PostAsync<double>("fahrenheit-a-celsius", f);
+                var resultado = await _conversionService.FahrenheitACelsius(f);
                 Console.WriteLine($"✅ {f}°F = {resultado}°C");
             }
             else
@@ -356,7 +304,7 @@ namespace UnitConverterClient
             Console.Write("Ingresa los grados Celsius: ");
             if (double.TryParse(Console.ReadLine(), out double c))
             {
-                var resultado = await PostAsync<double>("celsius-a-kelvin", c);
+                var resultado = await _conversionService.CelsiusAKelvin(c);
                 Console.WriteLine($"✅ {c}°C = {resultado} K");
             }
             else

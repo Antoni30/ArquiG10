@@ -2,6 +2,16 @@ using UnitConverterAPI.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
+// Configurar Kestrel para escuchar en todas las interfaces
+builder.WebHost.ConfigureKestrel(serverOptions =>
+{
+    serverOptions.ListenAnyIP(5000);    // HTTP
+    serverOptions.ListenAnyIP(7000, listenOptions =>
+    {
+        listenOptions.UseHttps();      // HTTPS
+    });
+});
+
 // Add services to the container.
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
@@ -57,7 +67,8 @@ app.UseAuthorization();
 app.MapControllers();
 
 Console.WriteLine("Unit Converter API v1.0 iniciándose...");
-Console.WriteLine("Disponible en: https://localhost:7000");
-Console.WriteLine("Swagger UI en: https://localhost:7000/swagger");
+Console.WriteLine("Disponible en: http://0.0.0.0:5000 y https://0.0.0.0:7000");
+Console.WriteLine("Swagger UI en: http://0.0.0.0:5000/swagger y https://0.0.0.0:7000/swagger");
+Console.WriteLine("Accesible desde cualquier máquina en la red");
 
 app.Run();
