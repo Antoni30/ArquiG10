@@ -5,31 +5,28 @@ const CONVERSION_CATEGORIES = {
     'Longitud': {
         icon: '📏',
         data: [
-            { label: 'Centímetros a Metros', method: 'centimetroAmetros', unitIn: 'cm', unitOut: 'm' },
-            { label: 'Metros a Centímetros', method: 'metrosAcentimetros', unitIn: 'm', unitOut: 'cm' },
-            { label: 'Metros a Kilómetros', method: 'metrosAkilometros', unitIn: 'm', unitOut: 'km' },
+            { label: 'Centímetros a Metros', method: 'centimetros-a-metros', unitIn: 'cm', unitOut: 'm' },
+            { label: 'Metros a Centímetros', method: 'metros-a-centimetros', unitIn: 'm', unitOut: 'cm' },
+            { label: 'Metros a Kilómetros', method: 'metros-a-kilometros', unitIn: 'm', unitOut: 'km' },
         ],
     },
     'Masa': {
         icon: '⚖️',
         data: [
-            { label: 'Tonelada a Libra', method: 'toneladasAlibras', unitIn: 'ton', unitOut: 'lb' },
-            { label: 'Kilogramo a Libra', method: 'kilogramosAlibras', unitIn: 'kg', unitOut: 'lb' },
-            { label: 'Gramo a Kilogramo', method: 'gramosAkilogramos', unitIn: 'g', unitOut: 'kg' },
+            { label: 'Tonelada a Libra', method: 'tonelada-a-libra', unitIn: 'ton', unitOut: 'lb' },
+            { label: 'Kilogramo a Libra', method: 'kilogramo-a-libra', unitIn: 'kg', unitOut: 'lb' },
+            { label: 'Gramo a Kilogramo', method: 'gramo-a-kilogramo', unitIn: 'g', unitOut: 'kg' },
         ],
     },
     'Temperatura': {
         icon: '🌡️',
         data: [
-            { label: 'Celsius a Fahrenheit', method: 'celciusAfahrenheit', unitIn: '°C', unitOut: '°F' },
-            { label: 'Fahrenheit a Celsius', method: 'fahrenheitAcelsius', unitIn: '°F', unitOut: '°C' },
-            { label: 'Celsius a Kelvin', method: 'celsiusAkelvin', unitIn: '°C', unitOut: 'K' },
+            { label: 'Celsius a Fahrenheit', method: 'celsius-a-fahrenheit', unitIn: '°C', unitOut: '°F' },
+            { label: 'Fahrenheit a Celsius', method: 'fahrenheit-a-celsius', unitIn: '°F', unitOut: '°C' },
+            { label: 'Celsius a Kelvin', method: 'celsius-a-kelvin', unitIn: '°C', unitOut: 'K' },
         ],
     },
 };
-
-// 🔶 ¡ATENCIÓN! Los nombres de "method" deben coincidir EXACTAMENTE con tu Java (case-sensitive)
-// En Java usas: "centimetroAmetros", "kilogramosAlibras", etc.
 
 const Conversiones = ({ onLogout }) => {
     const [valor, setValor] = useState('');
@@ -59,7 +56,7 @@ const Conversiones = ({ onLogout }) => {
             setError('Seleccione una operación e ingrese un valor numérico válido.');
             return;
         }
-               
+
         // Validación: solo Longitud y Masa no permiten valores negativos
         if ((activeTab === 'Longitud' || activeTab === 'Masa') && inputVal < 0) {
             setError('Error no permite negativos');
@@ -70,6 +67,7 @@ const Conversiones = ({ onLogout }) => {
         try {
             const res = await convertirUnidad(inputVal, operacion);
 
+            // Si el resultado es -1, es un error del servidor (según tu lógica anterior)
             if (res.resultado === -1) {
                 setError(res.mensaje || 'Error de validación del servidor.');
                 setResultado(null);

@@ -1,19 +1,13 @@
 import axios from 'axios';
 
-// Usamos el proxy definido en package.json
-const BASE_URL = '/ConUni_RESTFULL_Java_G10/webresources/servicio';
+// Usa HTTP, puerto 5052 (el que sí funciona)
+const BASE_URL = '/api/conversion';
 
-/**
- * Llama al servicio REST para convertir unidades.
- * @param {number} valor - Valor numérico a convertir
- * @param {string} tipo - Tipo de conversión (ej: "centimetroAmetros")
- * @returns {Promise<{ resultado: number, mensaje: string }>}
- */
 export const convertirUnidad = async (valor, tipo) => {
     try {
         const response = await axios.post(
-            `${BASE_URL}/conversionUnidades`,
-            { valor, tipo },
+            `${BASE_URL}/${tipo}`,
+            parseFloat(valor), // 👈 Envía directamente el número (no un objeto, no un string)
             {
                 headers: {
                     'Content-Type': 'application/json',
@@ -21,14 +15,25 @@ export const convertirUnidad = async (valor, tipo) => {
             }
         );
 
-        return response.data; // { resultado, mensaje }
+        // Tu API devuelve { success, message, data, timestamp }
+        if (response.data?.Success === true || response.data?.success === true) {
+            return {
+                resultado: response.data.Data || response.data.data,
+                mensaje: response.data.Message || response.data.message
+            };
+        } else {
+            throw new Error(response.data?.Message || response.data?.message || 'Error desconocido del servidor');
+        }
     } catch (error) {
-        console.error('Error al llamar al servicio REST:', error);
-        // Si el error es de red o CORS, lanzamos un mensaje amigable
-        if (error.code === 'ECONNABORTED' || !error.response) {
+        console.error('Error en la conversión:', error);
+        if (!error.response) {
             throw new Error('Error de conexión. Verifique que el servidor esté ejecutándose.');
         } else {
-            throw new Error(`Error del servidor: ${error.response?.status || 'desconocido'}`);
+            // Error 500: casi siempre significa que el cuerpo no era un número válido
+            if (error.response.status === 500) {
+                throw new Error('Error del servidor: el valor enviado no es un número válido. Intente nuevamente.');
+            }
+            throw new Error(`Error ${error.response.status}: ${error.response.data?.message || error.message}`);
         }
     }
 };
