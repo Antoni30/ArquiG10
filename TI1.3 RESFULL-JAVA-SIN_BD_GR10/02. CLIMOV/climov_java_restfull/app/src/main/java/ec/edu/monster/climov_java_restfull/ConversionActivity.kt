@@ -31,11 +31,13 @@ class ConversionActivity : AppCompatActivity() {
         "Metros a Centímetros" to "metrosAcentimetros",
         "Metros a Kilómetros" to "metrosAkilometros"
     )
+
     private val opsMasa = listOf(
         "Tonelada a Libra" to "toneladasAlibras",
         "Kilogramo a Libra" to "kilogramosAlibras",
         "Gramo a Kilogramo" to "gramosAkilogramos"
     )
+
     private val opsTemp = listOf(
         "Celsius a Fahrenheit" to "celciusAfahrenheit",
         "Fahrenheit a Celsius" to "fahrenheitAcelsius",
@@ -93,7 +95,7 @@ class ConversionActivity : AppCompatActivity() {
         val input = valueInput.text.toString().trim()
         val value = input.toDoubleOrNull()
         if (value == null) {
-            showMsg("Ingrese un valor numérico válido", false)
+            showMsg("El valor debe ser un número positivo", false)
             return
         }
 
@@ -132,6 +134,7 @@ class ConversionActivity : AppCompatActivity() {
         }
     }
 
+    // ✅ Función global (no local) — esta es la correcta
     private fun showMsg(msg: String, success: Boolean) {
         resultText.text = msg
         resultText.visibility = View.VISIBLE

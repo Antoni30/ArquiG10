@@ -1,0 +1,227 @@
+﻿namespace UnitConverterDesktop
+{
+    partial class Form1
+    {
+        private System.ComponentModel.IContainer components = null;
+
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        private void InitializeComponent()
+        {
+            this.lblTitle = new System.Windows.Forms.Label();
+            this.lblValue = new System.Windows.Forms.Label();
+            this.txtValue = new System.Windows.Forms.TextBox();
+            this.lblConversion = new System.Windows.Forms.Label();
+            this.cmbConversion = new System.Windows.Forms.ComboBox();
+            this.btnLength = new System.Windows.Forms.Button();
+            this.btnMass = new System.Windows.Forms.Button();
+            this.btnTemperature = new System.Windows.Forms.Button();
+            this.btnConvert = new System.Windows.Forms.Button();
+            this.lblResult = new System.Windows.Forms.Label();
+            this.btnClear = new System.Windows.Forms.Button();
+            this.btnHealthCheck = new System.Windows.Forms.Button();
+            this.SuspendLayout();
+            // 
+            // lblTitle
+            // 
+            this.lblTitle.AutoSize = true;
+            this.lblTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTitle.Location = new System.Drawing.Point(90, 10);
+            this.lblTitle.Name = "lblTitle";
+            this.lblTitle.Size = new System.Drawing.Size(300, 26);
+            this.lblTitle.TabIndex = 0;
+            this.lblTitle.Text = "Web Service de Conversiones";
+            // 
+            // Category buttons (icons + title)
+            // 
+            this.btnLength.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnLength.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLength.Location = new System.Drawing.Point(50, 50);
+            this.btnLength.Name = "btnLength";
+            this.btnLength.Size = new System.Drawing.Size(120, 60);
+            this.btnLength.TabIndex = 1;
+            this.btnLength.Text = "📏\r\nLongitud";
+            this.btnLength.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btnLength.BackColor = System.Drawing.Color.White;
+            this.btnLength.UseVisualStyleBackColor = false;
+            this.btnLength.FlatAppearance.BorderSize = 1;
+            this.btnLength.FlatAppearance.BorderColor = System.Drawing.Color.LightGray;
+            this.btnLength.Margin = new System.Windows.Forms.Padding(6);
+            this.btnLength.Click += new System.EventHandler(this.btnLength_Click);
+            // 
+            this.btnMass.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMass.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMass.Location = new System.Drawing.Point(190, 50);
+            this.btnMass.Name = "btnMass";
+            this.btnMass.Size = new System.Drawing.Size(120, 60);
+            this.btnMass.TabIndex = 2;
+            this.btnMass.Text = "⚖️\r\nMasa";
+            this.btnMass.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btnMass.BackColor = System.Drawing.Color.White;
+            this.btnMass.UseVisualStyleBackColor = false;
+            this.btnMass.FlatAppearance.BorderSize = 1;
+            this.btnMass.FlatAppearance.BorderColor = System.Drawing.Color.LightGray;
+            this.btnMass.Margin = new System.Windows.Forms.Padding(6);
+            this.btnMass.Click += new System.EventHandler(this.btnMass_Click);
+            // 
+            this.btnTemperature.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnTemperature.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTemperature.Location = new System.Drawing.Point(330, 50);
+            this.btnTemperature.Name = "btnTemperature";
+            this.btnTemperature.Size = new System.Drawing.Size(120, 60);
+            this.btnTemperature.TabIndex = 3;
+            this.btnTemperature.Text = "🌡️\r\nTemperatura";
+            this.btnTemperature.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btnTemperature.BackColor = System.Drawing.Color.White;
+            this.btnTemperature.UseVisualStyleBackColor = false;
+            this.btnTemperature.FlatAppearance.BorderSize = 1;
+            this.btnTemperature.FlatAppearance.BorderColor = System.Drawing.Color.LightGray;
+            this.btnTemperature.Margin = new System.Windows.Forms.Padding(6);
+            this.btnTemperature.Click += new System.EventHandler(this.btnTemperature_Click);
+            // 
+            // lblValue
+            // 
+            this.lblValue.AutoSize = true;
+            this.lblValue.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblValue.Location = new System.Drawing.Point(50, 130);
+            this.lblValue.Name = "lblValue";
+            this.lblValue.Size = new System.Drawing.Size(119, 17);
+            this.lblValue.TabIndex = 1;
+            this.lblValue.Text = "Valor a Convertir:";
+            // 
+            // txtValue
+            // 
+            this.txtValue.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtValue.Location = new System.Drawing.Point(50, 155);
+            this.txtValue.Name = "txtValue";
+            this.txtValue.Size = new System.Drawing.Size(400, 23);
+            this.txtValue.TabIndex = 2;
+            // 
+            // lblConversion
+            // 
+            this.lblConversion.AutoSize = true;
+            this.lblConversion.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblConversion.Location = new System.Drawing.Point(50, 190);
+            this.lblConversion.Name = "lblConversion";
+            this.lblConversion.Size = new System.Drawing.Size(250, 17);
+            this.lblConversion.TabIndex = 3;
+            this.lblConversion.Text = "Seleccionar Conversión (Tipo: Temperatura):";
+            // 
+            // cmbConversion
+            // 
+            this.cmbConversion.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbConversion.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmbConversion.FormattingEnabled = true;
+            this.cmbConversion.Location = new System.Drawing.Point(50, 215);
+            this.cmbConversion.Name = "cmbConversion";
+            this.cmbConversion.Size = new System.Drawing.Size(400, 24);
+            // Keep owner-draw to render placeholder gray
+            this.cmbConversion.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.cmbConversion.DrawItem += new System.Windows.Forms.DrawItemEventHandler(this.cmbConversion_DrawItem);
+            this.cmbConversion.TabIndex = 4;
+            // 
+            // btnConvert
+            // 
+            this.btnConvert.BackColor = System.Drawing.Color.Black;
+            this.btnConvert.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnConvert.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnConvert.ForeColor = System.Drawing.Color.White;
+            this.btnConvert.Location = new System.Drawing.Point(50, 255);
+            this.btnConvert.Name = "btnConvert";
+            this.btnConvert.Size = new System.Drawing.Size(400, 40);
+            this.btnConvert.TabIndex = 5;
+            this.btnConvert.Text = "Convertir";
+            this.btnConvert.UseVisualStyleBackColor = false;
+            this.btnConvert.Click += new System.EventHandler(this.btnConvert_Click);
+            // 
+            // lblResult
+            // 
+            this.lblResult.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lblResult.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblResult.Location = new System.Drawing.Point(50, 305);
+            this.lblResult.Name = "lblResult";
+            this.lblResult.Size = new System.Drawing.Size(400, 60);
+            this.lblResult.TabIndex = 6;
+            this.lblResult.Text = "Resultado aparecerá aquí";
+            this.lblResult.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // btnClear
+            // 
+            this.btnClear.BackColor = System.Drawing.Color.LightGray;
+            this.btnClear.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnConvert.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnClear.Location = new System.Drawing.Point(175, 380);
+            this.btnClear.Name = "btnClear";
+            this.btnClear.Size = new System.Drawing.Size(95, 30);
+            this.btnClear.TabIndex = 7;
+            this.btnClear.Text = "Limpiar";
+            this.btnClear.UseVisualStyleBackColor = false;
+            this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
+            // 
+            // btnHealthCheck
+            // 
+            this.btnHealthCheck.BackColor = System.Drawing.Color.LightGreen;
+            this.btnHealthCheck.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnHealthCheck.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnHealthCheck.Location = new System.Drawing.Point(280, 380);
+            this.btnHealthCheck.Name = "btnHealthCheck";
+            this.btnHealthCheck.Size = new System.Drawing.Size(95, 30);
+            this.btnHealthCheck.TabIndex = 8;
+            this.btnHealthCheck.Text = "Verificar Servidor";
+            this.btnHealthCheck.UseVisualStyleBackColor = false;
+            this.btnHealthCheck.Click += new System.EventHandler(this.btnHealthCheck_Click);
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.White;
+            this.ClientSize = new System.Drawing.Size(484, 431);
+            // Add category buttons first so they appear on top
+            this.Controls.Add(this.btnLength);
+            this.Controls.Add(this.btnMass);
+            this.Controls.Add(this.btnTemperature);
+            this.Controls.Add(this.lblTitle);
+            this.Controls.Add(this.btnHealthCheck);
+            this.Controls.Add(this.btnClear);
+            this.Controls.Add(this.lblResult);
+            this.Controls.Add(this.btnConvert);
+            this.Controls.Add(this.cmbConversion);
+            this.Controls.Add(this.lblConversion);
+            this.Controls.Add(this.txtValue);
+            this.Controls.Add(this.lblValue);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
+            this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Conversor de Unidades";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Label lblTitle;
+        private System.Windows.Forms.Label lblValue;
+        private System.Windows.Forms.TextBox txtValue;
+        private System.Windows.Forms.Label lblConversion;
+        private System.Windows.Forms.ComboBox cmbConversion;
+        private System.Windows.Forms.Button btnLength;
+        private System.Windows.Forms.Button btnMass;
+        private System.Windows.Forms.Button btnTemperature;
+        private System.Windows.Forms.Button btnConvert;
+        private System.Windows.Forms.Label lblResult;
+        private System.Windows.Forms.Button btnClear;
+        private System.Windows.Forms.Button btnHealthCheck;
+    }
+}

@@ -3,19 +3,19 @@
     <item android:state_enabled="false">
         <shape>
             <solid android:color="@color/button_disabled" />
-            <corners android:radius="8dp" />
+            <corners android:radius="12dp" />
         </shape>
     </item>
     <item android:state_pressed="true">
         <shape>
             <solid android:color="@color/button_primary_hover" />
-            <corners android:radius="8dp" />
+            <corners android:radius="12dp" />
         </shape>
     </item>
     <item>
         <shape>
             <solid android:color="@color/button_primary" />
-            <corners android:radius="8dp" />
+            <corners android:radius="12dp" />
         </shape>
     </item>
 </selector>

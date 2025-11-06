@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CLIMOV SOAP</string>
+
+    <!-- Login -->
+    <string name="login_title">Iniciar Sesión</string>
+    <string name="username_hint">Usuario</string>
+    <string name="password_hint">Contraseña</string>
+    <string name="login_button">Iniciar Sesión</string>
+    <string name="login_error">Credenciales incorrectas. Intente de nuevo.</string>
+
+    <!-- Conversiones -->
+    <string name="conversion_title">Mov Service de Conversiones (SOAP)</string>
+    <string name="logout_button">Cerrar Sesión</string>
+    <string name="value_label">Valor a Convertir:</string>
+    <string name="value_hint">Ingrese el valor</string>
+    <string name="select_label">Seleccionar Conversión</string>
+    <string name="convert_button">Convertir</string>
+    <string name="processing">Procesando…</string>
+    <string name="conversion_error">Ocurrió un error al consumir el servicio SOAP.</string>
+    <string name="invalid_input">Seleccione una operación e ingrese un valor numérico válido.</string>
+</resources>

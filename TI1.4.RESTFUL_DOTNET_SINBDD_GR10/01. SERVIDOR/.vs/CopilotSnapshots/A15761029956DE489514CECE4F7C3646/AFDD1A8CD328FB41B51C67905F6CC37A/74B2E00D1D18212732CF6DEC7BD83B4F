@@ -1,0 +1,43 @@
+﻿using System;
+using System.Windows.Forms;
+
+namespace UnitConverterDesktop
+{
+    public partial class LoginForm : Form
+    {
+        public bool IsAuthenticated { get; private set; }
+
+        public LoginForm()
+        {
+            InitializeComponent();
+            IsAuthenticated = false;
+            // prefill user for clarity
+            txtUser.Text = "MONSTER";
+        }
+
+        private void btnLogin_Click(object sender, EventArgs e)
+        {
+            var user = txtUser.Text?.Trim();
+            var pass = txtPass.Text ?? string.Empty;
+
+            // hardcoded credentials
+            if (string.Equals(user, "MONSTER", StringComparison.OrdinalIgnoreCase) && pass == "MONSTER9")
+            {
+                IsAuthenticated = true;
+                this.DialogResult = DialogResult.OK;
+                this.Close();
+            }
+            else
+            {
+                MessageBox.Show("Usuario o contraseña incorrectos", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+        }
+
+        private void btnCancel_Click(object sender, EventArgs e)
+        {
+            IsAuthenticated = false;
+            this.DialogResult = DialogResult.Cancel;
+            this.Close();
+        }
+    }
+}

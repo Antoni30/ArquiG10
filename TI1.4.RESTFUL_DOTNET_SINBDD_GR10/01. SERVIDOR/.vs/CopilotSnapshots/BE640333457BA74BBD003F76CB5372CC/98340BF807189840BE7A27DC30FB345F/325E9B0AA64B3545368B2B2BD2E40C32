@@ -1,0 +1,238 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Windows;
+using System.Windows.Controls;
+using System.Net.Http;
+using System.Text;
+using System.Text.Json;
+using System.Threading.Tasks;
+
+namespace UnitConverterDesktop
+{
+    public partial class ConverterWindow : Window
+    {
+        private Dictionary<string, string> operaciones = new Dictionary<string, string>();
+
+        public ConverterWindow()
+        {
+            InitializeComponent();
+            CargarOperaciones();
+        }
+
+        private void CargarOperaciones()
+        {
+            // Operaciones de Longitud
+            operaciones["Centímetros a Metros"] = "centimetros-a-metros";
+            operaciones["Metros a Centímetros"] = "metros-a-centimetros";
+            operaciones["Metros a Kilómetros"] = "metros-a-kilometros";
+
+            // Operaciones de Masa
+            operaciones["Toneladas a Libras"] = "tonelada-a-libra";
+            operaciones["Kilogramos a Libras"] = "kilogramo-a-libra";
+            operaciones["Gramos a Kilogramos"] = "gramo-a-kilogramo";
+
+            // Operaciones de Temperatura
+            operaciones["Celsius a Fahrenheit"] = "celsius-a-fahrenheit";
+            operaciones["Fahrenheit a Celsius"] = "fahrenheit-a-celsius";
+            operaciones["Celsius a Kelvin"] = "celsius-a-kelvin";
+        }
+
+        private void Category_Checked(object sender, RoutedEventArgs e)
+        {
+            cmbOperaciones.Items.Clear();
+
+            // Agregar el item de selección como ComboBoxItem
+            var selectItem = new ComboBoxItem()
+            {
+                Content = "— SELECCIONE UNA OPERACIÓN —",
+                IsEnabled = false
+            };
+            cmbOperaciones.Items.Add(selectItem);
+
+            if (rbLongitud.IsChecked == true)
+            {
+                // Agregar como strings directamente
+                cmbOperaciones.Items.Add("Centímetros a Metros");
+                cmbOperaciones.Items.Add("Metros a Centímetros");
+                cmbOperaciones.Items.Add("Metros a Kilómetros");
+            }
+            else if (rbMasa.IsChecked == true)
+            {
+                cmbOperaciones.Items.Add("Toneladas a Libras");
+                cmbOperaciones.Items.Add("Kilogramos a Libras");
+                cmbOperaciones.Items.Add("Gramos a Kilogramos");
+            }
+            else if (rbTemperatura.IsChecked == true)
+            {
+                cmbOperaciones.Items.Add("Celsius a Fahrenheit");
+                cmbOperaciones.Items.Add("Fahrenheit a Celsius");
+                cmbOperaciones.Items.Add("Celsius a Kelvin");
+            }
+
+            cmbOperaciones.SelectedIndex = 0;
+            btnConvertir.IsEnabled = false;
+            txtResultado.Text = "Resultado aparecerá aquí...";
+        }
+
+        private void CmbOperaciones_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            // Modo diagnóstico: descomenta la siguiente línea para ver qué se recibe
+            // MessageBox.Show($"SelectedIndex={cmbOperaciones.SelectedIndex}, SelectedItemType={(cmbOperaciones.SelectedItem?.GetType().Name ?? "null")}, SelectedItem='{cmbOperaciones.SelectedItem?.ToString()}'");
+
+            bool tieneSeleccionValida = false;
+
+            if (cmbOperaciones.SelectedItem is ComboBoxItem cbi)
+            {
+                var text = cbi.Content?.ToString() ?? string.Empty;
+                tieneSeleccionValida = !string.IsNullOrWhiteSpace(text) && text != "— SELECCIONE UNA OPERACIÓN —";
+            }
+            else if (cmbOperaciones.SelectedItem is string s)
+            {
+                tieneSeleccionValida = !string.IsNullOrWhiteSpace(s);
+            }
+            else
+            {
+                // fallback: si hay SelectedIndex > 0 asumimos válido
+                tieneSeleccionValida = cmbOperaciones.SelectedIndex > 0;
+            }
+
+            btnConvertir.IsEnabled = tieneSeleccionValida;
+        }
+
+        private async void BtnConvertir_Click(object sender, RoutedEventArgs e)
+        {
+            if (cmbOperaciones.SelectedIndex <= 0 || !double.TryParse(txtValor.Text, out double valor))
+            {
+                MessageBox.Show("Por favor ingrese un valor válido y seleccione una operación.", "Error", MessageBoxButton.OK, MessageBoxImage.Warning);
+                return;
+            }
+
+            // Obtener de forma robusta el texto seleccionado
+            string operacionSeleccionada = cmbOperaciones.SelectedItem switch
+            {
+                ComboBoxItem cbi => cbi.Content?.ToString() ?? string.Empty,
+                string s => s,
+                null => string.Empty,
+                var o => o.ToString() ?? string.Empty
+            };
+
+            if (string.IsNullOrWhiteSpace(operacionSeleccionada))
+            {
+                MessageBox.Show("Operación seleccionada inválida.", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                return;
+            }
+
+            await RealizarConversion(operacionSeleccionada, valor);
+        }
+
+        // Nuevo método separado para realizar la conversión
+        private async Task RealizarConversion(string operacionSeleccionada, double valor)
+        {
+            if (!operaciones.ContainsKey(operacionSeleccionada))
+            {
+                MessageBox.Show("Operación no válida seleccionada.", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                return;
+            }
+
+            string endpoint = operaciones[operacionSeleccionada];
+
+            try
+            {
+                // Verificar salud rápida de la API antes de llamar (más descriptivo si la API no está en ejecución)
+                try
+                {
+                    var healthResponse = await App.HttpClient.GetAsync("health");
+                    if (!healthResponse.IsSuccessStatusCode)
+                    {
+                        throw new Exception("API no disponible (health check fallido). Comprueba que UnitConverterAPI esté en ejecución.");
+                    }
+                }
+                catch (HttpRequestException)
+                {
+                    throw new Exception("Error de conexión con la API. Asegúrate de que la API está ejecutándose y el puerto es correcto.");
+                }
+
+                btnConvertir.IsEnabled = false;
+                btnConvertir.Content = "Convirtiendo...";
+
+                var resultado = await PostAsync<double>(endpoint, valor);
+
+                // Mostrar resultado formateado (usa la primera y la última palabra, más robusto)
+                var partes = operacionSeleccionada.Split(' ', StringSplitOptions.RemoveEmptyEntries);
+                string unidadOrigen = partes.Length > 0 ? partes[0] : "origen";
+                string unidadDestino = partes.Length > 1 ? partes[^1] : "destino";
+
+                txtResultado.Text = $"{valor} {unidadOrigen} = {resultado:0.######} {unidadDestino}";
+            }
+            catch (Exception ex)
+            {
+                // Mensaje más descriptivo al usuario
+                MessageBox.Show($"Error al realizar la conversión: {ex.Message}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                txtResultado.Text = "Error en la conversión";
+            }
+            finally
+            {
+                btnConvertir.IsEnabled = true;
+                btnConvertir.Content = "Convertir";
+            }
+        }
+
+        private async Task<T> PostAsync<T>(string endpoint, double value)
+        {
+            var json = JsonSerializer.Serialize(value);
+            var content = new StringContent(json, Encoding.UTF8, "application/json");
+
+            HttpResponseMessage response;
+            try
+            {
+                response = await App.HttpClient.PostAsync(endpoint, content);
+            }
+            catch (HttpRequestException ex)
+            {
+                throw new Exception($"Error de conexión al hacer POST: {ex.Message}");
+            }
+
+            var responseContent = await response.Content.ReadAsStringAsync();
+
+            if (response.IsSuccessStatusCode)
+            {
+                ApiResponse<T>? apiResponse = null;
+                try
+                {
+                    apiResponse = JsonSerializer.Deserialize<ApiResponse<T>>(
+                        responseContent,
+                        new JsonSerializerOptions { PropertyNameCaseInsensitive = true }
+                    );
+                }
+                catch (JsonException)
+                {
+                    throw new Exception($"Respuesta inválida del servidor: {responseContent}");
+                }
+
+                if (apiResponse?.Success == true)
+                {
+                    return apiResponse.Data;
+                }
+                else
+                {
+                    // Si apiResponse es null o Success == false, mostrar mensaje del servidor si hay
+                    var serverMsg = apiResponse?.Message ?? "Respuesta inesperada del servidor.";
+                    throw new Exception($"Error del servidor: {serverMsg} - Contenido: {responseContent}");
+                }
+            }
+            else
+            {
+                // Incluir contenido de la respuesta para depuración
+                throw new Exception($"Error HTTP: {(int)response.StatusCode} {response.ReasonPhrase}. Contenido: {responseContent}");
+            }
+        }
+    }
+
+    public class ApiResponse<T>
+    {
+        public bool Success { get; set; }
+        public string Message { get; set; } = string.Empty;
+        public T Data { get; set; }
+        public DateTime Timestamp { get; set; }
+    }
+}
