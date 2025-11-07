@@ -160,7 +160,7 @@ namespace ConversionUnidadesDesktop
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 500);
+            this.ClientSize = new System.Drawing.Size(800, 420);
             this.Controls.Add(this.pnlImage);
             this.Controls.Add(this.pnlLogin);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;

@@ -20,7 +20,7 @@ namespace ConversionUnidadesDesktop
             try
             {
                 pbLogo.BackColor = Color.DarkBlue;
-                string imagePath = @"C:\Users\aange\Downloads\MONSTER.jpg";
+                string imagePath = @"C:\Users\USER\Desktop\Nuevo Carpeta\ArquiG10\TI1.2 SOAP_DOTNET_SIN_BD_GR10\02. CLIESC\Resources\MONSTER.jpg";
 
                 if (File.Exists(imagePath))
                 {
