@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("UnitConverterDesktop")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+86ed174314ecf529e1141567e1a9b63f5dd6563c")]
 [assembly: System.Reflection.AssemblyProductAttribute("UnitConverterDesktop")]
 [assembly: System.Reflection.AssemblyTitleAttribute("UnitConverterDesktop")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

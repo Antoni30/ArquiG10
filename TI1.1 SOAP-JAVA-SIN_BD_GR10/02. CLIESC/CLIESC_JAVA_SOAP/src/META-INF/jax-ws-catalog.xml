@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
-    <system systemId="http://localhost:8080/ConUni_Soap_Java_G10/WSConversionUnidades?WSDL" uri="wsdl/localhost_8080/ConUni_Soap_Java_G10/WSConversionUnidades.wsdl"/>
-    <system systemId="http://localhost:8080/ConUni_Soap_Java_G10/WSConversionUnidades?xsd=1" uri="wsdl/localhost_8080/ConUni_Soap_Java_G10/WSConversionUnidades.xsd_1.xsd"/>
     <system systemId="http://10.40.21.0:8080/ConUni_Soap_Java_G10/WSConversionUnidades?WSDL" uri="wsdl/10.40.21.0_8080/ConUni_Soap_Java_G10/WSConversionUnidades.wsdl"/>
     <system systemId="http://10.40.21.0:8080/ConUni_Soap_Java_G10/WSConversionUnidades?xsd=1" uri="wsdl/10.40.21.0_8080/ConUni_Soap_Java_G10/WSConversionUnidades.xsd_1.xsd"/>
-<<<<<<< HEAD
+    <system systemId="http://localhost:8080/ConUni_Soap_Java_G10/WSConversionUnidades?WSDL" uri="wsdl/localhost_8080/ConUni_Soap_Java_G10/WSConversionUnidades.wsdl"/>
+    <system systemId="http://localhost:8080/ConUni_Soap_Java_G10/WSConversionUnidades?xsd=1" uri="wsdl/localhost_8080/ConUni_Soap_Java_G10/WSConversionUnidades.xsd_1.xsd"/>
 </catalog>
-=======
-</catalog>
->>>>>>> 8af02b9576afa66d246f98ae3d42fad1715f8d1c

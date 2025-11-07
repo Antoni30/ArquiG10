@@ -8,6 +8,8 @@ import ec.edu.monster.controlador.ConversionUnidadesController;
 import java.awt.Color;
 import javax.swing.DefaultComboBoxModel;
 import ec.edu.monster.modelo.ConversionUnidades;
+import java.awt.Image;
+import javax.swing.ImageIcon;
 
 /**
  *
@@ -21,6 +23,9 @@ public class WebServiciosSoap extends javax.swing.JFrame {
     private final Color btnNAV = new Color(245, 245, 250);
     
     ConversionUnidadesController controller;
+     String ruta= "src/ec/edu/monster/img/rulers.png";
+     String rutaB= "src/ec/edu/monster/img/justice.png";
+     String rutaT= "src/ec/edu/monster/img/thermometer.png";
 
     /**
      * Creates new form WebServiciosSoap
@@ -35,6 +40,28 @@ public class WebServiciosSoap extends javax.swing.JFrame {
         txtInfoT.setText("Seleccionar Conversión (Tipo: Longitud):");
         ConversionUnidades cu= new ConversionUnidades();
         controller= new ConversionUnidadesController(this,cu);
+         ImageIcon icon = new ImageIcon(ruta);
+         Image imgEscalada = icon.getImage().getScaledInstance(
+                imgRegla.getWidth(),
+                imgRegla.getHeight(),
+                Image.SCALE_SMOOTH
+        );
+         imgRegla.setIcon(new ImageIcon(imgEscalada));
+         ImageIcon iconB = new ImageIcon(rutaB);
+         Image imgEscaladaB = iconB.getImage().getScaledInstance(
+                imgB.getWidth(),
+                imgB.getHeight(),
+                Image.SCALE_SMOOTH
+        );
+         imgB.setIcon(new ImageIcon(imgEscaladaB));
+         
+         ImageIcon iconT = new ImageIcon(rutaT);
+         Image imgEscaladaT = iconT.getImage().getScaledInstance(
+                imgB.getWidth(),
+                imgB.getHeight(),
+                Image.SCALE_SMOOTH
+        );
+         imgT.setIcon(new ImageIcon(imgEscaladaT));
     }
     
     public  double getValor(){
@@ -65,10 +92,13 @@ public class WebServiciosSoap extends javax.swing.JFrame {
         X = new javax.swing.JLabel();
         btnLongitud = new javax.swing.JPanel();
         jLabel3 = new javax.swing.JLabel();
+        imgRegla = new javax.swing.JLabel();
         btnMasa = new javax.swing.JPanel();
         jLabel2 = new javax.swing.JLabel();
+        imgB = new javax.swing.JLabel();
         btnTemperatura = new javax.swing.JPanel();
         jLabel4 = new javax.swing.JLabel();
+        imgT = new javax.swing.JLabel();
         jSeparator1 = new javax.swing.JSeparator();
         txtInfoT = new javax.swing.JLabel();
         txtValor = new javax.swing.JTextField();
@@ -178,11 +208,16 @@ public class WebServiciosSoap extends javax.swing.JFrame {
         btnLongitud.setLayout(btnLongitudLayout);
         btnLongitudLayout.setHorizontalGroup(
             btnLongitudLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jLabel3, javax.swing.GroupLayout.DEFAULT_SIZE, 210, Short.MAX_VALUE)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, btnLongitudLayout.createSequentialGroup()
+                .addComponent(imgRegla, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 113, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(31, Short.MAX_VALUE))
         );
         btnLongitudLayout.setVerticalGroup(
             btnLongitudLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jLabel3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(imgRegla, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(jLabel3, javax.swing.GroupLayout.DEFAULT_SIZE, 40, Short.MAX_VALUE)
         );
 
         jPanel1.add(btnLongitud, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 100, 210, 40));
@@ -210,11 +245,18 @@ public class WebServiciosSoap extends javax.swing.JFrame {
         btnMasa.setLayout(btnMasaLayout);
         btnMasaLayout.setHorizontalGroup(
             btnMasaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jLabel2, javax.swing.GroupLayout.DEFAULT_SIZE, 210, Short.MAX_VALUE)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, btnMasaLayout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(imgB, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 98, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(51, Short.MAX_VALUE))
         );
         btnMasaLayout.setVerticalGroup(
             btnMasaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jLabel2, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 40, Short.MAX_VALUE)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, btnMasaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(imgB, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
 
         jPanel1.add(btnMasa, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 100, -1, -1));
@@ -241,11 +283,16 @@ public class WebServiciosSoap extends javax.swing.JFrame {
         btnTemperatura.setLayout(btnTemperaturaLayout);
         btnTemperaturaLayout.setHorizontalGroup(
             btnTemperaturaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jLabel4, javax.swing.GroupLayout.DEFAULT_SIZE, 210, Short.MAX_VALUE)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, btnTemperaturaLayout.createSequentialGroup()
+                .addComponent(imgT, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(50, Short.MAX_VALUE))
         );
         btnTemperaturaLayout.setVerticalGroup(
             btnTemperaturaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jLabel4, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 40, Short.MAX_VALUE)
+            .addComponent(jLabel4, javax.swing.GroupLayout.DEFAULT_SIZE, 40, Short.MAX_VALUE)
+            .addComponent(imgT, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
 
         jPanel1.add(btnTemperatura, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 100, -1, -1));
@@ -300,6 +347,9 @@ public class WebServiciosSoap extends javax.swing.JFrame {
 
         jPanel1.add(btnConvertir, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 330, 630, 40));
 
+        jPanel3.setBackground(new java.awt.Color(207, 239, 207));
+
+        txtResultado.setBackground(new java.awt.Color(21, 87, 36));
         txtResultado.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         txtResultado.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
 
@@ -444,6 +494,9 @@ public class WebServiciosSoap extends javax.swing.JFrame {
     private javax.swing.JPanel btnMasa;
     private javax.swing.JPanel btnTemperatura;
     private javax.swing.JComboBox<String> comboText;
+    private javax.swing.JLabel imgB;
+    private javax.swing.JLabel imgRegla;
+    private javax.swing.JLabel imgT;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;

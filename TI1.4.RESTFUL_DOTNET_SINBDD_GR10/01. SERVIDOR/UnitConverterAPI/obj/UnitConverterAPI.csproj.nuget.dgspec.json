@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\USER\\Downloads\\Prueba\\soap_dotnet\\TI1.4 RESTFUL_DOTNET_SINBDD_GR10\\TI1.4 RESTFUL_DOTNET_SINBDD_GR10\\01. SERVIDOR\\UnitConverterAPI\\UnitConverterAPI.csproj": {}
+    "C:\\Users\\rodri\\OneDrive\\Escritorio\\arqui\\TI1.4.RESTFUL_DOTNET_SINBDD_GR10\\01. SERVIDOR\\UnitConverterAPI\\UnitConverterAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\USER\\Downloads\\Prueba\\soap_dotnet\\TI1.4 RESTFUL_DOTNET_SINBDD_GR10\\TI1.4 RESTFUL_DOTNET_SINBDD_GR10\\01. SERVIDOR\\UnitConverterAPI\\UnitConverterAPI.csproj": {
+    "C:\\Users\\rodri\\OneDrive\\Escritorio\\arqui\\TI1.4.RESTFUL_DOTNET_SINBDD_GR10\\01. SERVIDOR\\UnitConverterAPI\\UnitConverterAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\USER\\Downloads\\Prueba\\soap_dotnet\\TI1.4 RESTFUL_DOTNET_SINBDD_GR10\\TI1.4 RESTFUL_DOTNET_SINBDD_GR10\\01. SERVIDOR\\UnitConverterAPI\\UnitConverterAPI.csproj",
+        "projectUniqueName": "C:\\Users\\rodri\\OneDrive\\Escritorio\\arqui\\TI1.4.RESTFUL_DOTNET_SINBDD_GR10\\01. SERVIDOR\\UnitConverterAPI\\UnitConverterAPI.csproj",
         "projectName": "UnitConverterAPI",
-        "projectPath": "C:\\Users\\USER\\Downloads\\Prueba\\soap_dotnet\\TI1.4 RESTFUL_DOTNET_SINBDD_GR10\\TI1.4 RESTFUL_DOTNET_SINBDD_GR10\\01. SERVIDOR\\UnitConverterAPI\\UnitConverterAPI.csproj",
-        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USER\\Downloads\\Prueba\\soap_dotnet\\TI1.4 RESTFUL_DOTNET_SINBDD_GR10\\TI1.4 RESTFUL_DOTNET_SINBDD_GR10\\01. SERVIDOR\\UnitConverterAPI\\obj\\",
+        "projectPath": "C:\\Users\\rodri\\OneDrive\\Escritorio\\arqui\\TI1.4.RESTFUL_DOTNET_SINBDD_GR10\\01. SERVIDOR\\UnitConverterAPI\\UnitConverterAPI.csproj",
+        "packagesPath": "C:\\Users\\rodri\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rodri\\OneDrive\\Escritorio\\arqui\\TI1.4.RESTFUL_DOTNET_SINBDD_GR10\\01. SERVIDOR\\UnitConverterAPI\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\rodri\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

@@ -72,18 +72,6 @@
 </xs:sequence>
 </xs:complexType>
 
-<xs:complexType name="celsiusAKelvin">
-<xs:sequence>
-<xs:element name="celsius" type="xs:double"/>
-</xs:sequence>
-</xs:complexType>
-
-<xs:complexType name="celsiusAKelvinResponse">
-<xs:sequence>
-<xs:element name="return" type="xs:double"/>
-</xs:sequence>
-</xs:complexType>
-
 <xs:complexType name="centimetrosAMetros">
 <xs:sequence>
 <xs:element name="centimetros" type="xs:double"/>
@@ -91,6 +79,18 @@
 </xs:complexType>
 
 <xs:complexType name="centimetrosAMetrosResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:double"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="celsiusAKelvin">
+<xs:sequence>
+<xs:element name="celsius" type="xs:double"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="celsiusAKelvinResponse">
 <xs:sequence>
 <xs:element name="return" type="xs:double"/>
 </xs:sequence>

@@ -68,3 +68,39 @@ C:\Users\USER\Downloads\Prueba\soap_dotnet\TI1.4 RESTFUL_DOTNET_SINBDD_GR10\TI1.
 C:\Users\USER\Downloads\Prueba\soap_dotnet\TI1.4 RESTFUL_DOTNET_SINBDD_GR10\TI1.4 RESTFUL_DOTNET_SINBDD_GR10\01. SERVIDOR\UnitConverterAPI\obj\Debug\net8.0\UnitConverterAPI.pdb
 C:\Users\USER\Downloads\Prueba\soap_dotnet\TI1.4 RESTFUL_DOTNET_SINBDD_GR10\TI1.4 RESTFUL_DOTNET_SINBDD_GR10\01. SERVIDOR\UnitConverterAPI\obj\Debug\net8.0\UnitConverterAPI.genruntimeconfig.cache
 C:\Users\USER\Downloads\Prueba\soap_dotnet\TI1.4 RESTFUL_DOTNET_SINBDD_GR10\TI1.4 RESTFUL_DOTNET_SINBDD_GR10\01. SERVIDOR\UnitConverterAPI\obj\Debug\net8.0\ref\UnitConverterAPI.dll
+C:\Users\rodri\OneDrive\Escritorio\arqui\TI1.4.RESTFUL_DOTNET_SINBDD_GR10\01. SERVIDOR\UnitConverterAPI\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\rodri\OneDrive\Escritorio\arqui\TI1.4.RESTFUL_DOTNET_SINBDD_GR10\01. SERVIDOR\UnitConverterAPI\bin\Debug\net8.0\appsettings.json
+C:\Users\rodri\OneDrive\Escritorio\arqui\TI1.4.RESTFUL_DOTNET_SINBDD_GR10\01. SERVIDOR\UnitConverterAPI\bin\Debug\net8.0\UnitConverterAPI.staticwebassets.endpoints.json
+C:\Users\rodri\OneDrive\Escritorio\arqui\TI1.4.RESTFUL_DOTNET_SINBDD_GR10\01. SERVIDOR\UnitConverterAPI\bin\Debug\net8.0\UnitConverterAPI.exe
+C:\Users\rodri\OneDrive\Escritorio\arqui\TI1.4.RESTFUL_DOTNET_SINBDD_GR10\01. SERVIDOR\UnitConverterAPI\bin\Debug\net8.0\UnitConverterAPI.deps.json
+C:\Users\rodri\OneDrive\Escritorio\arqui\TI1.4.RESTFUL_DOTNET_SINBDD_GR10\01. SERVIDOR\UnitConverterAPI\bin\Debug\net8.0\UnitConverterAPI.runtimeconfig.json
+C:\Users\rodri\OneDrive\Escritorio\arqui\TI1.4.RESTFUL_DOTNET_SINBDD_GR10\01. SERVIDOR\UnitConverterAPI\bin\Debug\net8.0\UnitConverterAPI.dll
+C:\Users\rodri\OneDrive\Escritorio\arqui\TI1.4.RESTFUL_DOTNET_SINBDD_GR10\01. SERVIDOR\UnitConverterAPI\bin\Debug\net8.0\UnitConverterAPI.pdb
+C:\Users\rodri\OneDrive\Escritorio\arqui\TI1.4.RESTFUL_DOTNET_SINBDD_GR10\01. SERVIDOR\UnitConverterAPI\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\rodri\OneDrive\Escritorio\arqui\TI1.4.RESTFUL_DOTNET_SINBDD_GR10\01. SERVIDOR\UnitConverterAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\rodri\OneDrive\Escritorio\arqui\TI1.4.RESTFUL_DOTNET_SINBDD_GR10\01. SERVIDOR\UnitConverterAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\rodri\OneDrive\Escritorio\arqui\TI1.4.RESTFUL_DOTNET_SINBDD_GR10\01. SERVIDOR\UnitConverterAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\rodri\OneDrive\Escritorio\arqui\TI1.4.RESTFUL_DOTNET_SINBDD_GR10\01. SERVIDOR\UnitConverterAPI\obj\Debug\net8.0\UnitConverterAPI.csproj.AssemblyReference.cache
+C:\Users\rodri\OneDrive\Escritorio\arqui\TI1.4.RESTFUL_DOTNET_SINBDD_GR10\01. SERVIDOR\UnitConverterAPI\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\rodri\OneDrive\Escritorio\arqui\TI1.4.RESTFUL_DOTNET_SINBDD_GR10\01. SERVIDOR\UnitConverterAPI\obj\Debug\net8.0\UnitConverterAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rodri\OneDrive\Escritorio\arqui\TI1.4.RESTFUL_DOTNET_SINBDD_GR10\01. SERVIDOR\UnitConverterAPI\obj\Debug\net8.0\UnitConverterAPI.AssemblyInfoInputs.cache
+C:\Users\rodri\OneDrive\Escritorio\arqui\TI1.4.RESTFUL_DOTNET_SINBDD_GR10\01. SERVIDOR\UnitConverterAPI\obj\Debug\net8.0\UnitConverterAPI.AssemblyInfo.cs
+C:\Users\rodri\OneDrive\Escritorio\arqui\TI1.4.RESTFUL_DOTNET_SINBDD_GR10\01. SERVIDOR\UnitConverterAPI\obj\Debug\net8.0\UnitConverterAPI.csproj.CoreCompileInputs.cache
+C:\Users\rodri\OneDrive\Escritorio\arqui\TI1.4.RESTFUL_DOTNET_SINBDD_GR10\01. SERVIDOR\UnitConverterAPI\obj\Debug\net8.0\UnitConverterAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\rodri\OneDrive\Escritorio\arqui\TI1.4.RESTFUL_DOTNET_SINBDD_GR10\01. SERVIDOR\UnitConverterAPI\obj\Debug\net8.0\UnitConverterAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\rodri\OneDrive\Escritorio\arqui\TI1.4.RESTFUL_DOTNET_SINBDD_GR10\01. SERVIDOR\UnitConverterAPI\obj\Debug\net8.0\UnitConverterAPI.sourcelink.json
+C:\Users\rodri\OneDrive\Escritorio\arqui\TI1.4.RESTFUL_DOTNET_SINBDD_GR10\01. SERVIDOR\UnitConverterAPI\obj\Debug\net8.0\rjimswa.dswa.cache.json
+C:\Users\rodri\OneDrive\Escritorio\arqui\TI1.4.RESTFUL_DOTNET_SINBDD_GR10\01. SERVIDOR\UnitConverterAPI\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+C:\Users\rodri\OneDrive\Escritorio\arqui\TI1.4.RESTFUL_DOTNET_SINBDD_GR10\01. SERVIDOR\UnitConverterAPI\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+C:\Users\rodri\OneDrive\Escritorio\arqui\TI1.4.RESTFUL_DOTNET_SINBDD_GR10\01. SERVIDOR\UnitConverterAPI\obj\Debug\net8.0\scopedcss\bundle\UnitConverterAPI.styles.css
+C:\Users\rodri\OneDrive\Escritorio\arqui\TI1.4.RESTFUL_DOTNET_SINBDD_GR10\01. SERVIDOR\UnitConverterAPI\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\rodri\OneDrive\Escritorio\arqui\TI1.4.RESTFUL_DOTNET_SINBDD_GR10\01. SERVIDOR\UnitConverterAPI\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\Users\rodri\OneDrive\Escritorio\arqui\TI1.4.RESTFUL_DOTNET_SINBDD_GR10\01. SERVIDOR\UnitConverterAPI\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\rodri\OneDrive\Escritorio\arqui\TI1.4.RESTFUL_DOTNET_SINBDD_GR10\01. SERVIDOR\UnitConverterAPI\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\rodri\OneDrive\Escritorio\arqui\TI1.4.RESTFUL_DOTNET_SINBDD_GR10\01. SERVIDOR\UnitConverterAPI\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\rodri\OneDrive\Escritorio\arqui\TI1.4.RESTFUL_DOTNET_SINBDD_GR10\01. SERVIDOR\UnitConverterAPI\obj\Debug\net8.0\UnitConv.68B432E1.Up2Date
+C:\Users\rodri\OneDrive\Escritorio\arqui\TI1.4.RESTFUL_DOTNET_SINBDD_GR10\01. SERVIDOR\UnitConverterAPI\obj\Debug\net8.0\UnitConverterAPI.dll
+C:\Users\rodri\OneDrive\Escritorio\arqui\TI1.4.RESTFUL_DOTNET_SINBDD_GR10\01. SERVIDOR\UnitConverterAPI\obj\Debug\net8.0\refint\UnitConverterAPI.dll
+C:\Users\rodri\OneDrive\Escritorio\arqui\TI1.4.RESTFUL_DOTNET_SINBDD_GR10\01. SERVIDOR\UnitConverterAPI\obj\Debug\net8.0\UnitConverterAPI.pdb
+C:\Users\rodri\OneDrive\Escritorio\arqui\TI1.4.RESTFUL_DOTNET_SINBDD_GR10\01. SERVIDOR\UnitConverterAPI\obj\Debug\net8.0\UnitConverterAPI.genruntimeconfig.cache
+C:\Users\rodri\OneDrive\Escritorio\arqui\TI1.4.RESTFUL_DOTNET_SINBDD_GR10\01. SERVIDOR\UnitConverterAPI\obj\Debug\net8.0\ref\UnitConverterAPI.dll

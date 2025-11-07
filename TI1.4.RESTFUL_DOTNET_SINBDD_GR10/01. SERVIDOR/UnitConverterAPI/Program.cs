@@ -67,8 +67,8 @@ app.UseAuthorization();
 app.MapControllers();
 
 Console.WriteLine("Unit Converter API v1.0 iniciándose...");
-Console.WriteLine("Disponible en: http://0.0.0.0:5000 y https://0.0.0.0:7000");
-Console.WriteLine("Swagger UI en: http://0.0.0.0:5000/swagger y https://0.0.0.0:7000/swagger");
+Console.WriteLine("Disponible en: http://localhost:5000 y https://localhost:7000");
+Console.WriteLine("Swagger UI en: http://localhost:5000/swagger y https://localhost:7000/swagger");
 Console.WriteLine("Accesible desde cualquier máquina en la red");
 
 app.Run();
