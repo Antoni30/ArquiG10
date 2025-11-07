@@ -81,9 +81,18 @@ body {
     border-top-left-radius: 16px;
     border-top-right-radius: 16px;
     overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Alinea la imagen arriba */
   }
 
   .login-image-section img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top; /* ✅ Prioriza la parte superior de la imagen */
+    opacity: 0.95;
+    filter: drop-shadow(0 8px 15px rgba(0,0,0,0.4));
     border-top-left-radius: 16px;
     border-top-right-radius: 16px;
   }
@@ -157,7 +166,7 @@ body {
   }
 
   .login-form-section button:hover {
-    background-color: #003366;
+    background-color: #343a40;
   }
 
   .message {

@@ -33,6 +33,8 @@
                         android:layout_height="match_parent"
                         android:src="@drawable/monster"
                         android:scaleType="centerCrop"
+                        android:layout_gravity="top"
+                        android:paddingTop="194dp"
                         android:contentDescription="@string/app_name" />
                 </FrameLayout>
 
