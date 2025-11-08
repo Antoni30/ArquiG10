@@ -1,0 +1,33 @@
+C:\Users\aange\source\repos\ConversionUnidadesWCF\ConversionUnidadesDesktop\bin\Debug\ConversionUnidadesDesktop.exe.config
+C:\Users\aange\source\repos\ConversionUnidadesWCF\ConversionUnidadesDesktop\bin\Debug\ConversionUnidadesDesktop.exe
+C:\Users\aange\source\repos\ConversionUnidadesWCF\ConversionUnidadesDesktop\bin\Debug\ConversionUnidadesDesktop.pdb
+C:\Users\aange\source\repos\ConversionUnidadesWCF\ConversionUnidadesDesktop\obj\Debug\ConversionUnidadesDesktop.csproj.AssemblyReference.cache
+C:\Users\aange\source\repos\ConversionUnidadesWCF\ConversionUnidadesDesktop\obj\Debug\ConversionUnidadesDesktop.Properties.Resources.resources
+C:\Users\aange\source\repos\ConversionUnidadesWCF\ConversionUnidadesDesktop\obj\Debug\ConversionUnidadesDesktop.csproj.GenerateResource.cache
+C:\Users\aange\source\repos\ConversionUnidadesWCF\ConversionUnidadesDesktop\obj\Debug\ConversionUnidadesDesktop.csproj.CoreCompileInputs.cache
+C:\Users\aange\source\repos\ConversionUnidadesWCF\ConversionUnidadesDesktop\obj\Debug\ConversionUnidadesDesktop.exe
+C:\Users\aange\source\repos\ConversionUnidadesWCF\ConversionUnidadesDesktop\obj\Debug\ConversionUnidadesDesktop.pdb
+C:\Users\aange\source\repos\ConversionUnidadesWCF\ConversionUnidadesDesktop\obj\Debug\ConversionUnidadesDesktop.exe.config
+C:\Users\aange\source\repos\ConversionUnidadesWCF\ConversionUnidadesDesktop\obj\Debug\ConversionUnidadesDesktop.MainForm.resources
+C:\Users\aange\source\repos\ConversionUnidadesWCF\02. CLIESC\bin\Debug\ConversionUnidadesDesktop.exe.config
+C:\Users\aange\source\repos\ConversionUnidadesWCF\02. CLIESC\bin\Debug\ConversionUnidadesDesktop.exe
+C:\Users\aange\source\repos\ConversionUnidadesWCF\02. CLIESC\bin\Debug\ConversionUnidadesDesktop.pdb
+C:\Users\aange\source\repos\ConversionUnidadesWCF\02. CLIESC\obj\Debug\ConversionUnidadesDesktop.csproj.AssemblyReference.cache
+C:\Users\aange\source\repos\ConversionUnidadesWCF\02. CLIESC\obj\Debug\ConversionUnidadesDesktop.exe.config
+C:\Users\aange\source\repos\ConversionUnidadesWCF\02. CLIESC\obj\Debug\ConversionUnidadesDesktop.MainForm.resources
+C:\Users\aange\source\repos\ConversionUnidadesWCF\02. CLIESC\obj\Debug\ConversionUnidadesDesktop.Properties.Resources.resources
+C:\Users\aange\source\repos\ConversionUnidadesWCF\02. CLIESC\obj\Debug\ConversionUnidadesDesktop.csproj.GenerateResource.cache
+C:\Users\aange\source\repos\ConversionUnidadesWCF\02. CLIESC\obj\Debug\ConversionUnidadesDesktop.csproj.CoreCompileInputs.cache
+C:\Users\aange\source\repos\ConversionUnidadesWCF\02. CLIESC\obj\Debug\ConversionUnidadesDesktop.exe
+C:\Users\aange\source\repos\ConversionUnidadesWCF\02. CLIESC\obj\Debug\ConversionUnidadesDesktop.pdb
+C:\Users\USER\Desktop\Nuevo Carpeta\ArquiG10\ConversionUnidadesWCF\02. CLIESC\bin\Debug\ConversionUnidadesDesktop.exe.config
+C:\Users\USER\Desktop\Nuevo Carpeta\ArquiG10\ConversionUnidadesWCF\02. CLIESC\bin\Debug\ConversionUnidadesDesktop.exe
+C:\Users\USER\Desktop\Nuevo Carpeta\ArquiG10\ConversionUnidadesWCF\02. CLIESC\bin\Debug\ConversionUnidadesDesktop.pdb
+C:\Users\USER\Desktop\Nuevo Carpeta\ArquiG10\ConversionUnidadesWCF\02. CLIESC\obj\Debug\ConversionUnidadesDesktop.csproj.AssemblyReference.cache
+C:\Users\USER\Desktop\Nuevo Carpeta\ArquiG10\ConversionUnidadesWCF\02. CLIESC\obj\Debug\ConversionUnidadesDesktop.exe.config
+C:\Users\USER\Desktop\Nuevo Carpeta\ArquiG10\ConversionUnidadesWCF\02. CLIESC\obj\Debug\ConversionUnidadesDesktop.MainForm.resources
+C:\Users\USER\Desktop\Nuevo Carpeta\ArquiG10\ConversionUnidadesWCF\02. CLIESC\obj\Debug\ConversionUnidadesDesktop.Properties.Resources.resources
+C:\Users\USER\Desktop\Nuevo Carpeta\ArquiG10\ConversionUnidadesWCF\02. CLIESC\obj\Debug\ConversionUnidadesDesktop.csproj.GenerateResource.cache
+C:\Users\USER\Desktop\Nuevo Carpeta\ArquiG10\ConversionUnidadesWCF\02. CLIESC\obj\Debug\ConversionUnidadesDesktop.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\Nuevo Carpeta\ArquiG10\ConversionUnidadesWCF\02. CLIESC\obj\Debug\ConversionUnidadesDesktop.exe
+C:\Users\USER\Desktop\Nuevo Carpeta\ArquiG10\ConversionUnidadesWCF\02. CLIESC\obj\Debug\ConversionUnidadesDesktop.pdb
