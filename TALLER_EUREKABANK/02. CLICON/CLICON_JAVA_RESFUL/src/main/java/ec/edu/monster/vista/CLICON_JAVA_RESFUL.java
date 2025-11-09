@@ -1,4 +1,4 @@
-package ec.edu.monster.clienteconsolaeurekabank;
+package ec.edu.monster.vista;
 
 import java.io.*;
 import java.net.*;
@@ -7,7 +7,22 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
-public class ClienteConsolaEurekabank {
+import java.io.BufferedReader;
+import java.io.Console;
+import java.io.FileDescriptor;
+import java.io.FileOutputStream;
+import java.io.InputStreamReader;
+import java.io.OutputStream;
+import java.io.PrintStream;
+import java.io.UnsupportedEncodingException;
+import java.net.HttpURLConnection;
+import java.net.URL;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
+import java.util.Scanner;
+
+public class CLICON_JAVA_RESFUL {
 
     // Asegúrate de que tu IDE o terminal use UTF-8 para mostrar correctamente los caracteres especiales.
     // En NetBeans, esto a menudo se soluciona añadiendo -J-Dfile.encoding=UTF-8 en las propiedades del proyecto.
