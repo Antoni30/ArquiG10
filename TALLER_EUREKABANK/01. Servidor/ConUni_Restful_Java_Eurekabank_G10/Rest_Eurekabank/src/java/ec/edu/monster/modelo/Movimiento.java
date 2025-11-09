@@ -1,83 +1,45 @@
 package ec.edu.monster.modelo;
 
-import java.util.Date;
-import javax.xml.bind.annotation.XmlRootElement;
-
 /**
  *
  * @author Grupo 10
  *
  */
 
-@XmlRootElement(name = "movimiento")
 public class Movimiento {
-    
-    private String cuenta;
-    private int nromov;
-    private Date fecha;
-    private String tipo;
-    private String accion;
+    private String cuentaCodigo;
+    private int numero;
+    private String fecha;
+    private String empleadoCodigo;
+    private String tipoCodigo;
     private double importe;
+    private String cuentaReferencia;
 
-    public Movimiento() {
-        
-    }
+    public Movimiento() {}
 
-    public Movimiento(String cuenta, int nromov, Date fecha, String tipo, String accion, double importe) {
-        this.cuenta = cuenta;
-        this.nromov = nromov;
+    public Movimiento(String cuentaCodigo, int numero, String fecha,
+                      String empleadoCodigo, String tipoCodigo, double importe, String cuentaReferencia) {
+        this.cuentaCodigo = cuentaCodigo;
+        this.numero = numero;
         this.fecha = fecha;
-        this.tipo = tipo;
-        this.accion = accion;
+        this.empleadoCodigo = empleadoCodigo;
+        this.tipoCodigo = tipoCodigo;
         this.importe = importe;
-    }
-    
-    public String getCuenta() {
-    return cuenta;
+        this.cuentaReferencia = cuentaReferencia;
     }
 
-    public void setCuenta(String cuenta) {
-        this.cuenta = cuenta;
-    }
-
-    public int getNromov() {
-        return nromov;
-    }
-
-    public void setNromov(int nromov) {
-        this.nromov = nromov;
-    }
-
-    public Date getFecha() {
-        return fecha;
-    }
-
-    public void setFecha(Date fecha) {
-        this.fecha = fecha;
-    }
-
-    public String getTipo() {
-        return tipo;
-    }
-    
-    public void setTipo(String tipo) {
-        this.tipo = tipo;
-    }
-    
-    public String getAccion() {
-    return accion;
-    }
-
-    public void setAccion(String accion) {
-        this.accion = accion;
-    }
-
-    public double getImporte() {
-        return importe;
-    }
-
-    public void setImporte(double importe) {
-        this.importe = importe;
-    }
-    
+    public String getCuentaCodigo() { return cuentaCodigo; }
+    public void setCuentaCodigo(String cuentaCodigo) { this.cuentaCodigo = cuentaCodigo; }
+    public int getNumero() { return numero; }
+    public void setNumero(int numero) { this.numero = numero; }
+    public String getFecha() { return fecha; }
+    public void setFecha(String fecha) { this.fecha = fecha; }
+    public String getEmpleadoCodigo() { return empleadoCodigo; }
+    public void setEmpleadoCodigo(String empleadoCodigo) { this.empleadoCodigo = empleadoCodigo; }
+    public String getTipoCodigo() { return tipoCodigo; }
+    public void setTipoCodigo(String tipoCodigo) { this.tipoCodigo = tipoCodigo; }
+    public double getImporte() { return importe; }
+    public void setImporte(double importe) { this.importe = importe; }
+    public String getCuentaReferencia() { return cuentaReferencia; }
+    public void setCuentaReferencia(String cuentaReferencia) { this.cuentaReferencia = cuentaReferencia; }
 }

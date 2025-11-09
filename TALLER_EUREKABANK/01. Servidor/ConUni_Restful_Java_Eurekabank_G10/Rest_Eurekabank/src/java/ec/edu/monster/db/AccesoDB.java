@@ -4,32 +4,20 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
-/**
- *
- * @author Grupo 10
- *
- */
-
 public class AccesoDB {
+    private static final String URL = "jdbc:mysql://localhost:3306/eurekabank?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC";
+    private static final String USER = "root";
+    private static final String PASSWORD = "Nacional178059";
+
+    static {
+        try {
+            Class.forName("com.mysql.cj.jdbc.Driver");
+        } catch (ClassNotFoundException e) {
+            throw new RuntimeException("MySQL JDBC Driver not found. Asegúrate de tener mysql-connector-java en Libraries.", e);
+        }
+    }
 
     public static Connection getConnection() throws SQLException {
-        Connection cn = null;
-        try {
-            // Datos MySQL
-            Class.forName("com.mysql.cj.jdbc.Driver");
-            cn = DriverManager.getConnection(
-                "jdbc:mysql://localhost:3306/eurekabank?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC",
-                "root",
-                "Nacional178059");
-        } catch (SQLException e) {
-            throw e;
-        } 
-        catch (ClassNotFoundException e) {
-            throw new SQLException("Error, no se encuentra el driver");
-        } 
-        catch (Exception e) {
-            throw new SQLException("Error, no se tiene acceso al servidor");
-        }
-        return cn;
+        return DriverManager.getConnection(URL, USER, PASSWORD);
     }
 }
