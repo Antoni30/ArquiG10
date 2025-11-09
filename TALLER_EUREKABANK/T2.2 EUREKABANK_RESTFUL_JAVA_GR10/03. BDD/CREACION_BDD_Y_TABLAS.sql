@@ -1,5 +1,3 @@
-Create Database eurekabank;
-
 CREATE TABLE TipoMovimiento (
 	chr_tipocodigo CHAR(3) NOT NULL,
 	vch_tipodescripcion VARCHAR(40) NOT NULL,
