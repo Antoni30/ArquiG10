@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:tns="http://tempuri.org/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="GetMovimientoCuenta">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="cuenta" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetMovimientoCuentaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetMovimientoCuentaResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RegistrarDeposito">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="cuenta" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="importe" type="s:double" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RegistrarDepositoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="RegistrarDepositoResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RegistrarRetiro">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="cuenta" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="importe" type="s:double" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RegistrarRetiroResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="RegistrarRetiroResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RegistrarTransferencia">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="cuenta" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="importe" type="s:double" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RegistrarTransferenciaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="RegistrarTransferenciaResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ValidarUsuario">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="usuario" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ValidarUsuarioResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="ValidarUsuarioResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="GetMovimientoCuentaSoapIn">
+    <wsdl:part name="parameters" element="tns:GetMovimientoCuenta" />
+  </wsdl:message>
+  <wsdl:message name="GetMovimientoCuentaSoapOut">
+    <wsdl:part name="parameters" element="tns:GetMovimientoCuentaResponse" />
+  </wsdl:message>
+  <wsdl:message name="RegistrarDepositoSoapIn">
+    <wsdl:part name="parameters" element="tns:RegistrarDeposito" />
+  </wsdl:message>
+  <wsdl:message name="RegistrarDepositoSoapOut">
+    <wsdl:part name="parameters" element="tns:RegistrarDepositoResponse" />
+  </wsdl:message>
+  <wsdl:message name="RegistrarRetiroSoapIn">
+    <wsdl:part name="parameters" element="tns:RegistrarRetiro" />
+  </wsdl:message>
+  <wsdl:message name="RegistrarRetiroSoapOut">
+    <wsdl:part name="parameters" element="tns:RegistrarRetiroResponse" />
+  </wsdl:message>
+  <wsdl:message name="RegistrarTransferenciaSoapIn">
+    <wsdl:part name="parameters" element="tns:RegistrarTransferencia" />
+  </wsdl:message>
+  <wsdl:message name="RegistrarTransferenciaSoapOut">
+    <wsdl:part name="parameters" element="tns:RegistrarTransferenciaResponse" />
+  </wsdl:message>
+  <wsdl:message name="ValidarUsuarioSoapIn">
+    <wsdl:part name="parameters" element="tns:ValidarUsuario" />
+  </wsdl:message>
+  <wsdl:message name="ValidarUsuarioSoapOut">
+    <wsdl:part name="parameters" element="tns:ValidarUsuarioResponse" />
+  </wsdl:message>
+  <wsdl:portType name="EurekaServiceDBSoap">
+    <wsdl:operation name="GetMovimientoCuenta">
+      <wsdl:input message="tns:GetMovimientoCuentaSoapIn" />
+      <wsdl:output message="tns:GetMovimientoCuentaSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="RegistrarDeposito">
+      <wsdl:input message="tns:RegistrarDepositoSoapIn" />
+      <wsdl:output message="tns:RegistrarDepositoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="RegistrarRetiro">
+      <wsdl:input message="tns:RegistrarRetiroSoapIn" />
+      <wsdl:output message="tns:RegistrarRetiroSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="RegistrarTransferencia">
+      <wsdl:input message="tns:RegistrarTransferenciaSoapIn" />
+      <wsdl:output message="tns:RegistrarTransferenciaSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ValidarUsuario">
+      <wsdl:input message="tns:ValidarUsuarioSoapIn" />
+      <wsdl:output message="tns:ValidarUsuarioSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="EurekaServiceDBSoap" type="tns:EurekaServiceDBSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetMovimientoCuenta">
+      <soap:operation soapAction="http://tempuri.org/GetMovimientoCuenta" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RegistrarDeposito">
+      <soap:operation soapAction="http://tempuri.org/RegistrarDeposito" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RegistrarRetiro">
+      <soap:operation soapAction="http://tempuri.org/RegistrarRetiro" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RegistrarTransferencia">
+      <soap:operation soapAction="http://tempuri.org/RegistrarTransferencia" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ValidarUsuario">
+      <soap:operation soapAction="http://tempuri.org/ValidarUsuario" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="EurekaServiceDBSoap12" type="tns:EurekaServiceDBSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetMovimientoCuenta">
+      <soap12:operation soapAction="http://tempuri.org/GetMovimientoCuenta" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RegistrarDeposito">
+      <soap12:operation soapAction="http://tempuri.org/RegistrarDeposito" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RegistrarRetiro">
+      <soap12:operation soapAction="http://tempuri.org/RegistrarRetiro" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RegistrarTransferencia">
+      <soap12:operation soapAction="http://tempuri.org/RegistrarTransferencia" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ValidarUsuario">
+      <soap12:operation soapAction="http://tempuri.org/ValidarUsuario" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="EurekaServiceDB">
+    <wsdl:port name="EurekaServiceDBSoap" binding="tns:EurekaServiceDBSoap">
+      <soap:address location="https://localhost:44310/WSEureka/EurekaServiceDB.asmx" />
+    </wsdl:port>
+    <wsdl:port name="EurekaServiceDBSoap12" binding="tns:EurekaServiceDBSoap12">
+      <soap12:address location="https://localhost:44310/WSEureka/EurekaServiceDB.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

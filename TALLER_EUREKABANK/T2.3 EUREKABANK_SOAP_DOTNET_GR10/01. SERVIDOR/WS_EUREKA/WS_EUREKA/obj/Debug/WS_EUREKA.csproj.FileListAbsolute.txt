@@ -1,0 +1,177 @@
+C:\Users\ckan1\source\repos\WS_EUREKA\WS_EUREKA\bin\WS_EUREKA.dll.config
+C:\Users\ckan1\source\repos\WS_EUREKA\WS_EUREKA\bin\WS_EUREKA.dll
+C:\Users\ckan1\source\repos\WS_EUREKA\WS_EUREKA\bin\WS_EUREKA.pdb
+C:\Users\ckan1\source\repos\WS_EUREKA\WS_EUREKA\bin\roslyn\csc.exe
+C:\Users\ckan1\source\repos\WS_EUREKA\WS_EUREKA\bin\roslyn\csc.exe.config
+C:\Users\ckan1\source\repos\WS_EUREKA\WS_EUREKA\bin\roslyn\csc.rsp
+C:\Users\ckan1\source\repos\WS_EUREKA\WS_EUREKA\bin\roslyn\csi.exe
+C:\Users\ckan1\source\repos\WS_EUREKA\WS_EUREKA\bin\roslyn\csi.exe.config
+C:\Users\ckan1\source\repos\WS_EUREKA\WS_EUREKA\bin\roslyn\csi.rsp
+C:\Users\ckan1\source\repos\WS_EUREKA\WS_EUREKA\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ckan1\source\repos\WS_EUREKA\WS_EUREKA\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ckan1\source\repos\WS_EUREKA\WS_EUREKA\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\ckan1\source\repos\WS_EUREKA\WS_EUREKA\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ckan1\source\repos\WS_EUREKA\WS_EUREKA\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\ckan1\source\repos\WS_EUREKA\WS_EUREKA\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ckan1\source\repos\WS_EUREKA\WS_EUREKA\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ckan1\source\repos\WS_EUREKA\WS_EUREKA\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\ckan1\source\repos\WS_EUREKA\WS_EUREKA\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\ckan1\source\repos\WS_EUREKA\WS_EUREKA\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\ckan1\source\repos\WS_EUREKA\WS_EUREKA\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ckan1\source\repos\WS_EUREKA\WS_EUREKA\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\ckan1\source\repos\WS_EUREKA\WS_EUREKA\bin\roslyn\System.AppContext.dll
+C:\Users\ckan1\source\repos\WS_EUREKA\WS_EUREKA\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ckan1\source\repos\WS_EUREKA\WS_EUREKA\bin\roslyn\System.Console.dll
+C:\Users\ckan1\source\repos\WS_EUREKA\WS_EUREKA\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\ckan1\source\repos\WS_EUREKA\WS_EUREKA\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\ckan1\source\repos\WS_EUREKA\WS_EUREKA\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\ckan1\source\repos\WS_EUREKA\WS_EUREKA\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\ckan1\source\repos\WS_EUREKA\WS_EUREKA\bin\roslyn\System.IO.Compression.dll
+C:\Users\ckan1\source\repos\WS_EUREKA\WS_EUREKA\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\ckan1\source\repos\WS_EUREKA\WS_EUREKA\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\ckan1\source\repos\WS_EUREKA\WS_EUREKA\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\ckan1\source\repos\WS_EUREKA\WS_EUREKA\bin\roslyn\System.Net.Http.dll
+C:\Users\ckan1\source\repos\WS_EUREKA\WS_EUREKA\bin\roslyn\System.Net.Sockets.dll
+C:\Users\ckan1\source\repos\WS_EUREKA\WS_EUREKA\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ckan1\source\repos\WS_EUREKA\WS_EUREKA\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\ckan1\source\repos\WS_EUREKA\WS_EUREKA\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\ckan1\source\repos\WS_EUREKA\WS_EUREKA\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\ckan1\source\repos\WS_EUREKA\WS_EUREKA\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\ckan1\source\repos\WS_EUREKA\WS_EUREKA\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\ckan1\source\repos\WS_EUREKA\WS_EUREKA\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\ckan1\source\repos\WS_EUREKA\WS_EUREKA\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\ckan1\source\repos\WS_EUREKA\WS_EUREKA\bin\roslyn\System.ValueTuple.dll
+C:\Users\ckan1\source\repos\WS_EUREKA\WS_EUREKA\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\ckan1\source\repos\WS_EUREKA\WS_EUREKA\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\ckan1\source\repos\WS_EUREKA\WS_EUREKA\bin\roslyn\System.Xml.XPath.dll
+C:\Users\ckan1\source\repos\WS_EUREKA\WS_EUREKA\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\ckan1\source\repos\WS_EUREKA\WS_EUREKA\bin\roslyn\vbc.exe
+C:\Users\ckan1\source\repos\WS_EUREKA\WS_EUREKA\bin\roslyn\vbc.exe.config
+C:\Users\ckan1\source\repos\WS_EUREKA\WS_EUREKA\bin\roslyn\vbc.rsp
+C:\Users\ckan1\source\repos\WS_EUREKA\WS_EUREKA\bin\roslyn\VBCSCompiler.exe
+C:\Users\ckan1\source\repos\WS_EUREKA\WS_EUREKA\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ckan1\source\repos\WS_EUREKA\WS_EUREKA\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ckan1\source\repos\WS_EUREKA\WS_EUREKA\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ckan1\source\repos\WS_EUREKA\WS_EUREKA\obj\Debug\WS_EUREKA.csproj.AssemblyReference.cache
+C:\Users\ckan1\source\repos\WS_EUREKA\WS_EUREKA\obj\Debug\WS_EUREKA.csproj.CoreCompileInputs.cache
+C:\Users\ckan1\source\repos\WS_EUREKA\WS_EUREKA\obj\Debug\WS_EUREKA.csproj.Up2Date
+C:\Users\ckan1\source\repos\WS_EUREKA\WS_EUREKA\obj\Debug\WS_EUREKA.dll
+C:\Users\ckan1\source\repos\WS_EUREKA\WS_EUREKA\obj\Debug\WS_EUREKA.pdb
+C:\ARQUITECTURA SOFT\EUREKABANK\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\01. SERVIDOR\WS_EUREKA\WS_EUREKA\bin\WS_EUREKA.dll.config
+C:\ARQUITECTURA SOFT\EUREKABANK\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\01. SERVIDOR\WS_EUREKA\WS_EUREKA\bin\WS_EUREKA.dll
+C:\ARQUITECTURA SOFT\EUREKABANK\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\01. SERVIDOR\WS_EUREKA\WS_EUREKA\bin\WS_EUREKA.pdb
+C:\ARQUITECTURA SOFT\EUREKABANK\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\01. SERVIDOR\WS_EUREKA\WS_EUREKA\bin\roslyn\csc.exe
+C:\ARQUITECTURA SOFT\EUREKABANK\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\01. SERVIDOR\WS_EUREKA\WS_EUREKA\bin\roslyn\csc.exe.config
+C:\ARQUITECTURA SOFT\EUREKABANK\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\01. SERVIDOR\WS_EUREKA\WS_EUREKA\bin\roslyn\csc.rsp
+C:\ARQUITECTURA SOFT\EUREKABANK\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\01. SERVIDOR\WS_EUREKA\WS_EUREKA\bin\roslyn\csi.exe
+C:\ARQUITECTURA SOFT\EUREKABANK\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\01. SERVIDOR\WS_EUREKA\WS_EUREKA\bin\roslyn\csi.exe.config
+C:\ARQUITECTURA SOFT\EUREKABANK\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\01. SERVIDOR\WS_EUREKA\WS_EUREKA\bin\roslyn\csi.rsp
+C:\ARQUITECTURA SOFT\EUREKABANK\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\01. SERVIDOR\WS_EUREKA\WS_EUREKA\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\ARQUITECTURA SOFT\EUREKABANK\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\01. SERVIDOR\WS_EUREKA\WS_EUREKA\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\ARQUITECTURA SOFT\EUREKABANK\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\01. SERVIDOR\WS_EUREKA\WS_EUREKA\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\ARQUITECTURA SOFT\EUREKABANK\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\01. SERVIDOR\WS_EUREKA\WS_EUREKA\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\ARQUITECTURA SOFT\EUREKABANK\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\01. SERVIDOR\WS_EUREKA\WS_EUREKA\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\ARQUITECTURA SOFT\EUREKABANK\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\01. SERVIDOR\WS_EUREKA\WS_EUREKA\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\ARQUITECTURA SOFT\EUREKABANK\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\01. SERVIDOR\WS_EUREKA\WS_EUREKA\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\ARQUITECTURA SOFT\EUREKABANK\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\01. SERVIDOR\WS_EUREKA\WS_EUREKA\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\ARQUITECTURA SOFT\EUREKABANK\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\01. SERVIDOR\WS_EUREKA\WS_EUREKA\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\ARQUITECTURA SOFT\EUREKABANK\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\01. SERVIDOR\WS_EUREKA\WS_EUREKA\bin\roslyn\Microsoft.Managed.Core.targets
+C:\ARQUITECTURA SOFT\EUREKABANK\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\01. SERVIDOR\WS_EUREKA\WS_EUREKA\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\ARQUITECTURA SOFT\EUREKABANK\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\01. SERVIDOR\WS_EUREKA\WS_EUREKA\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\ARQUITECTURA SOFT\EUREKABANK\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\01. SERVIDOR\WS_EUREKA\WS_EUREKA\bin\roslyn\System.AppContext.dll
+C:\ARQUITECTURA SOFT\EUREKABANK\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\01. SERVIDOR\WS_EUREKA\WS_EUREKA\bin\roslyn\System.Collections.Immutable.dll
+C:\ARQUITECTURA SOFT\EUREKABANK\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\01. SERVIDOR\WS_EUREKA\WS_EUREKA\bin\roslyn\System.Console.dll
+C:\ARQUITECTURA SOFT\EUREKABANK\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\01. SERVIDOR\WS_EUREKA\WS_EUREKA\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\ARQUITECTURA SOFT\EUREKABANK\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\01. SERVIDOR\WS_EUREKA\WS_EUREKA\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\ARQUITECTURA SOFT\EUREKABANK\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\01. SERVIDOR\WS_EUREKA\WS_EUREKA\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\ARQUITECTURA SOFT\EUREKABANK\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\01. SERVIDOR\WS_EUREKA\WS_EUREKA\bin\roslyn\System.Globalization.Calendars.dll
+C:\ARQUITECTURA SOFT\EUREKABANK\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\01. SERVIDOR\WS_EUREKA\WS_EUREKA\bin\roslyn\System.IO.Compression.dll
+C:\ARQUITECTURA SOFT\EUREKABANK\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\01. SERVIDOR\WS_EUREKA\WS_EUREKA\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\ARQUITECTURA SOFT\EUREKABANK\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\01. SERVIDOR\WS_EUREKA\WS_EUREKA\bin\roslyn\System.IO.FileSystem.dll
+C:\ARQUITECTURA SOFT\EUREKABANK\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\01. SERVIDOR\WS_EUREKA\WS_EUREKA\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\ARQUITECTURA SOFT\EUREKABANK\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\01. SERVIDOR\WS_EUREKA\WS_EUREKA\bin\roslyn\System.Net.Http.dll
+C:\ARQUITECTURA SOFT\EUREKABANK\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\01. SERVIDOR\WS_EUREKA\WS_EUREKA\bin\roslyn\System.Net.Sockets.dll
+C:\ARQUITECTURA SOFT\EUREKABANK\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\01. SERVIDOR\WS_EUREKA\WS_EUREKA\bin\roslyn\System.Reflection.Metadata.dll
+C:\ARQUITECTURA SOFT\EUREKABANK\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\01. SERVIDOR\WS_EUREKA\WS_EUREKA\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\ARQUITECTURA SOFT\EUREKABANK\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\01. SERVIDOR\WS_EUREKA\WS_EUREKA\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\ARQUITECTURA SOFT\EUREKABANK\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\01. SERVIDOR\WS_EUREKA\WS_EUREKA\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\ARQUITECTURA SOFT\EUREKABANK\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\01. SERVIDOR\WS_EUREKA\WS_EUREKA\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\ARQUITECTURA SOFT\EUREKABANK\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\01. SERVIDOR\WS_EUREKA\WS_EUREKA\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\ARQUITECTURA SOFT\EUREKABANK\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\01. SERVIDOR\WS_EUREKA\WS_EUREKA\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\ARQUITECTURA SOFT\EUREKABANK\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\01. SERVIDOR\WS_EUREKA\WS_EUREKA\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\ARQUITECTURA SOFT\EUREKABANK\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\01. SERVIDOR\WS_EUREKA\WS_EUREKA\bin\roslyn\System.ValueTuple.dll
+C:\ARQUITECTURA SOFT\EUREKABANK\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\01. SERVIDOR\WS_EUREKA\WS_EUREKA\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\ARQUITECTURA SOFT\EUREKABANK\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\01. SERVIDOR\WS_EUREKA\WS_EUREKA\bin\roslyn\System.Xml.XmlDocument.dll
+C:\ARQUITECTURA SOFT\EUREKABANK\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\01. SERVIDOR\WS_EUREKA\WS_EUREKA\bin\roslyn\System.Xml.XPath.dll
+C:\ARQUITECTURA SOFT\EUREKABANK\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\01. SERVIDOR\WS_EUREKA\WS_EUREKA\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\ARQUITECTURA SOFT\EUREKABANK\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\01. SERVIDOR\WS_EUREKA\WS_EUREKA\bin\roslyn\vbc.exe
+C:\ARQUITECTURA SOFT\EUREKABANK\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\01. SERVIDOR\WS_EUREKA\WS_EUREKA\bin\roslyn\vbc.exe.config
+C:\ARQUITECTURA SOFT\EUREKABANK\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\01. SERVIDOR\WS_EUREKA\WS_EUREKA\bin\roslyn\vbc.rsp
+C:\ARQUITECTURA SOFT\EUREKABANK\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\01. SERVIDOR\WS_EUREKA\WS_EUREKA\bin\roslyn\VBCSCompiler.exe
+C:\ARQUITECTURA SOFT\EUREKABANK\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\01. SERVIDOR\WS_EUREKA\WS_EUREKA\bin\roslyn\VBCSCompiler.exe.config
+C:\ARQUITECTURA SOFT\EUREKABANK\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\01. SERVIDOR\WS_EUREKA\WS_EUREKA\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\ARQUITECTURA SOFT\EUREKABANK\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\01. SERVIDOR\WS_EUREKA\WS_EUREKA\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\ARQUITECTURA SOFT\EUREKABANK\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\01. SERVIDOR\WS_EUREKA\WS_EUREKA\obj\Debug\WS_EUREKA.csproj.AssemblyReference.cache
+C:\ARQUITECTURA SOFT\EUREKABANK\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\01. SERVIDOR\WS_EUREKA\WS_EUREKA\obj\Debug\WS_EUREKA.csproj.CoreCompileInputs.cache
+C:\ARQUITECTURA SOFT\EUREKABANK\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\01. SERVIDOR\WS_EUREKA\WS_EUREKA\obj\Debug\WS_EUREKA.csproj.Up2Date
+C:\ARQUITECTURA SOFT\EUREKABANK\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\01. SERVIDOR\WS_EUREKA\WS_EUREKA\obj\Debug\WS_EUREKA.dll
+C:\ARQUITECTURA SOFT\EUREKABANK\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\01. SERVIDOR\WS_EUREKA\WS_EUREKA\obj\Debug\WS_EUREKA.pdb
+C:\Users\rodri\OneDrive\Escritorio\test\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\01. SERVIDOR\WS_EUREKA\WS_EUREKA\bin\WS_EUREKA.dll.config
+C:\Users\rodri\OneDrive\Escritorio\test\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\01. SERVIDOR\WS_EUREKA\WS_EUREKA\bin\WS_EUREKA.dll
+C:\Users\rodri\OneDrive\Escritorio\test\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\01. SERVIDOR\WS_EUREKA\WS_EUREKA\bin\WS_EUREKA.pdb
+C:\Users\rodri\OneDrive\Escritorio\test\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\01. SERVIDOR\WS_EUREKA\WS_EUREKA\bin\roslyn\csc.exe
+C:\Users\rodri\OneDrive\Escritorio\test\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\01. SERVIDOR\WS_EUREKA\WS_EUREKA\bin\roslyn\csc.exe.config
+C:\Users\rodri\OneDrive\Escritorio\test\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\01. SERVIDOR\WS_EUREKA\WS_EUREKA\bin\roslyn\csc.rsp
+C:\Users\rodri\OneDrive\Escritorio\test\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\01. SERVIDOR\WS_EUREKA\WS_EUREKA\bin\roslyn\csi.exe
+C:\Users\rodri\OneDrive\Escritorio\test\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\01. SERVIDOR\WS_EUREKA\WS_EUREKA\bin\roslyn\csi.exe.config
+C:\Users\rodri\OneDrive\Escritorio\test\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\01. SERVIDOR\WS_EUREKA\WS_EUREKA\bin\roslyn\csi.rsp
+C:\Users\rodri\OneDrive\Escritorio\test\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\01. SERVIDOR\WS_EUREKA\WS_EUREKA\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\rodri\OneDrive\Escritorio\test\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\01. SERVIDOR\WS_EUREKA\WS_EUREKA\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\rodri\OneDrive\Escritorio\test\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\01. SERVIDOR\WS_EUREKA\WS_EUREKA\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\rodri\OneDrive\Escritorio\test\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\01. SERVIDOR\WS_EUREKA\WS_EUREKA\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\rodri\OneDrive\Escritorio\test\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\01. SERVIDOR\WS_EUREKA\WS_EUREKA\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\rodri\OneDrive\Escritorio\test\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\01. SERVIDOR\WS_EUREKA\WS_EUREKA\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\rodri\OneDrive\Escritorio\test\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\01. SERVIDOR\WS_EUREKA\WS_EUREKA\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\rodri\OneDrive\Escritorio\test\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\01. SERVIDOR\WS_EUREKA\WS_EUREKA\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\rodri\OneDrive\Escritorio\test\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\01. SERVIDOR\WS_EUREKA\WS_EUREKA\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\rodri\OneDrive\Escritorio\test\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\01. SERVIDOR\WS_EUREKA\WS_EUREKA\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\rodri\OneDrive\Escritorio\test\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\01. SERVIDOR\WS_EUREKA\WS_EUREKA\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\rodri\OneDrive\Escritorio\test\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\01. SERVIDOR\WS_EUREKA\WS_EUREKA\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\rodri\OneDrive\Escritorio\test\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\01. SERVIDOR\WS_EUREKA\WS_EUREKA\bin\roslyn\System.AppContext.dll
+C:\Users\rodri\OneDrive\Escritorio\test\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\01. SERVIDOR\WS_EUREKA\WS_EUREKA\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\rodri\OneDrive\Escritorio\test\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\01. SERVIDOR\WS_EUREKA\WS_EUREKA\bin\roslyn\System.Console.dll
+C:\Users\rodri\OneDrive\Escritorio\test\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\01. SERVIDOR\WS_EUREKA\WS_EUREKA\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\rodri\OneDrive\Escritorio\test\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\01. SERVIDOR\WS_EUREKA\WS_EUREKA\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\rodri\OneDrive\Escritorio\test\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\01. SERVIDOR\WS_EUREKA\WS_EUREKA\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\rodri\OneDrive\Escritorio\test\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\01. SERVIDOR\WS_EUREKA\WS_EUREKA\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\rodri\OneDrive\Escritorio\test\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\01. SERVIDOR\WS_EUREKA\WS_EUREKA\bin\roslyn\System.IO.Compression.dll
+C:\Users\rodri\OneDrive\Escritorio\test\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\01. SERVIDOR\WS_EUREKA\WS_EUREKA\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\rodri\OneDrive\Escritorio\test\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\01. SERVIDOR\WS_EUREKA\WS_EUREKA\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\rodri\OneDrive\Escritorio\test\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\01. SERVIDOR\WS_EUREKA\WS_EUREKA\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\rodri\OneDrive\Escritorio\test\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\01. SERVIDOR\WS_EUREKA\WS_EUREKA\bin\roslyn\System.Net.Http.dll
+C:\Users\rodri\OneDrive\Escritorio\test\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\01. SERVIDOR\WS_EUREKA\WS_EUREKA\bin\roslyn\System.Net.Sockets.dll
+C:\Users\rodri\OneDrive\Escritorio\test\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\01. SERVIDOR\WS_EUREKA\WS_EUREKA\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\rodri\OneDrive\Escritorio\test\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\01. SERVIDOR\WS_EUREKA\WS_EUREKA\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\rodri\OneDrive\Escritorio\test\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\01. SERVIDOR\WS_EUREKA\WS_EUREKA\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\rodri\OneDrive\Escritorio\test\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\01. SERVIDOR\WS_EUREKA\WS_EUREKA\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\rodri\OneDrive\Escritorio\test\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\01. SERVIDOR\WS_EUREKA\WS_EUREKA\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\rodri\OneDrive\Escritorio\test\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\01. SERVIDOR\WS_EUREKA\WS_EUREKA\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\rodri\OneDrive\Escritorio\test\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\01. SERVIDOR\WS_EUREKA\WS_EUREKA\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\rodri\OneDrive\Escritorio\test\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\01. SERVIDOR\WS_EUREKA\WS_EUREKA\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\rodri\OneDrive\Escritorio\test\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\01. SERVIDOR\WS_EUREKA\WS_EUREKA\bin\roslyn\System.ValueTuple.dll
+C:\Users\rodri\OneDrive\Escritorio\test\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\01. SERVIDOR\WS_EUREKA\WS_EUREKA\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\rodri\OneDrive\Escritorio\test\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\01. SERVIDOR\WS_EUREKA\WS_EUREKA\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\rodri\OneDrive\Escritorio\test\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\01. SERVIDOR\WS_EUREKA\WS_EUREKA\bin\roslyn\System.Xml.XPath.dll
+C:\Users\rodri\OneDrive\Escritorio\test\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\01. SERVIDOR\WS_EUREKA\WS_EUREKA\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\rodri\OneDrive\Escritorio\test\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\01. SERVIDOR\WS_EUREKA\WS_EUREKA\bin\roslyn\vbc.exe
+C:\Users\rodri\OneDrive\Escritorio\test\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\01. SERVIDOR\WS_EUREKA\WS_EUREKA\bin\roslyn\vbc.exe.config
+C:\Users\rodri\OneDrive\Escritorio\test\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\01. SERVIDOR\WS_EUREKA\WS_EUREKA\bin\roslyn\vbc.rsp
+C:\Users\rodri\OneDrive\Escritorio\test\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\01. SERVIDOR\WS_EUREKA\WS_EUREKA\bin\roslyn\VBCSCompiler.exe
+C:\Users\rodri\OneDrive\Escritorio\test\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\01. SERVIDOR\WS_EUREKA\WS_EUREKA\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\rodri\OneDrive\Escritorio\test\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\01. SERVIDOR\WS_EUREKA\WS_EUREKA\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\rodri\OneDrive\Escritorio\test\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\01. SERVIDOR\WS_EUREKA\WS_EUREKA\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\rodri\OneDrive\Escritorio\test\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\01. SERVIDOR\WS_EUREKA\WS_EUREKA\obj\Debug\WS_EUREKA.csproj.AssemblyReference.cache
+C:\Users\rodri\OneDrive\Escritorio\test\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\01. SERVIDOR\WS_EUREKA\WS_EUREKA\obj\Debug\WS_EUREKA.csproj.CoreCompileInputs.cache
+C:\Users\rodri\OneDrive\Escritorio\test\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\01. SERVIDOR\WS_EUREKA\WS_EUREKA\obj\Debug\WS_EUREKA.csproj.Up2Date
+C:\Users\rodri\OneDrive\Escritorio\test\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\01. SERVIDOR\WS_EUREKA\WS_EUREKA\obj\Debug\WS_EUREKA.dll
+C:\Users\rodri\OneDrive\Escritorio\test\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\01. SERVIDOR\WS_EUREKA\WS_EUREKA\obj\Debug\WS_EUREKA.pdb
