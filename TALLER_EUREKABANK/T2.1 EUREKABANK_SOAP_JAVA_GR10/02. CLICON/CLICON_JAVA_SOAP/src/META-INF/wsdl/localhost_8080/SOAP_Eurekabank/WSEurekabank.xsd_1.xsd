@@ -1,0 +1,202 @@
+<?xml version='1.0' encoding='UTF-8'?><!-- Published by JAX-WS RI (http://jax-ws.java.net). RI's version is Metro/2.3.2-b608 (trunk-7979; 2015-01-21T12:50:19+0000) JAXWS-RI/2.2.11-b150120.1832 JAXWS-API/2.2.12 JAXB-RI/2.2.12-b141219.1637 JAXB-API/2.2.13-b141020.1521 svn-revision#unknown. --><xs:schema xmlns:tns="http://ws.monster.edu.ec/" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0" targetNamespace="http://ws.monster.edu.ec/">
+
+<xs:element name="buscarPorId" type="tns:buscarPorId"/>
+
+<xs:element name="buscarPorIdEmpleado" type="tns:buscarPorIdEmpleado"/>
+
+<xs:element name="buscarPorIdEmpleadoResponse" type="tns:buscarPorIdEmpleadoResponse"/>
+
+<xs:element name="buscarPorIdResponse" type="tns:buscarPorIdResponse"/>
+
+<xs:element name="cuenta" type="tns:cuenta"/>
+
+<xs:element name="empleado" type="tns:empleado"/>
+
+<xs:element name="hacerDeposito" type="tns:hacerDeposito"/>
+
+<xs:element name="hacerDepositoResponse" type="tns:hacerDepositoResponse"/>
+
+<xs:element name="hacerRetiro" type="tns:hacerRetiro"/>
+
+<xs:element name="hacerRetiroResponse" type="tns:hacerRetiroResponse"/>
+
+<xs:element name="hacerTransferencia" type="tns:hacerTransferencia"/>
+
+<xs:element name="hacerTransferenciaResponse" type="tns:hacerTransferenciaResponse"/>
+
+<xs:element name="listarCuentas" type="tns:listarCuentas"/>
+
+<xs:element name="listarCuentasResponse" type="tns:listarCuentasResponse"/>
+
+<xs:element name="movimiento" type="tns:movimiento"/>
+
+<xs:element name="movimientoRequest" type="tns:movimientoRequest"/>
+
+<xs:element name="obtenerMovimientos" type="tns:obtenerMovimientos"/>
+
+<xs:element name="obtenerMovimientosResponse" type="tns:obtenerMovimientosResponse"/>
+
+<xs:element name="tipoMoviento" type="tns:tipoMoviento"/>
+
+<xs:element name="tipoMovientoResponse" type="tns:tipoMovientoResponse"/>
+
+<xs:element name="tipoMovimiento" type="tns:tipoMovimiento"/>
+
+<xs:complexType name="hacerRetiro">
+<xs:sequence>
+<xs:element name="req" type="tns:movimientoRequest" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="movimientoRequest">
+<xs:sequence>
+<xs:element name="cuentaCodigo" type="xs:string" minOccurs="0"/>
+<xs:element name="empleadoCodigo" type="xs:string" minOccurs="0"/>
+<xs:element name="importe" type="xs:double"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="hacerRetiroResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="obtenerMovimientos">
+<xs:sequence>
+<xs:element name="req" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="obtenerMovimientosResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:movimiento" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="movimiento">
+<xs:sequence>
+<xs:element name="cuentaCodigo" type="xs:string" minOccurs="0"/>
+<xs:element name="cuentaReferencia" type="xs:string" minOccurs="0"/>
+<xs:element name="empleadoCodigo" type="xs:string" minOccurs="0"/>
+<xs:element name="fecha" type="xs:string" minOccurs="0"/>
+<xs:element name="importe" type="xs:double"/>
+<xs:element name="numero" type="xs:int"/>
+<xs:element name="tipoCodigo" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="hacerDeposito">
+<xs:sequence>
+<xs:element name="req" type="tns:movimientoRequest" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="hacerDepositoResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="buscarPorIdEmpleado">
+<xs:sequence>
+<xs:element name="req" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="buscarPorIdEmpleadoResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:empleado" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="empleado">
+<xs:sequence>
+<xs:element name="ciudad" type="xs:string" minOccurs="0"/>
+<xs:element name="codigo" type="xs:string" minOccurs="0"/>
+<xs:element name="direccion" type="xs:string" minOccurs="0"/>
+<xs:element name="materno" type="xs:string" minOccurs="0"/>
+<xs:element name="nombre" type="xs:string" minOccurs="0"/>
+<xs:element name="paterno" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="listarCuentas">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="listarCuentasResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:cuenta" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="cuenta">
+<xs:sequence>
+<xs:element name="clave" type="xs:string" minOccurs="0"/>
+<xs:element name="clienteCodigo" type="xs:string" minOccurs="0"/>
+<xs:element name="codigo" type="xs:string" minOccurs="0"/>
+<xs:element name="contadorMovimientos" type="xs:int"/>
+<xs:element name="empleadoCreacion" type="xs:string" minOccurs="0"/>
+<xs:element name="estado" type="xs:string" minOccurs="0"/>
+<xs:element name="fechaCreacion" type="xs:string" minOccurs="0"/>
+<xs:element name="monedaCodigo" type="xs:string" minOccurs="0"/>
+<xs:element name="saldo" type="xs:double"/>
+<xs:element name="sucursalCodigo" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="tipoMoviento">
+<xs:sequence>
+<xs:element name="req" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="tipoMovientoResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:tipoMovimiento" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="tipoMovimiento">
+<xs:sequence>
+<xs:element name="accion" type="xs:string" minOccurs="0"/>
+<xs:element name="codigo" type="xs:string" minOccurs="0"/>
+<xs:element name="descripcion" type="xs:string" minOccurs="0"/>
+<xs:element name="estado" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="buscarPorId">
+<xs:sequence>
+<xs:element name="req" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="buscarPorIdResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:cuenta" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="hacerTransferencia">
+<xs:sequence>
+<xs:element name="req" type="tns:transferenciaRequest" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="transferenciaRequest">
+<xs:sequence>
+<xs:element name="cuentaDestino" type="xs:string" minOccurs="0"/>
+<xs:element name="cuentaOrigen" type="xs:string" minOccurs="0"/>
+<xs:element name="empleadoCodigo" type="xs:string" minOccurs="0"/>
+<xs:element name="importe" type="xs:double"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="hacerTransferenciaResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+</xs:schema>

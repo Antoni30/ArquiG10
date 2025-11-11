@@ -11,7 +11,7 @@ public class ClienteConsolaEurekabank {
 
     // Asegúrate de que tu IDE o terminal use UTF-8 para mostrar correctamente los caracteres especiales.
     // En NetBeans, esto a menudo se soluciona añadiendo -J-Dfile.encoding=UTF-8 en las propiedades del proyecto.
-    private static final String BASE_URL = "http://192.168.18.6:8080/Rest_Eurekabank/api";
+    private static final String BASE_URL = "http://localhost:8080/Rest_Eurekabank/api";
     private static final String USUARIO_VALIDO = "MONSTER";
     private static final String CONTRASENA_VALIDA = "MONSTER9";
 
