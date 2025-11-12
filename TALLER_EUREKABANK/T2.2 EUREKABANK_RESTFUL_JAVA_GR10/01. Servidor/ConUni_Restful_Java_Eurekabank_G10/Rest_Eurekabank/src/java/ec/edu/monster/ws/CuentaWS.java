@@ -259,8 +259,8 @@ public class CuentaWS {
     public Response obtenerMovimientos(@PathParam("cuentaCodigo") String cuentaCodigo) {
         List<Movimiento> lista = new ArrayList<>();
         String sql = "SELECT chr_cuencodigo, int_movinumero, dtt_movifecha, chr_emplcodigo, " +
-                     "chr_tipocodigo, dec_moviimporte, chr_cuenreferencia FROM Movimiento "+
-                "WHERE chr_cuencodigo = ? ORDER BY  int_movinumero ASC; ";
+                     "chr_tipocodigo, dec_moviimporte, chr_cuenreferencia FROM Movimiento " +
+                     "WHERE chr_cuencodigo = ? ORDER BY dtt_movifecha DESC, int_movinumero DESC";
 
         try (Connection cn = AccesoDB.getConnection();
              PreparedStatement pstm = cn.prepareStatement(sql)) {

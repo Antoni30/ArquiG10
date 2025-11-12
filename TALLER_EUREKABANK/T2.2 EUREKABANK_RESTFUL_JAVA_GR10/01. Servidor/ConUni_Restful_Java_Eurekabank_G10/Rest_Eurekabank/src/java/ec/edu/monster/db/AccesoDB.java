@@ -7,7 +7,7 @@ import java.sql.SQLException;
 public class AccesoDB {
     private static final String URL = "jdbc:mysql://localhost:3306/eurekabank?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC";
     private static final String USER = "root";
-    private static final String PASSWORD = "adminadmin123";
+    private static final String PASSWORD = "Nacional178059";
 
     static {
         try {
