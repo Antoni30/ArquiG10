@@ -2,11 +2,6 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group>
-            <file>file:/C:/Users/USER/Downloads/Pro-Monster/T2.2%20EUREKABANK_RESTFUL_JAVA_GR10/01.%20Servidor/ConUni_Restful_Java_Eurekabank_G10/Rest_Eurekabank/src/java/ec/edu/monster/servicio/EurekaService.java</file>
-            <file>file:/C:/Users/USER/Downloads/Pro-Monster/T2.2%20EUREKABANK_RESTFUL_JAVA_GR10/01.%20Servidor/ConUni_Restful_Java_Eurekabank_G10/Rest_Eurekabank/src/java/ec/edu/monster/db/AccesoDB.java</file>
-            <file>file:/C:/Users/USER/Downloads/Pro-Monster/T2.2%20EUREKABANK_RESTFUL_JAVA_GR10/01.%20Servidor/ConUni_Restful_Java_Eurekabank_G10/Rest_Eurekabank/src/java/ec/edu/monster/filter/CorsFilter.java</file>
-            <file>file:/C:/Users/USER/Downloads/Pro-Monster/T2.2%20EUREKABANK_RESTFUL_JAVA_GR10/01.%20Servidor/ConUni_Restful_Java_Eurekabank_G10/Rest_Eurekabank/src/java/ec/edu/monster/ws/CuentaWS.java</file>
-        </group>
+        <group/>
     </open-files>
 </project-private>

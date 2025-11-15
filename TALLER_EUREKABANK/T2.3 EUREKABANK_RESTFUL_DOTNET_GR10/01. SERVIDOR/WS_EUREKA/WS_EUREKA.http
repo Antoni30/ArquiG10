@@ -1,0 +1,44 @@
+@WS_EUREKA_HostAddress = http://localhost:5006
+
+### Obtener movimientos de una cuenta
+GET {{WS_EUREKA_HostAddress}}/api/movimientos/00100001
+Accept: application/json
+
+### Autenticar usuario
+POST {{WS_EUREKA_HostAddress}}/api/movimientos/autenticar
+Content-Type: application/json
+
+{
+  "usuario": "MONSTER",
+  "password": "MONSTER9"
+}
+
+### Registrar depósito
+POST {{WS_EUREKA_HostAddress}}/api/movimientos/deposito
+Content-Type: application/json
+
+{
+  "cuenta": "00100001",
+  "importe": 500.0,
+  "codEmp": "0001"
+}
+
+### Registrar retiro
+POST {{WS_EUREKA_HostAddress}}/api/movimientos/retiro
+Content-Type: application/json
+
+{
+  "cuenta": "00100001",
+  "importe": 200.0,
+  "codEmp": "0001"
+}
+
+### Registrar transferencia
+POST {{WS_EUREKA_HostAddress}}/api/movimientos/transferencia
+Content-Type: application/json
+
+{
+  "cuenta": "00100001",
+  "importe": 150.0,
+  "codEmp": "0001"
+}

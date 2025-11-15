@@ -227,7 +227,7 @@ public class CLICON_JAVA_SOAP {
             return;
         }
         
-        System.out.print("Ingresa el importe: ");
+        System.out.print("Ingresa la cantidad: ");
         double importe;
         try {
             importe = Double.parseDouble(scanner.nextLine());
@@ -242,8 +242,7 @@ public class CLICON_JAVA_SOAP {
             return;
         }
         
-        System.out.print("Ingresa el código del empleado: ");
-        String empleado = scanner.nextLine().trim();
+        String empleado = "0001";
         
         if (empleado.isEmpty()) {
             System.out.println("❌ El código del empleado no puede estar vacío.");
@@ -282,7 +281,7 @@ public class CLICON_JAVA_SOAP {
             return;
         }
         
-        System.out.print("Ingresa el importe: ");
+        System.out.print("Ingresa la cantidad: ");
         double importe;
         try {
             importe = Double.parseDouble(scanner.nextLine());
@@ -297,8 +296,7 @@ public class CLICON_JAVA_SOAP {
             return;
         }
         
-        System.out.print("Ingresa el código del empleado: ");
-        String empleado = scanner.nextLine().trim();
+        String empleado = "0001";
         
         if (empleado.isEmpty()) {
             System.out.println("❌ El código del empleado no puede estar vacío.");
@@ -351,7 +349,7 @@ public class CLICON_JAVA_SOAP {
             return;
         }
         
-        System.out.print("Ingresa el importe: ");
+        System.out.print("Ingresa la cantidad: ");
         double importe;
         try {
             importe = Double.parseDouble(scanner.nextLine());
@@ -366,8 +364,8 @@ public class CLICON_JAVA_SOAP {
             return;
         }
         
-        System.out.print("Ingresa el código del empleado: ");
-        String empleado = scanner.nextLine().trim();
+
+        String empleado = "0001";
         
         if (empleado.isEmpty()) {
             System.out.println("❌ El código del empleado no puede estar vacío.");

@@ -11,7 +11,7 @@ public class ClienteConsolaEurekabank {
 
     // Asegúrate de que tu IDE o terminal use UTF-8 para mostrar correctamente los caracteres especiales.
     // En NetBeans, esto a menudo se soluciona añadiendo -J-Dfile.encoding=UTF-8 en las propiedades del proyecto.
-    private static final String BASE_URL = "http://10.240.0.218:8080/Rest_Eurekabank/api";
+    private static final String BASE_URL = "http://localhost:8080/Rest_Eurekabank/api";
     private static final String USUARIO_VALIDO = "MONSTER";
     private static final String CONTRASENA_VALIDA = "MONSTER9";
 
@@ -251,23 +251,23 @@ public class ClienteConsolaEurekabank {
             return;
         }
         
-        System.out.print("Ingresa el importe: ");
+        System.out.print("Ingresa la cantidad: ");
         double importe;
         try {
             importe = Double.parseDouble(scanner.nextLine());
             if (importe <= 0) {
-                System.out.println("❌ El importe debe ser mayor a 0.");
+                System.out.println("❌ La cantidad debe ser mayor a 0.");
                 pausar(scanner);
                 return;
             }
         } catch (NumberFormatException e) {
-            System.out.println("❌ Importe inválido.");
+            System.out.println("❌ cantidad inválido.");
             pausar(scanner);
             return;
         }
         
-        System.out.print("Ingresa el código del empleado: ");
-        String empleado = scanner.nextLine().trim();
+       
+        String empleado = "0001";
         
         if (empleado.isEmpty()) {
             System.out.println("❌ El código del empleado no puede estar vacío.");
@@ -320,7 +320,7 @@ public class ClienteConsolaEurekabank {
             return;
         }
         
-        System.out.print("Ingresa el importe: ");
+        System.out.print("Ingresa la cantidad: ");
         double importe;
         try {
             importe = Double.parseDouble(scanner.nextLine());
@@ -335,8 +335,7 @@ public class ClienteConsolaEurekabank {
             return;
         }
         
-        System.out.print("Ingresa el código del empleado: ");
-        String empleado = scanner.nextLine().trim();
+        String empleado = "0001";
         
         if (empleado.isEmpty()) {
             System.out.println("❌ El código del empleado no puede estar vacío.");
@@ -404,23 +403,23 @@ public class ClienteConsolaEurekabank {
             return;
         }
         
-        System.out.print("Ingresa el importe: ");
+        System.out.print("Ingresa la cantidad: ");
         double importe;
         try {
             importe = Double.parseDouble(scanner.nextLine());
             if (importe <= 0) {
-                System.out.println("❌ El importe debe ser mayor a 0.");
+                System.out.println("❌ La cantidad debe ser mayor a 0.");
                 pausar(scanner);
                 return;
             }
         } catch (NumberFormatException e) {
-            System.out.println("❌ Importe inválido.");
+            System.out.println("❌ cantidad inválido.");
             pausar(scanner);
             return;
         }
         
-        System.out.print("Ingresa el código del empleado: ");
-        String empleado = scanner.nextLine().trim();
+        
+        String empleado = "0001";
         
         if (empleado.isEmpty()) {
             System.out.println("❌ El código del empleado no puede estar vacío.");

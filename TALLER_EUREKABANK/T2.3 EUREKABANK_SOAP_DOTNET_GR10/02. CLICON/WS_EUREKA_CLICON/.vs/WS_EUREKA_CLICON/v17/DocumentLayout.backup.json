@@ -1,21 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\rodri\\OneDrive\\Escritorio\\test\\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\\02. CLICON\\WS_EUREKA_CLICON\\",
+  "WorkspaceRootPath": "C:\\Users\\rodri\\OneDrive\\Escritorio\\arqui\\ArquiG10\\TALLER_EUREKABANK\\T2.3 EUREKABANK_SOAP_DOTNET_GR10\\02. CLICON\\WS_EUREKA_CLICON\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E31FABBE-6535-43A3-BA3B-2BC49BDB428E}|WS_EUREKA_CLICON\\WS_EUREKA_CLICON.csproj|c:\\users\\rodri\\onedrive\\escritorio\\test\\02. eurekabank_soap_dotnet_grupo_3\\02. clicon\\ws_eureka_clicon\\ws_eureka_clicon\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E31FABBE-6535-43A3-BA3B-2BC49BDB428E}|WS_EUREKA_CLICON\\WS_EUREKA_CLICON.csproj|solutionrelative:ws_eureka_clicon\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E31FABBE-6535-43A3-BA3B-2BC49BDB428E}|WS_EUREKA_CLICON\\WS_EUREKA_CLICON.csproj|C:\\Users\\rodri\\OneDrive\\Escritorio\\test\\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\\02. CLICON\\WS_EUREKA_CLICON\\ws_eureka_clicon\\controller\\eurekacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E31FABBE-6535-43A3-BA3B-2BC49BDB428E}|WS_EUREKA_CLICON\\WS_EUREKA_CLICON.csproj|solutionrelative:ws_eureka_clicon\\controller\\eurekacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E31FABBE-6535-43A3-BA3B-2BC49BDB428E}|WS_EUREKA_CLICON\\WS_EUREKA_CLICON.csproj|C:\\Users\\rodri\\OneDrive\\Escritorio\\test\\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\\02. CLICON\\WS_EUREKA_CLICON\\ws_eureka_clicon\\view\\eurekaview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E31FABBE-6535-43A3-BA3B-2BC49BDB428E}|WS_EUREKA_CLICON\\WS_EUREKA_CLICON.csproj|c:\\users\\rodri\\onedrive\\escritorio\\arqui\\arquig10\\taller_eurekabank\\t2.3 eurekabank_soap_dotnet_gr10\\02. clicon\\ws_eureka_clicon\\ws_eureka_clicon\\view\\eurekaview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E31FABBE-6535-43A3-BA3B-2BC49BDB428E}|WS_EUREKA_CLICON\\WS_EUREKA_CLICON.csproj|solutionrelative:ws_eureka_clicon\\view\\eurekaview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E31FABBE-6535-43A3-BA3B-2BC49BDB428E}|WS_EUREKA_CLICON\\WS_EUREKA_CLICON.csproj|C:\\Users\\rodri\\OneDrive\\Escritorio\\test\\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\\02. CLICON\\WS_EUREKA_CLICON\\ws_eureka_clicon\\model\\movimiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E31FABBE-6535-43A3-BA3B-2BC49BDB428E}|WS_EUREKA_CLICON\\WS_EUREKA_CLICON.csproj|C:\\Users\\rodri\\OneDrive\\Escritorio\\arqui\\ArquiG10\\TALLER_EUREKABANK\\T2.3 EUREKABANK_SOAP_DOTNET_GR10\\02. CLICON\\WS_EUREKA_CLICON\\ws_eureka_clicon\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E31FABBE-6535-43A3-BA3B-2BC49BDB428E}|WS_EUREKA_CLICON\\WS_EUREKA_CLICON.csproj|solutionrelative:ws_eureka_clicon\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E31FABBE-6535-43A3-BA3B-2BC49BDB428E}|WS_EUREKA_CLICON\\WS_EUREKA_CLICON.csproj|C:\\Users\\rodri\\OneDrive\\Escritorio\\arqui\\ArquiG10\\TALLER_EUREKABANK\\T2.3 EUREKABANK_SOAP_DOTNET_GR10\\02. CLICON\\WS_EUREKA_CLICON\\ws_eureka_clicon\\controller\\eurekacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E31FABBE-6535-43A3-BA3B-2BC49BDB428E}|WS_EUREKA_CLICON\\WS_EUREKA_CLICON.csproj|solutionrelative:ws_eureka_clicon\\controller\\eurekacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E31FABBE-6535-43A3-BA3B-2BC49BDB428E}|WS_EUREKA_CLICON\\WS_EUREKA_CLICON.csproj|C:\\Users\\rodri\\OneDrive\\Escritorio\\arqui\\ArquiG10\\TALLER_EUREKABANK\\T2.3 EUREKABANK_SOAP_DOTNET_GR10\\02. CLICON\\WS_EUREKA_CLICON\\ws_eureka_clicon\\model\\movimiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E31FABBE-6535-43A3-BA3B-2BC49BDB428E}|WS_EUREKA_CLICON\\WS_EUREKA_CLICON.csproj|solutionrelative:ws_eureka_clicon\\model\\movimiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -26,27 +26,28 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "EurekaView.cs",
-              "DocumentMoniker": "C:\\Users\\rodri\\OneDrive\\Escritorio\\test\\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\\02. CLICON\\WS_EUREKA_CLICON\\WS_EUREKA_CLICON\\View\\EurekaView.cs",
+              "DocumentMoniker": "C:\\Users\\rodri\\OneDrive\\Escritorio\\arqui\\ArquiG10\\TALLER_EUREKABANK\\T2.3 EUREKABANK_SOAP_DOTNET_GR10\\02. CLICON\\WS_EUREKA_CLICON\\WS_EUREKA_CLICON\\View\\EurekaView.cs",
               "RelativeDocumentMoniker": "WS_EUREKA_CLICON\\View\\EurekaView.cs",
-              "ToolTip": "C:\\Users\\rodri\\OneDrive\\Escritorio\\test\\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\\02. CLICON\\WS_EUREKA_CLICON\\WS_EUREKA_CLICON\\View\\EurekaView.cs",
+              "ToolTip": "C:\\Users\\rodri\\OneDrive\\Escritorio\\arqui\\ArquiG10\\TALLER_EUREKABANK\\T2.3 EUREKABANK_SOAP_DOTNET_GR10\\02. CLICON\\WS_EUREKA_CLICON\\WS_EUREKA_CLICON\\View\\EurekaView.cs",
               "RelativeToolTip": "WS_EUREKA_CLICON\\View\\EurekaView.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAIwDQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwDQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T21:28:39.239Z"
+              "WhenOpened": "2024-12-07T21:28:39.239Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "EurekaController.cs",
-              "DocumentMoniker": "C:\\Users\\rodri\\OneDrive\\Escritorio\\test\\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\\02. CLICON\\WS_EUREKA_CLICON\\WS_EUREKA_CLICON\\Controller\\EurekaController.cs",
+              "DocumentMoniker": "C:\\Users\\rodri\\OneDrive\\Escritorio\\arqui\\ArquiG10\\TALLER_EUREKABANK\\T2.3 EUREKABANK_SOAP_DOTNET_GR10\\02. CLICON\\WS_EUREKA_CLICON\\WS_EUREKA_CLICON\\Controller\\EurekaController.cs",
               "RelativeDocumentMoniker": "WS_EUREKA_CLICON\\Controller\\EurekaController.cs",
-              "ToolTip": "C:\\Users\\rodri\\OneDrive\\Escritorio\\test\\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\\02. CLICON\\WS_EUREKA_CLICON\\WS_EUREKA_CLICON\\Controller\\EurekaController.cs",
+              "ToolTip": "C:\\Users\\rodri\\OneDrive\\Escritorio\\arqui\\ArquiG10\\TALLER_EUREKABANK\\T2.3 EUREKABANK_SOAP_DOTNET_GR10\\02. CLICON\\WS_EUREKA_CLICON\\WS_EUREKA_CLICON\\Controller\\EurekaController.cs",
               "RelativeToolTip": "WS_EUREKA_CLICON\\Controller\\EurekaController.cs",
               "ViewState": "AgIAAEkAAAAAAAAAAAAmwFAAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -56,9 +57,9 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Movimiento.cs",
-              "DocumentMoniker": "C:\\Users\\rodri\\OneDrive\\Escritorio\\test\\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\\02. CLICON\\WS_EUREKA_CLICON\\WS_EUREKA_CLICON\\Model\\Movimiento.cs",
+              "DocumentMoniker": "C:\\Users\\rodri\\OneDrive\\Escritorio\\arqui\\ArquiG10\\TALLER_EUREKABANK\\T2.3 EUREKABANK_SOAP_DOTNET_GR10\\02. CLICON\\WS_EUREKA_CLICON\\WS_EUREKA_CLICON\\Model\\Movimiento.cs",
               "RelativeDocumentMoniker": "WS_EUREKA_CLICON\\Model\\Movimiento.cs",
-              "ToolTip": "C:\\Users\\rodri\\OneDrive\\Escritorio\\test\\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\\02. CLICON\\WS_EUREKA_CLICON\\WS_EUREKA_CLICON\\Model\\Movimiento.cs",
+              "ToolTip": "C:\\Users\\rodri\\OneDrive\\Escritorio\\arqui\\ArquiG10\\TALLER_EUREKABANK\\T2.3 EUREKABANK_SOAP_DOTNET_GR10\\02. CLICON\\WS_EUREKA_CLICON\\WS_EUREKA_CLICON\\Model\\Movimiento.cs",
               "RelativeToolTip": "WS_EUREKA_CLICON\\Model\\Movimiento.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -66,16 +67,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\rodri\\OneDrive\\Escritorio\\test\\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\\02. CLICON\\WS_EUREKA_CLICON\\WS_EUREKA_CLICON\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\rodri\\OneDrive\\Escritorio\\arqui\\ArquiG10\\TALLER_EUREKABANK\\T2.3 EUREKABANK_SOAP_DOTNET_GR10\\02. CLICON\\WS_EUREKA_CLICON\\WS_EUREKA_CLICON\\Program.cs",
               "RelativeDocumentMoniker": "WS_EUREKA_CLICON\\Program.cs",
-              "ToolTip": "C:\\Users\\rodri\\OneDrive\\Escritorio\\test\\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\\02. CLICON\\WS_EUREKA_CLICON\\WS_EUREKA_CLICON\\Program.cs",
+              "ToolTip": "C:\\Users\\rodri\\OneDrive\\Escritorio\\arqui\\ArquiG10\\TALLER_EUREKABANK\\T2.3 EUREKABANK_SOAP_DOTNET_GR10\\02. CLICON\\WS_EUREKA_CLICON\\WS_EUREKA_CLICON\\Program.cs",
               "RelativeToolTip": "WS_EUREKA_CLICON\\Program.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABMAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAJgAAAAAAAAAAAAswBMAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T21:13:19.35Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-07T21:13:19.35Z"
             }
           ]
         }

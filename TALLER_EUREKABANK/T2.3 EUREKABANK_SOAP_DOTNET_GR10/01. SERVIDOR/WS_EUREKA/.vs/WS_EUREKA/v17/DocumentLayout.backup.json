@@ -1,10 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\rodri\\OneDrive\\Escritorio\\test\\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\\01. SERVIDOR\\WS_EUREKA\\",
+  "WorkspaceRootPath": "C:\\Users\\rodri\\OneDrive\\Escritorio\\arqui\\ArquiG10\\TALLER_EUREKABANK\\T2.3 EUREKABANK_SOAP_DOTNET_GR10\\01. SERVIDOR\\WS_EUREKA\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DAD91C1B-E413-4B9A-B31C-A1B628ADF572}|WS_EUREKA\\WS_EUREKA.csproj|C:\\Users\\rodri\\OneDrive\\Escritorio\\test\\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\\01. SERVIDOR\\WS_EUREKA\\ws_eureka\\accesodb\\accesodb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DAD91C1B-E413-4B9A-B31C-A1B628ADF572}|WS_EUREKA\\WS_EUREKA.csproj|solutionrelative:ws_eureka\\accesodb\\accesodb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rodri\\OneDrive\\Escritorio\\arqui\\ArquiG10\\TALLER_EUREKABANK\\T2.3 EUREKABANK_SOAP_DOTNET_GR10\\01. SERVIDOR\\WS_EUREKA\\WS_EUREKA\\AccesoDB\\AccesoDB.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WS_EUREKA\\AccesoDB\\AccesoDB.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "AccesoDB.cs",
-              "DocumentMoniker": "C:\\Users\\rodri\\OneDrive\\Escritorio\\test\\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\\01. SERVIDOR\\WS_EUREKA\\WS_EUREKA\\AccesoDB\\AccesoDB.cs",
+              "DocumentMoniker": "C:\\Users\\rodri\\OneDrive\\Escritorio\\arqui\\ArquiG10\\TALLER_EUREKABANK\\T2.3 EUREKABANK_SOAP_DOTNET_GR10\\01. SERVIDOR\\WS_EUREKA\\WS_EUREKA\\AccesoDB\\AccesoDB.cs",
               "RelativeDocumentMoniker": "WS_EUREKA\\AccesoDB\\AccesoDB.cs",
-              "ToolTip": "C:\\Users\\rodri\\OneDrive\\Escritorio\\test\\02. EUREKABANK_SOAP_DOTNET_GRUPO_3\\01. SERVIDOR\\WS_EUREKA\\WS_EUREKA\\AccesoDB\\AccesoDB.cs",
+              "ToolTip": "C:\\Users\\rodri\\OneDrive\\Escritorio\\arqui\\ArquiG10\\TALLER_EUREKABANK\\T2.3 EUREKABANK_SOAP_DOTNET_GR10\\01. SERVIDOR\\WS_EUREKA\\WS_EUREKA\\AccesoDB\\AccesoDB.cs",
               "RelativeToolTip": "WS_EUREKA\\AccesoDB\\AccesoDB.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-07T14:22:42.523Z",
               "EditorCaption": ""
